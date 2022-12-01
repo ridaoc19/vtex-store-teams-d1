@@ -1,0 +1,10 @@
+{
+  "rich-text": {
+    "props": {
+      "text": "D1",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+      // "font": "t-heading-1"
+    }
+  }
+}

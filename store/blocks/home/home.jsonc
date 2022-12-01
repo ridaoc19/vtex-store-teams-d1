@@ -1,0 +1,15 @@
+{
+  "store.home": { 
+    "blocks": [
+      "list-context.image-list#home__slider-list"
+    ]
+  }
+  // "rich-text": { 
+  //   "props": { 
+  //     "text": "Esto es el D1",
+  //     "textAlignment": "CENTER",
+  //     "textPosition": "CENTER",
+  //     "font": "t-heading-1"
+  //   }
+  // }
+}
