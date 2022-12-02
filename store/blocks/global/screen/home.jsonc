@@ -1,0 +1,19 @@
+{
+  "store.home": { 
+    "blocks": [
+      "list-context.image-list#home__slider-list",
+      "shelf#home__slider--shelf"
+    ]
+  },
+  "shelf#home__slider--shelf":{
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "productList":{
+        "usePagination": false,
+        "arrows": false,
+      "showTitle": true
+      }
+    }
+  }
+  
+}
