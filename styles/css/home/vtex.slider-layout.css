@@ -1,8 +1,14 @@
-.sliderLayoutContainer--home__slider{
-    max-width: 90%;
-    margin: 0 auto 50px;
-}
+/* .slideChildrenContainer--home__slider{
+    display: flex;
+    gap: 10px;
+    border-radius: 50%;
+} */
 
-.img{
-    width: 50px;
+.sliderLayoutContainer--home__slider{
+    margin: 0 auto 5%;
 }
+/* 
+.paginationDotsContainer--home__slider {
+    height: 20px;
+    background-color: red;
+} */
