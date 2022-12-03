@@ -24,13 +24,28 @@
 
   "product-summary.shelf": {
     "children": [
-      "product-summary-add-to-list-button",
-      "product-summary-name",
-      "product-rating-inline",
-      "product-summary-space",
+      "product-summary-image",
       "product-summary-price",
-      "product-identifier.summary",
+      // "product-summary-add-to-list-button",
+      "product-summary-name",
+      // "product-rating-inline",
+      "product-summary-space",
+      // "product-identifier.summary",
       "add-to-cart-button"
     ]
+  },
+  "product-summary-image":{
+    "props":{
+      "width": 100
+    }
+  },
+  "add-to-cart-button":{
+    "title": "boton vitrina",
+    "props":{
+      "text": "Agregar",
+      "large": false,
+      "blockClass": "home__button"
+
+    }
   }
 }

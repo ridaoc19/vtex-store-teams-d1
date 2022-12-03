@@ -1,0 +1,20 @@
+{
+    "shelf#home__slider--shelf": {
+        "title": "vitrina alimentos y despensa",
+        "blocks": [
+          "product-summary.shelf"
+        ],
+        "props": {
+          "orderBy": "OrderByTopSaleDESC", //ordenamiento de los productos
+          "blockClass": "home__casa",
+          "paginationDotsVisibility": false, //paginacion "desktopOnly"
+          "productList": {
+            "arrows": false,
+            "showTitle": true,
+            "gap": "ph5",
+            "titleText": "Alimentos y Despensa"
+            // "minItemsPerPage": 6
+          }
+        }
+      }
+}
