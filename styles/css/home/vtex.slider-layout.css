@@ -6,9 +6,22 @@
 
 .sliderLayoutContainer--home__slider{
     margin: 0 auto 5%;
+    position:relative;
 }
-/* 
+
+
+
 .paginationDotsContainer--home__slider {
-    height: 20px;
-    background-color: red;
+    position: absolute;
+   top: 65vh;
+
+    /* height:400px;
+    background-color: red; */
+}
+
+/* .paginationDot--home__slider {
+   
 } */
+
+
+/* .paginationDotsContainer--home__slider */
