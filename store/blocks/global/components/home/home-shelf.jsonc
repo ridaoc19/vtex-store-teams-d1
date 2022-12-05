@@ -17,20 +17,22 @@
       "product-summary-description",
       // "product-summary-sku-selector",
       "product-summary-space",
-      "product-summary-buy-button"
+      "product-summary-buy-button",
+      "add-to-cart-button"
     ]
   },
   "slider-layout#demo-products": {
     "props": {
       // "itemsPerPage": {
-      //   "desktop": 1,
-      //   "tablet": 1,
-      //   "phone": 1
+      //   "desktop": 7,
+      //   "tablet": 7,
+      //   "phone": 7
       // },
-      "infinite": true,
+      "infinite": false,
       "showNavigationArrows": "never",
       "blockClass": "carousel",
       "usePagination": false
+
     }
   },
   // FLEX LAYOUT TITULOS
