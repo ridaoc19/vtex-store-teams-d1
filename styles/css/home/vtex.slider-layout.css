@@ -1,0 +1,27 @@
+/* .slideChildrenContainer--home__slider{
+    display: flex;
+    gap: 10px;
+    border-radius: 50%;
+} */
+
+.sliderLayoutContainer--home__slider{
+    margin: 0 auto 5%;
+    position:relative;
+}
+
+
+
+.paginationDotsContainer--home__slider {
+    position: absolute;
+   top: 65vh;
+
+    /* height:400px;
+    background-color: red; */
+}
+
+/* .paginationDot--home__slider {
+   
+} */
+
+
+/* .paginationDotsContainer--home__slider */
