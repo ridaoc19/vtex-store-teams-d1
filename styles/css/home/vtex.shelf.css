@@ -4,7 +4,16 @@
     font-size      : 1.5rem;
 }
 
-.sliderFrame{
+.hover-b--action-primary{
+    border: red !important;
+    border-color: blueviolet !important;
+    background-color: blueviolet !important;
+}
+
+
+/* .slide--home__casa :global(vtex-shelf-1-x-slide--home__casa) {
     border: red;
     border-color: blueviolet;
-}
+    background-color: blueviolet !important; 
+} */
+

@@ -2,7 +2,8 @@
   "store.home": {
     "blocks": [
       "slider-layout#text-test",
-      "shelf#home__slider--shelf"
+      // "shelf#home__slider--shelf"
+      "list-context.product-list#demo1"
     ]
   }
 }
