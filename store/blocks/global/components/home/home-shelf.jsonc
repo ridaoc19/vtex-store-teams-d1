@@ -56,8 +56,10 @@
       "link.product#home_link--ver"
     ],
     "props": {
-      "horizontalAlign": "right"
+      "horizontalAlign": "right",
+      "verticalAlign": "middle"
     }
+    // top|middle|bottom	
   },
   "rich-text#home__rich--title": {
     "props": {

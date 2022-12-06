@@ -1,0 +1,25 @@
+{
+  "header-layout.desktop": {
+    "title": "header__desktop--tierra",
+    "children": [
+      "flex-layout.row#header__desktop--one",
+      "flex-layout.row#header__desktop--two"
+    ]
+  },
+ 
+  "flex-layout.row#header__desktop--one": {
+    "children": [
+      "flex-layout.col#header__one--contacto"
+    ]
+  },
+  "flex-layout.row#header__desktop--two": {
+    "children": [
+      "flex-layout.col#header__two--logo",
+      "flex-layout.col#header__two--hamburg",
+      "flex-layout.col#header__two--categoria",
+      "flex-layout.col#header__two--search",
+      "flex-layout.col#header__two--inicio",
+      "flex-layout.col#header__two--carro"
+    ]
+  }
+}
