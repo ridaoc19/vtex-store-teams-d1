@@ -4,7 +4,10 @@
     "children": [
       "flex-layout.row#header__mobile--three",
       "flex-layout.row#header__mobile--four"
-    ]
+    ],
+    "props":{
+      "blockClass": "cabeza"
+    }
   },
   "flex-layout.row#header__mobile--three": {
     "children": [

@@ -2,7 +2,11 @@
     "flex-layout.col#header__one--contacto": {
         "children": [
           "rich-text#one"
-        ]
+        ],
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "center"
+        }
       },
       "rich-text#one": {
         "props": {
@@ -33,6 +37,16 @@
         "children": [
           "login"
         ]
+      },
+      "login": {
+        "props": {
+          "emailAndPasswordTitle": "LOG-IN",
+          "accessCodeTitle": "Acess Code LOG-IN",
+          "emailPlaceholder": "e-mail",
+          "passwordPlaceholder": "password",
+          "showPasswordVerificationIntoTooltip": true,
+          "showIconProfile": true
+        }
       },
       "flex-layout.col#header__two--carro": {
         "children": [

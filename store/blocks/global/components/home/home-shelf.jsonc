@@ -1,54 +1,18 @@
 {
-  "list-context.product-list#demo1": {
-    "title": "vitrina alimentos y despensa",
-    "blocks": [
-      "product-summary.shelf#home__slider--chelf"
-    ],
-    "children": [
-      "flex-layout.row#home__shelf--title",
-      "slider-layout#demo-products"
-    ]
-  },
-  "product-summary.shelf#home__slider--chelf": {
-    "children": [
-      "product-summary-image",
-      "product-summary-price",
-      "product-summary-name",
-      "product-summary-description",
-      // "product-summary-sku-selector",
-      "product-summary-space",
-      // "product-summary-buy-button",
-      "add-to-cart-button"
-    ]
-  },
-  "slider-layout#demo-products": {
-    "props": {
-      // "itemsPerPage": {
-      //   "desktop": 7,
-      //   "tablet": 7,
-      //   "phone": 7
-      // },
-      "infinite": false,
-      "showNavigationArrows": "never",
-      "blockClass": "carousel",
-      "usePagination": false
-
-    }
-  },
-  // FLEX LAYOUT TITULOS
-  "flex-layout.row#home__shelf--title": {
+////////// ALIMENTO
+  "flex-layout.row#home__title--alimentos": {
     "title": "texto titulo",
     "children": [
-      "flex-layout.col#home__flex--title",
+      "flex-layout.col#home__flexalimento--title",
       "flex-layout.col#home__flex--ver"
     ],
     "props": {
       "blockClass": "home__flex--manzana"
     }
   },
-  "flex-layout.col#home__flex--title": {
+  "flex-layout.col#home__flexalimento--title": {
     "children": [
-      "rich-text#home__rich--title"
+      "rich-text#home__richalimento--title"
     ]
   },
   "flex-layout.col#home__flex--ver": {
@@ -59,43 +23,78 @@
       "horizontalAlign": "right",
       "verticalAlign": "middle"
     }
-    // top|middle|bottom	
   },
-  "rich-text#home__rich--title": {
+  "rich-text#home__richalimento--title": {
     "props": {
       "text": "Alimentos y Despensa"
     }
   },
+
+
+  "shelf#home__shelf--alimento": {
+    "title": "Alimentos y Despensa",
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "props": {
+      "orderBy": "OrderByNameDESC", //ordenamiento de los productos
+      "blockClass": "home__casa",
+      "paginationDotsVisibility": false, //paginacion "desktopOnly"
+      "productList": {
+        "arrows": false,
+        "showTitle": false,
+        "titleText": "Alimentos y Despensa",
+        "gap": "ph5",
+        "itemsPerPage": 5
+      }
+    }
+  },
+
+  
+  // ASEO
+  "flex-layout.row#home__title--aseo": {
+    "title": "texto titulo",
+    "children": [
+      "flex-layout.col#home__flexaseo--title",
+      "flex-layout.col#home__flex--ver"
+    ],
+    "props": {
+      "blockClass": "home__flex--manzana"
+    }
+  },
+  "flex-layout.col#home__flexaseo--title": {
+    "children": [
+      "rich-text#home__richaseo--title"
+    ]
+  },
+  "rich-text#home__richaseo--title": {
+    "props": {
+      "text": "Aseo Hogar"
+    }
+  },
+  "shelf#home__shelf--aseo": {
+    "title": "Aseo Hogar",
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "props": {
+      "orderBy": "OrderByNameASC", //ordenamiento de los productos
+      "blockClass": "home__casa",
+      "paginationDotsVisibility": false, //paginacion "desktopOnly"
+      "productList": {
+        "arrows": false,
+        "showTitle": false,
+        "titleText": "Alimentos y Despensa",
+        "gap": "ph5",
+        "itemsPerPage": 3
+      }
+    }
+  },
+  // TODOS
   "link.product#home_link--ver": {
     "props": {
       "href": "/{slug}/p",
       "label": "Ver más ->"
     }
-  },
-  "product-summary-buy-button": {
-    "props": {
-      "buyButtonText": "Agregar",
-      "text": "Agregar"
-    }
   }
 }
-// {
-//     "shelf#home__slider--shelf": {
-//         "title": "vitrina alimentos y despensa",
-//         "blocks": [
-//           "product-summary.shelf"
-//         ],
-//         "props": {
-//           "orderBy": "OrderByTopSaleDESC", //ordenamiento de los productos
-//           "blockClass": "home__casa",
-//           "paginationDotsVisibility": false, //paginacion "desktopOnly"
-//           "productList": {
-//             "arrows": false,
-//             "showTitle": true,
-//             "gap": "ph5",
-//             "titleText": "Alimentos y Despensa"
-//             // "minItemsPerPage": 6
-//           }
-//         }
-//       }
-// }
