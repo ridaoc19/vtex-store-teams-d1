@@ -4,19 +4,13 @@
     "blocks": [
       "header-layout.desktop",
       "header-layout.mobile"
-    ],
-    "props": {
-      "blockClass": "header__tierra"
-    }
+    ]
   },
   "header.full": {
     "title": "header",
     "blocks": [
       "header-layout.desktop",
       "header-layout.mobile"
-    ],
-    "props": {
-      "blockClass": "header__tierra"
-    }
+    ]
   }
 }

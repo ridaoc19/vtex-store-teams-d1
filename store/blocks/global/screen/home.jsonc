@@ -2,8 +2,12 @@
   "store.home": {
     "blocks": [
       "slider-layout#text-test",
-      // "shelf#home__slider--shelf"
-      "list-context.product-list#demo1"
+      // "list-context.product-list#home__shelf--alimentos"
+      // "list-context.product-list#home__shelf--aseo"
+      "flex-layout.row#home__title--alimentos",
+      "shelf#home__shelf--alimento",
+      "flex-layout.row#home__title--aseo",
+      "shelf#home__shelf--aseo"
     ]
   }
 }
