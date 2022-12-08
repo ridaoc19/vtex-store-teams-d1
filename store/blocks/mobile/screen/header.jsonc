@@ -19,7 +19,7 @@
       "flex-layout.col#header__two--hamburg",
       "flex-layout.col#header__two--logo",
       "flex-layout.col#header__two--search",
-      "flex-layout.col#header__two--inicio",
+      "flex-layout.col#header__two--iniciomobile",
       "flex-layout.col#header__two--carro"
     ]
   }

@@ -1,14 +1,14 @@
-.title--home__casa {
+/* .title--home__casa {
     display        : flex;
     justify-content: flex-start;
     font-size      : 1.5rem;
-}
+} */
 
-.hover-b--action-primary{
+/* .hover-b--action-primary{
     border: red !important;
     border-color: blueviolet !important;
     background-color: blueviolet !important;
-}
+} */
 
 
 /* .slide--home__casa :global(vtex-shelf-1-x-slide--home__casa) {
@@ -19,7 +19,14 @@
 
 /* class="vtex-button bw1 ba fw5 v-mid relative pa0 lh-solid br2 min-h-regular t-action bg-action-primary b--action-primary c-on-action-primary hover-bg-action-primary hover-b--action-primary hover-c-on-action-primary pointer w-100 " */
 
-.b--action-primary, .bg-action-primary {
+/* .b--action-primary, .bg-action-primary {
     background-color: red !important;
     border-color: red !important;
-}
+} */
+
+
+/* :gobal(.link--home__link--vermas){
+    background-color: red !important;
+    color: red !important;
+    text-decoration: none;
+} */
