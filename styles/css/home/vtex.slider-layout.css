@@ -1,25 +1,10 @@
-/* .slideChildrenContainer--home__slider{
-    display: flex;
-    gap: 10px;
-    border-radius: 50%;
-} */
-
-.sliderLayoutContainer--home__slider{
-    margin: 0 auto 5%;
-    position:relative;
+.slideChildrenContainer--home__slider{
+ height: 90%;
+ 
 }
 
-
-
-/* .paginationDotsContainer--home__slider {
-    position: absolute;
-   top: 65vh;
-
+/* .sliderLayoutContainer--home__slider{
+    height: 800; 
+    margin: 0 auto 5%;
+    position:relative;
 } */
-
-/* .paginationDot--home__slider {
-   
-} */
-
-
-/* .paginationDotsContainer--home__slider */
