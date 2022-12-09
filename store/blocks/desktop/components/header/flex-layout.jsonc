@@ -1,7 +1,0 @@
-{
-  "flex-layout.col#header__two--categoria": {
-    "children": [
-      "rich-text#header__categoria"
-    ]
-  }
-}

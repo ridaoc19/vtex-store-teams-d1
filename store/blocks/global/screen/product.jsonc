@@ -1,0 +1,57 @@
+{
+  "store.product": {
+    "children": []
+  },
+  "list-context.product-list#desktop__home--shelf": {
+    "title": "desktop__home--shelf",
+    "blocks": [
+      "product-summary.shelf#home__shelf"
+    ],
+    "children": [
+      "slider-layout#home-products"
+    ],
+    "props": {
+      "orderBy": "OrderByNameDESC"
+    }
+  },
+  "product-summary.shelf#home__shelf": {
+    "title": "home--shelf",
+    "children": [
+      "product-summary-space",
+      "product-summary-image",
+      "product-summary-price",
+      "product-summary-name",
+      "add-to-cart-button"
+    ],
+    "props": {
+      "blockClass": "home__shelf"
+    }
+  },
+  "slider-layout#home-products": {
+    "title": "home--products",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": false,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "blockClass": "home-products"
+    }
+  },
+  "product-summary-image": {
+    "title": "summary-image",
+    "props": {
+      "width": 100
+    }
+  },
+  "add-to-cart-button": {
+    "title": "cart-button",
+    "props": {
+      "text": "Agregar",
+      "blockClass": "home__boton"
+    }
+  }
+}

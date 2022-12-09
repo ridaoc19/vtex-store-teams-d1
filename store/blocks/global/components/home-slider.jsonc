@@ -1,0 +1,72 @@
+{
+  "slider-layout#global__home--slider": {
+    "title": "slider global",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "fullWidth": false,
+      "arrowSize": 25,
+      "showPaginationDots": "always",
+      "blockClass": "global__header--slider",
+      "autoplay": {
+        "timeout": 4000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "image#home__slider--one",
+      "image#home__slider--two",
+      "image#home__slider--three",
+      "image#home__slider--four",
+      "image#home__slider--five",
+      "image#home__slider--six"
+    ]
+  },
+  "image#home__slider--one": {
+    "title": "slider one",
+    "props": {
+      "src": "https://d1.com.co/wp-content/uploads/Banners_Panini_Corp_2022.png",
+      "blockClass": "global__slider--image"
+    }
+  },
+  "image#home__slider--two": {
+    "title": "slider two",
+    "props": {
+      "src": "https://d1.com.co/wp-content/uploads/BannerUshikoPlataformas_Corp.png",
+      "blockClass": "global__slider--image"
+    }
+  },
+  "image#home__slider--three": {
+    "title": "slider three",
+    "props": {
+      "src": "https://d1.com.co/wp-content/uploads/BannerLimpiezaPlataformas_corp.png",
+      "blockClass": "global__slider--image"
+    }
+  },
+  "image#home__slider--four": {
+    "title": "slider four",
+    "props": {
+      "src": "https://d1.com.co/wp-content/uploads/BannerDeliaPlataformas_corp.png",
+      "blockClass": "global__slider--image"
+    }
+  },
+  "image#home__slider--five": {
+    "title": "slider five",
+    "props": {
+      "src": "https://d1.com.co/wp-content/uploads/Banner_TemporadaBlackFriday_D1Corp.png",
+      "blockClass": "global__slider--image"
+    }
+  },
+  "image#home__slider--six": {
+    "title": "slider six",
+    "props": {
+      "src": "https://d1.com.co/wp-content/uploads/Banner_TemporadaPreNavidad_Corporativa-scaled.jpg",
+      "blockClass": "global__slider--image"
+    }
+  }
+}
