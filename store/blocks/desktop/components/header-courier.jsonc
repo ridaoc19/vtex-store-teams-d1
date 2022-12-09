@@ -1,5 +1,27 @@
 {
-    "header-row#desktop__header--courier":{
-        
+  "header-row#desktop__header--address": {
+    "title": "desktop__header--address",
+    "children": [
+      "header-spacer",
+      "link#header__address--title",
+      "header-spacer"
+    ],
+    "props": {
+      "blockClass": "desktop__header--address"
     }
+  },
+  "link#header__address--title": {
+    "title": "header__address--title",
+    "props": {
+      "buttonProps": {
+        "variant": "secondary",
+        "size": "small"
+      },
+      "displayMode": "button",
+      "label": "📌 Cómo te gustaría recibir tu pedido",
+      "blockClass": "header__address--title",
+      "href": "#"
+    }
+  }
 }
+// 

@@ -1,3 +1,7 @@
+.headerRowContentContainer--desktop__header--contact {
+    background-color: #DB071E;
+}
+
 .headerRowContainer--desktop__header--contact {
     max-height: 1.8rem;
 }
