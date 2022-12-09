@@ -1,31 +1,30 @@
 {
   "store.home": {
+    "title": "home",
     "blocks": [
-      "slider-layout#text-test",
-      // "list-context.product-list#home__shelf--alimentos"
-      // "list-context.product-list#home__shelf--aseo"
-      "flex-layout.row#home__title--alimentos",
-      "shelf#home__shelf--alimento",
-      "flex-layout.row#home__title--aseo",
-      "shelf#home__shelf--aseo",
-      "flex-layout.row#home__title--cuidado",
-      "shelf#home__shelf--cuidado",
-      "flex-layout.row#home__title--bebe",
-      "shelf#home__shelf--bebe",
-      "flex-layout.row#home__title--bebidas",
-      "shelf#home__shelf--bebidas",
-      "flex-layout.row#home__title--congelados",
-      "shelf#home__shelf--congelados",
-      "flex-layout.row#home__title--lacteos",
-      "shelf#home__shelf--lacteos",
-      "flex-layout.row#home__title--nuevo",
-      "shelf#home__shelf--nuevo",
-      "flex-layout.row#home__title--mascotas",
-      "shelf#home__shelf--mascotas",
-      "flex-layout.row#home__title--otros",
-      "shelf#home__shelf--otros",
-      "flex-layout.row#home__title--extra",
-      "shelf#home__shelf--extra"
+      "slider-layout#global__home--slider",
+      "flex-layout.row#global__container--alimentos",
+      "list-context.product-list#desktop__home--shelf",
+      "flex-layout.row#global__container--aseo",
+      "list-context.product-list#desktop__home--shelf",
+      "flex-layout.row#global__container--cuidado",
+      "list-context.product-list#desktop__home--shelf",
+      "flex-layout.row#global__container--bebe",
+      "list-context.product-list#desktop__home--shelf",
+      "flex-layout.row#global__container--bebidas",
+      "list-context.product-list#desktop__home--shelf",
+      "flex-layout.row#global__container--congelados",
+      "list-context.product-list#desktop__home--shelf",
+      "flex-layout.row#global__container--lacteos",
+      "list-context.product-list#desktop__home--shelf",
+      "flex-layout.row#global__container--nuevo",
+      "list-context.product-list#desktop__home--shelf",
+      "flex-layout.row#global__container--mascotas",
+      "list-context.product-list#desktop__home--shelf",
+      "flex-layout.row#global__container--otros",
+      "list-context.product-list#desktop__home--shelf",
+      "flex-layout.row#global__container--extra",
+      "list-context.product-list#desktop__home--shelf"
     ]
   }
 }

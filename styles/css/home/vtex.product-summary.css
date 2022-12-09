@@ -1,0 +1,12 @@
+.element--home__shelf {
+    display         : grid;
+    justify-items   : center;
+    margin          : 0.8rem;
+    box-shadow      : 1px 2px 12px rgb(238, 235, 235);
+    border-radius   : 1rem;
+    background-color: white;
+}
+
+.element--home__shelf:hover {
+    box-shadow: 0px 7px 16px rgb(211, 210, 210);
+}

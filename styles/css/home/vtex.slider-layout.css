@@ -1,10 +1,23 @@
-.slideChildrenContainer--home__slider{
- height: 90%;
- 
+.sliderLayoutContainer--home-products {
+    display: grid;
 }
 
-/* .sliderLayoutContainer--home__slider{
-    height: 800; 
-    margin: 0 auto 5%;
-    position:relative;
-} */
+.sliderLayoutContainer--home-products :global(.vtex-button) {
+    width         : 70%;
+    height        : 15px;
+    font-size     : 0.7rem;
+    text-transform: none;
+}
+
+.caretIcon--global__header--slider {
+    padding         : 5px;
+    border-radius   : 50%;
+    background-color: #DB071E1A;
+    color           : #DB071E;
+    border-color    : #DB071E;
+}
+
+.caretIcon--global__header--slider:hover {
+    background-color: #DB071E;
+    color           : rgb(242, 211, 216);
+}
