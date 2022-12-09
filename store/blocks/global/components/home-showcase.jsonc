@@ -35,12 +35,13 @@
     }
   },
   "flex-layout.col#home__aseo--title": {
+    "title": "home__aseo--title",
     "children": [
       "rich-text#home__richaseo--title"
     ]
   },
   "rich-text#home__richaseo--title": {
-    "title": "rich-text de shelf",
+    "title": "richaseo--title",
     "props": {
       "text": "Aseo Hogar",
       "font": "t-heading-4"
@@ -48,7 +49,7 @@
   },
   // Aseo y Cuidado Personal
   "flex-layout.row#global__container--cuidado": {
-    "title": "texto titulo cuidado",
+    "title": "global__container--cuidado",
     "children": [
       "flex-layout.col#home__flexcuidado--title",
       "flex-layout.col#home__flex--ver"
@@ -58,12 +59,13 @@
     }
   },
   "flex-layout.col#home__flexcuidado--title": {
+    "title": "home__flexcuidado--title",
     "children": [
       "rich-text#home__richcuidado--title"
     ]
   },
   "rich-text#home__richcuidado--title": {
-    "title": "rich-text de shelf",
+    "title": "home__richcuidado--title",
     "props": {
       "text": "Aseo y Cuidado Personal",
       "font": "t-heading-4",
@@ -73,7 +75,7 @@
  
   // Bebé
   "flex-layout.row#global__container--bebe": {
-    "title": "texto titulo",
+    "title": "global__container--bebe",
     "children": [
       "flex-layout.col#home__flexbebe--title",
       "flex-layout.col#home__flex--ver"
@@ -83,12 +85,13 @@
     }
   },
   "flex-layout.col#home__flexbebe--title": {
+    "title": "home__flexbebe--title",
     "children": [
       "rich-text#home__richbebe--title"
     ]
   },
   "rich-text#home__richbebe--title": {
-    "title": "rich-text de shelf",
+    "title": "home__richbebe--title",
     "props": {
       "text": "Aseo Hogar",
       "font": "t-heading-4",
@@ -98,7 +101,7 @@
  
   // Bebidas
   "flex-layout.row#global__container--bebidas": {
-    "title": "texto titulo",
+    "title": "global__container--bebidas",
     "children": [
       "flex-layout.col#home__flexbebidas--title",
       "flex-layout.col#home__flex--ver"
@@ -108,12 +111,14 @@
     }
   },
   "flex-layout.col#home__flexbebidas--title": {
+    "title": "home__flexbebidas--title",
+
     "children": [
       "rich-text#home__richbebidas--title"
     ]
   },
   "rich-text#home__richbebidas--title": {
-    "title": "rich-text de shelf",
+    "title": "home__richbebidas--title",
     "props": {
       "text": "Bebidas",
       "font": "t-heading-4",
@@ -123,7 +128,7 @@
  
   // Congelados
   "flex-layout.row#global__container--congelados": {
-    "title": "texto titulo",
+    "title": "global__container--congelados",
     "children": [
       "flex-layout.col#home__flexcongelados--title",
       "flex-layout.col#home__flex--ver"
@@ -133,12 +138,13 @@
     }
   },
   "flex-layout.col#home__flexcongelados--title": {
+    "title": "home__flexcongelados--title",
     "children": [
-      "rich-text#home__richcongelados--title"
+      "rich-text#home__flexcongelados--title"
     ]
   },
-  "rich-text#home__richcongelados--title": {
-    "title": "rich-text de shelf",
+  "rich-text#home__flexcongelados--title": {
+    "title": "home__flexcongelados--title",
     "props": {
       "text": "Congelados",
       "font": "t-heading-4",
@@ -148,7 +154,7 @@
  
   // Lácteos
   "flex-layout.row#global__container--lacteos": {
-    "title": "texto titulo",
+    "title": "global__container--lacteos",
     "children": [
       "flex-layout.col#home__flexlacteos--title",
       "flex-layout.col#home__flex--ver"
@@ -159,11 +165,11 @@
   },
   "flex-layout.col#home__flexlacteos--title": {
     "children": [
-      "rich-text#home__richlacteos--title"
+      "rich-text#home__flexlacteos--title"
     ]
   },
-  "rich-text#home__richlacteos--title": {
-    "title": "rich-text de shelf",
+  "rich-text#home__flexlacteos--title": {
+    "title": "home__flexlacteos--title",
     "props": {
       "text": "Lácteos",
       "font": "t-heading-4",
@@ -173,7 +179,7 @@
   
   // Lo Nuevo
   "flex-layout.row#global__container--nuevo": {
-    "title": "texto titulo",
+    "title": "global__container--nuevo",
     "children": [
       "flex-layout.col#home__flexnuevo--title",
       "flex-layout.col#home__flex--ver"
@@ -183,12 +189,13 @@
     }
   },
   "flex-layout.col#home__flexnuevo--title": {
+    "title": "home__flexnuevo--title",
     "children": [
       "rich-text#home__richnuevo--title"
     ]
   },
   "rich-text#home__richnuevo--title": {
-    "title": "rich-text de shelf",
+    "title": "home__richnuevo--title",
     "props": {
       "text": "Lo Nuevo",
       "font": "t-heading-4",
@@ -198,7 +205,7 @@
   
   // Mascotas
   "flex-layout.row#global__container--mascotas": {
-    "title": "texto titulo",
+    "title": "global__container--mascotas",
     "children": [
       "flex-layout.col#home__flexmascotas--title",
       "flex-layout.col#home__flex--ver"
@@ -208,12 +215,13 @@
     }
   },
   "flex-layout.col#home__flexmascotas--title": {
+    "title": "home__flexmascotas--title",
     "children": [
       "rich-text#home__richmascotas--title"
     ]
   },
   "rich-text#home__richmascotas--title": {
-    "title": "rich-text de shelf",
+    "title": "home__richmascotas--title",
     "props": {
       "text": "Mascotas",
       "font": "t-heading-4",
@@ -223,7 +231,7 @@
   
   // Otros
   "flex-layout.row#global__container--otros": {
-    "title": "texto titulo",
+    "title": "global__container--otros",
     "children": [
       "flex-layout.col#home__flexotros--title",
       "flex-layout.col#home__flex--ver"
@@ -233,12 +241,13 @@
     }
   },
   "flex-layout.col#home__flexotros--title": {
+    "title": "global__container--otros",
     "children": [
       "rich-text#home__richotros--title"
     ]
   },
   "rich-text#home__richotros--title": {
-    "title": "rich-text de shelf",
+    "title": "home__richotros--title",
     "props": {
       "text": "Otros",
       "font": "t-heading-4",
@@ -248,7 +257,7 @@
   
   // Extraordinarios
   "flex-layout.row#global__container--extra": {
-    "title": "texto titulo",
+    "title": "global__container--extra",
     "children": [
       "flex-layout.col#home__flexextra--title",
       "flex-layout.col#home__flex--ver"
@@ -258,12 +267,13 @@
     }
   },
   "flex-layout.col#home__flexextra--title": {
+    "title": "home__flexextra--title",
     "children": [
       "rich-text#home__richextra--title"
     ]
   },
   "rich-text#home__richextra--title": {
-    "title": "rich-text de shelf",
+    "title": "home__richextra--title",
     "props": {
       "text": "Extraordinarios",
       "font": "t-heading-4",
