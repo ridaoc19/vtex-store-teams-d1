@@ -1,0 +1,7 @@
+.headerRowContainer--desktop__header--contact {
+    max-height: 1.8rem;
+}
+
+.headerRowContentContainer--desktop__header--contact {
+    display: grid;
+}

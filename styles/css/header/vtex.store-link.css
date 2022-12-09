@@ -1,0 +1,9 @@
+
+.buttonLink--header__contact--phone ,
+.buttonLink--header__contact--email{
+    text-transform: none;
+    background-color: #FAFAFA;
+    border-color: #FAFAFA;
+    /* color: white; */
+    font-size: 0.7rem;
+}
