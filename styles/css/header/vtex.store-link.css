@@ -7,7 +7,7 @@
     font-size       : 0.7rem;
 }
 
-.buttonLink--header__contact--phone,
+.buttonLink--header__contact--phone:hover,
 .buttonLink--header__contact--email:hover {
     text-transform  : none;
     background-color: #DB071E;
@@ -24,7 +24,7 @@
     font-size       : 0.9rem;
 }
 
-.buttonLink--header__address--title:hover  {
+.buttonLink--header__address--title:hover {
     text-transform  : none;
     background-color: #FAFAFA;
     border-color    : #FAFAFA;
