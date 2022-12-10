@@ -1,0 +1,14 @@
+{
+  "header-layout.desktop": {
+    "title": "header__desktop",
+    "children": [
+      "header-row#desktop__header--contact",
+      "header-row#desktop__header--utilities",
+      "header-row#desktop__header--address"
+
+    ],
+    "props": {
+      "blockClass": "header__desktop"
+    }
+  }
+}
