@@ -1,19 +1,11 @@
 {
   ////////// ALIMENTO
-  "flex-layout.row#global__container--alimentos": {
+  "header-row#global__container--alimentos": {
     "title": "global__container--alimentos",
     "children": [
-      "flex-layout.col#home__alimento--title",
-      "flex-layout.col#home__flex--ver"
-    ],
-    "props":{
-      "blockClass": "global__container-otros"
-    }
-  },
-  "flex-layout.col#home__alimento--title": {
-    "title": "home__alimento--title",
-    "children": [
-      "rich-text#home__alimento--title"
+      "rich-text#home__alimento--title",
+      "header-spacer",
+      "link.product#home_link--ver"
     ]
   },
   "rich-text#home__alimento--title": {
@@ -24,275 +16,166 @@
     }
   },
   // ASEO
-  "flex-layout.row#global__container--aseo": {
+  "header-row#global__container--aseo": {
     "title": "global__container--aseo",
     "children": [
-      "flex-layout.col#home__aseo--title",
-      "flex-layout.col#home__flex--ver"
-    ],
-    "props":{
-      "blockClass": "global__container-otros"
-    }
-  },
-  "flex-layout.col#home__aseo--title": {
-    "title": "home__aseo--title",
-    "children": [
-      "rich-text#home__richaseo--title"
+      "rich-text#home__aseo--title",
+      "header-spacer",
+      "link.product#home_link--ver"
     ]
   },
-  "rich-text#home__richaseo--title": {
-    "title": "richaseo--title",
+  "rich-text#home__aseo--title": {
+    "title": "home__aseo--title",
     "props": {
       "text": "Aseo Hogar",
       "font": "t-heading-4"
     }
   },
   // Aseo y Cuidado Personal
-  "flex-layout.row#global__container--cuidado": {
+  "header-row#global__container--cuidado": {
     "title": "global__container--cuidado",
     "children": [
-      "flex-layout.col#home__flexcuidado--title",
-      "flex-layout.col#home__flex--ver"
-    ],
-    "props":{
-      "blockClass": "global__container-otros"
-    }
-  },
-  "flex-layout.col#home__flexcuidado--title": {
-    "title": "home__flexcuidado--title",
-    "children": [
-      "rich-text#home__richcuidado--title"
+      "rich-text#home__cuidado--title",
+      "header-spacer",
+      "link.product#home_link--ver"
     ]
   },
-  "rich-text#home__richcuidado--title": {
-    "title": "home__richcuidado--title",
+  "rich-text#home__cuidado--title": {
+    "title": "home__cuidado--title",
     "props": {
       "text": "Aseo y Cuidado Personal",
-      "font": "t-heading-4",
-      "blockClass": "home__alimento--title"
+      "font": "t-heading-4"
     }
   },
- 
   // Bebé
-  "flex-layout.row#global__container--bebe": {
+  "header-row#global__container--bebe": {
     "title": "global__container--bebe",
     "children": [
-      "flex-layout.col#home__flexbebe--title",
-      "flex-layout.col#home__flex--ver"
-    ],
-    "props":{
-      "blockClass": "global__container-otros"
-    }
-  },
-  "flex-layout.col#home__flexbebe--title": {
-    "title": "home__flexbebe--title",
-    "children": [
-      "rich-text#home__richbebe--title"
+      "rich-text#home__bebe--title",
+      "header-spacer",
+      "link.product#home_link--ver"
     ]
   },
-  "rich-text#home__richbebe--title": {
-    "title": "home__richbebe--title",
+  "rich-text#home__bebe--title": {
+    "title": "home__bebe--title",
     "props": {
       "text": "Aseo Hogar",
-      "font": "t-heading-4",
-      "blockClass": "home__alimento--title"
+      "font": "t-heading-4"
     }
   },
- 
   // Bebidas
-  "flex-layout.row#global__container--bebidas": {
+  "header-row#global__container--bebidas": {
     "title": "global__container--bebidas",
     "children": [
-      "flex-layout.col#home__flexbebidas--title",
-      "flex-layout.col#home__flex--ver"
-    ],
-    "props":{
-      "blockClass": "global__container-otros"
-    }
-  },
-  "flex-layout.col#home__flexbebidas--title": {
-    "title": "home__flexbebidas--title",
-
-    "children": [
-      "rich-text#home__richbebidas--title"
+      "rich-text#home__bebidas--title",
+      "header-spacer",
+      "link.product#home_link--ver"
     ]
   },
-  "rich-text#home__richbebidas--title": {
-    "title": "home__richbebidas--title",
+  "rich-text#home__bebidas--title": {
+    "title": "home__bebidas--title",
     "props": {
       "text": "Bebidas",
-      "font": "t-heading-4",
-      "blockClass": "home__alimento--title"
+      "font": "t-heading-4"
     }
   },
- 
   // Congelados
-  "flex-layout.row#global__container--congelados": {
+  "header-row#global__container--congelados": {
     "title": "global__container--congelados",
     "children": [
-      "flex-layout.col#home__flexcongelados--title",
-      "flex-layout.col#home__flex--ver"
-    ],
-    "props":{
-      "blockClass": "global__container-otros"
-    }
-  },
-  "flex-layout.col#home__flexcongelados--title": {
-    "title": "home__flexcongelados--title",
-    "children": [
-      "rich-text#home__flexcongelados--title"
+      "rich-text#home__congelados--title",
+      "header-spacer",
+      "link.product#home_link--ver"
     ]
   },
-  "rich-text#home__flexcongelados--title": {
-    "title": "home__flexcongelados--title",
+  "rich-text#home__congelados--title": {
+    "title": "home__congelados--title",
     "props": {
       "text": "Congelados",
-      "font": "t-heading-4",
-      "blockClass": "home__alimento--title"
+      "font": "t-heading-4"
     }
   },
- 
   // Lácteos
-  "flex-layout.row#global__container--lacteos": {
+  "header-row#global__container--lacteos": {
     "title": "global__container--lacteos",
     "children": [
-      "flex-layout.col#home__flexlacteos--title",
-      "flex-layout.col#home__flex--ver"
-    ],
-    "props":{
-      "blockClass": "global__container-otros"
-    }
-  },
-  "flex-layout.col#home__flexlacteos--title": {
-    "children": [
-      "rich-text#home__flexlacteos--title"
+      "rich-text#home__lacteos--title",
+      "header-spacer",
+      "link.product#home_link--ver"
     ]
   },
-  "rich-text#home__flexlacteos--title": {
-    "title": "home__flexlacteos--title",
+  "rich-text#home__lacteos--title": {
+    "title": "home__lacteos--title",
     "props": {
       "text": "Lácteos",
-      "font": "t-heading-4",
-      "blockClass": "home__alimento--title"
+      "font": "t-heading-4"
     }
   },
-  
   // Lo Nuevo
-  "flex-layout.row#global__container--nuevo": {
+  "header-row#global__container--nuevo": {
     "title": "global__container--nuevo",
     "children": [
-      "flex-layout.col#home__flexnuevo--title",
-      "flex-layout.col#home__flex--ver"
-    ],
-    "props":{
-      "blockClass": "global__container-otros"
-    }
-  },
-  "flex-layout.col#home__flexnuevo--title": {
-    "title": "home__flexnuevo--title",
-    "children": [
-      "rich-text#home__richnuevo--title"
+      "rich-text#home__nuevo--title",
+      "header-spacer",
+      "link.product#home_link--ver"
     ]
   },
-  "rich-text#home__richnuevo--title": {
-    "title": "home__richnuevo--title",
+  "rich-text#home__nuevo--title": {
+    "title": "home__nuevo--title",
     "props": {
       "text": "Lo Nuevo",
-      "font": "t-heading-4",
-      "blockClass": "home__alimento--title"
+      "font": "t-heading-4"
     }
   },
-  
   // Mascotas
-  "flex-layout.row#global__container--mascotas": {
+  "header-row#global__container--mascotas": {
     "title": "global__container--mascotas",
     "children": [
-      "flex-layout.col#home__flexmascotas--title",
-      "flex-layout.col#home__flex--ver"
-    ],
-    "props":{
-      "blockClass": "global__container-otros"
-    }
-  },
-  "flex-layout.col#home__flexmascotas--title": {
-    "title": "home__flexmascotas--title",
-    "children": [
-      "rich-text#home__richmascotas--title"
+      "rich-text#home__mascotas--title",
+      "header-spacer",
+      "link.product#home_link--ver"
     ]
   },
-  "rich-text#home__richmascotas--title": {
-    "title": "home__richmascotas--title",
+  "rich-text#home__mascotas--title": {
+    "title": "home__mascotas--title",
     "props": {
       "text": "Mascotas",
-      "font": "t-heading-4",
-      "blockClass": "home__alimento--title"
+      "font": "t-heading-4"
     }
   },
-  
   // Otros
-  "flex-layout.row#global__container--otros": {
+  "header-row#global__container--otros": {
     "title": "global__container--otros",
     "children": [
-      "flex-layout.col#home__flexotros--title",
-      "flex-layout.col#home__flex--ver"
-    ],
-    "props":{
-      "blockClass": "global__container-otros"
-    }
-  },
-  "flex-layout.col#home__flexotros--title": {
-    "title": "global__container--otros",
-    "children": [
-      "rich-text#home__richotros--title"
+      "rich-text#home__otros--title",
+      "header-spacer",
+      "link.product#home_link--ver"
     ]
   },
-  "rich-text#home__richotros--title": {
-    "title": "home__richotros--title",
+  "rich-text#home__otros--title": {
+    "title": "home__otros--title",
     "props": {
       "text": "Otros",
-      "font": "t-heading-4",
-      "blockClass": "home__alimento--title"
+      "font": "t-heading-4"
     }
   },
-  
   // Extraordinarios
-  "flex-layout.row#global__container--extra": {
+  "header-row#global__container--extra": {
     "title": "global__container--extra",
     "children": [
-      "flex-layout.col#home__flexextra--title",
-      "flex-layout.col#home__flex--ver"
-    ],
-    "props":{
-      "blockClass": "global__container-otros"
-    }
-  },
-  "flex-layout.col#home__flexextra--title": {
-    "title": "home__flexextra--title",
-    "children": [
-      "rich-text#home__richextra--title"
+      "rich-text#home__extra--title",
+      "header-spacer",
+      "link.product#home_link--ver"
     ]
   },
-  "rich-text#home__richextra--title": {
-    "title": "home__richextra--title",
+  "rich-text#home__extra--title": {
+    "title": "home__extra--title",
     "props": {
       "text": "Extraordinarios",
-      "font": "t-heading-4",
-      "blockClass": "home__alimento--title"
+      "font": "t-heading-4"
     }
   },
-  
   // TODOS
-  "flex-layout.col#home__flex--ver": {
-    "title": "home__flex--ver",
-    "children": [
-      "link.product#home_link--ver"
-    ],
-    "props": {
-      "horizontalAlign": "right",
-      "verticalAlign": "middle",
-      "blockClass": "home__flex--ver"
-    }
-  },
   "link.product#home_link--ver": {
     "title": "link de ver mas",
     "props": {
@@ -303,8 +186,7 @@
       "displayMode": "button",
       "label": "Ver más →",
       "blockClass": "home__link--vermas",
-      "href": "/{slug}/p"
+      "href": "#"
     }
   }
 }
-// 

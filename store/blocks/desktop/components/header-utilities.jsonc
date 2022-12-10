@@ -1,5 +1,78 @@
 {
-    "header-row#desktop__header--utilities":{
-        
+  "header-row#desktop__header--utilities": {
+    "title": "desktop__header--utilities",
+    "children": [
+      "logo#desktop__header--logo",
+      "drawer",
+      "rich-text#desktop__header--categoria",
+      "header-spacer",
+      "search-bar",
+      "header-spacer",
+      "flex-layout.row#desktop__header--login",
+      // "login#desktop__header--login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "desktop__header--utilities"
     }
+  },
+  "logo#desktop__header--logo": {
+    "title": "desktop__header--logo",
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://ecommerce-image-catalog.s3.amazonaws.com/D1/D1logo.png",
+      "width": "60",
+      "blockClass": "desktop__header--logo"
+    }
+  },
+  "rich-text#desktop__header--categoria": {
+    "title": "desktop__header--categoria",
+    "props": {
+      "text": "Categorías",
+      "blockClass": "desktop__header--categoria"
+    }
+  },
+  "search-bar": {
+    "props": {
+      "blockClass": "search"
+    }
+  },
+
+  "flex-layout.row#desktop__header--login":{
+    "title": "desktop__header--login",
+    "children": [
+      "flex-layout.col#desktop__header--title"
+    ]
+  },
+  "flex-layout.col#desktop__header--title":{
+    "children":[
+      "rich-text#desktop__login--title",
+      "login#desktop__login"
+    ],
+    "props":{
+      "blockClass": "hola"
+    }
+  },
+ 
+  "rich-text#desktop__login--title": {
+    "title": "desktop_desktop__login--title",
+    "props": {
+      "text": "¡Hola! Inicia sesión",
+      "blockClass": "desktop__login--title"
+    }
+  },
+  "login#desktop__login": {
+    "title": "desktop__login",
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "iconLabel": "Mi cuenta",
+      // "showIconProfile": true
+      "blockClass": "desktop__login"
+    }
+  }
 }

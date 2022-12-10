@@ -15,7 +15,7 @@
   "rich-text#header__contact--title": {
     "title": "header__contact--title",
     "props": {
-      "text": "¿Necesitas ayuda? Contactanos ",
+      "text": "¿Necesitas ayuda? Contactanos",
       "blockClass": "header__contact--title"
     }
   },

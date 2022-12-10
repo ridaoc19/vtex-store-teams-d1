@@ -1,7 +1,21 @@
+
+.headerRowContentContainer--desktop__header--contact {
+    background-color: #DB071E;
+}
+
+.headerRowContentContainer--desktop__header--utilities {
+    background-color: #DB071E;
+    max-height: 4.8rem;
+}
+
 .headerRowContainer--desktop__header--contact {
-    max-height: 1.8rem;
+    max-height: 1rem;
 }
 
 .headerRowContentContainer--desktop__header--contact {
     display: grid;
+}
+
+.headerRowContainer--desktop__header--utilities {
+    color: white;
 }
