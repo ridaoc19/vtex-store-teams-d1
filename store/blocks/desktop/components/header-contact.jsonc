@@ -26,22 +26,22 @@
         "variant": "secondary",
         "size": "small"
       },
-      "displayMode": "button",
-      "label": "✆ 01 8000 120201",
-      "blockClass": "header__contact--phone",
+      "displayMode": "buttonProps",
+      "label": "✆ 01 8000 120201 ",
+      "blockClass": "header__contact",
       "href": "#"
     }
   },
   "link#header__contact--email": {
-    "title": "header__contact--email",
+    "title": " header__contact--email",
     "props": {
       "buttonProps": {
         "variant": "secondary",
         "size": "small"
       },
-      "displayMode": "button",
+      "displayMode": "buttonProps",
       "label": "✉ atencion.cliente@d1.com.co",
-      "blockClass": "header__contact--email",
+      "blockClass": "header__contact",
       "href": "#"
     }
   }

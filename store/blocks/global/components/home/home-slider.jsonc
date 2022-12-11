@@ -12,7 +12,7 @@
       "fullWidth": false,
       "arrowSize": 25,
       "showPaginationDots": "always",
-      "blockClass": "global__header--slider",
+      "blockClass": "global__home--slider",
       "autoplay": {
         "timeout": 4000,
         "stopOnHover": true

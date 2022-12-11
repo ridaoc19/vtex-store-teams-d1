@@ -98,7 +98,7 @@
     },
     "hover-background": {
       "action-primary": "#DB071ECC",
-      "action-secondary": "#FAFAFA",
+      "action-secondary": "transparent",
       "emphasis": "#dd1659",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
