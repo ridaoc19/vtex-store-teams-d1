@@ -9,7 +9,6 @@
       "search-bar",
       "header-spacer",
       "flex-layout.row#desktop__header--login",
-      // "login#desktop__header--login",
       "minicart.v2"
     ],
     "props": {
@@ -70,7 +69,7 @@
       "emailPlaceholder": "e-mail",
       "passwordPlaceholder": "password",
       "showPasswordVerificationIntoTooltip": true,
-      "iconLabel": "Mi cuenta",
+      "iconLabel": "Mi cuenta ⌵",
       // "showIconProfile": true
       "blockClass": "desktop__login"
     }

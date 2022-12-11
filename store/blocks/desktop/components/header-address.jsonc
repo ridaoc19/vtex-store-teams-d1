@@ -3,7 +3,9 @@
     "title": "desktop__header--address",
     "children": [
       "header-spacer",
+      "logo#header__logo--address",
       "link#header__address--title",
+      "logo#header__logo--downarrow",
       "header-spacer"
     ],
     "props": {
@@ -17,11 +19,30 @@
         "variant": "secondary",
         "size": "small"
       },
-      "displayMode": "button",
-      "label": "📌 Cómo te gustaría recibir tu pedido",
+      "displayMode": "buttonProps",
+      "label": "Cómo te gustaría recibir tu pedido",
       "blockClass": "header__address--title",
       "href": "#"
     }
+  },
+  "logo#header__logo--address": {
+    "title": "header__logo--address",
+    "props": {
+      "title": "address",
+      "url": "https://cdn-icons-png.flaticon.com/16/1001/1001022.png",
+      // "width": "60",
+      "height": 13,
+      "blockClass": "header__logo--address"
+    }
+  },
+  "logo#header__logo--downarrow": {
+    "title": "header__logo--address",
+    "props": {
+      "title": "arrow",
+      "url": "https://cdn-icons-png.flaticon.com/16/5791/5791372.png",
+      // "width": "60",
+      "height": 13,
+      "blockClass": "header__logo--header__logo--downarrow"
+    }
   }
 }
-// 

@@ -1,6 +1,10 @@
+.headerRowContainer--desktop__header--contact {
+    gap: 10px;
+}
 
 .headerRowContentContainer--desktop__header--contact {
     background-color: #DB071E;
+    color: white;
 }
 
 .headerRowContentContainer--desktop__header--utilities {
@@ -17,5 +21,5 @@
 }
 
 .headerRowContainer--desktop__header--utilities {
-    color: white;
+    color: rgb(231, 229, 229);
 }

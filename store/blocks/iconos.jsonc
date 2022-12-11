@@ -1,0 +1,539 @@
+{
+    "flex-layout.row#iconos": {
+        "children": [
+            "icon#bnd-logo",
+            "icon#hpa-arrow-from-bottom",
+            "icon#hpa-arrow-to-bottom",
+            "icon#hpa-arrow-back",
+            "icon#hpa-calendar",
+            "icon#hpa-cart",
+            "icon#hpa-delete",
+            "icon#mpa-play",
+            "icon#mpa-pause",
+            "icon#sti-volume-on",
+            "icon#hpa-profile",
+            "icon#hpa-save",
+            "icon#hpa-search",
+            "icon#hpa-hamburguer-menu",
+            "icon#hpa-location-marker",
+            "icon#hpa-telemarketing",
+            "icon#mpa-globe",
+            "icon#mpa-filter-settings",
+            "icon#mpa-single-item",
+            "icon#mpa-gallery",
+            "icon#mpa-list-items",
+            "icon#mpa-heart",
+            "icon#mpa-clone--outline",
+            "icon#mpa-clone--filled",
+            "icon#mpa-edit--outline",
+            "icon#mpa-bookmark--filled",
+            "icon#mpa-bookmark--outline",
+            "icon#mpa-edit--filled",
+            "icon#mpa-external-link--line",
+            "icon#mpa-external-link--outline",
+            "icon#mpa-eyesight--outline--off",
+            "icon#mpa-eyesight--filled--off",
+            "icon#mpa-eyesight--outline--on",
+            "icon#mpa-eyesight--filled--on",
+            "icon#mpa-filter--outline",
+            "icon#mpa-filter--filled",
+            "icon#mpa-minus--line",
+            "icon#mpa-minus--outline",
+            "icon#mpa-minus--filled",
+            "icon#mpa-plus--line",
+            "icon#mpa-plus--outline",
+            "icon#mpa-plus--filled",
+            "icon#mpa-remove",
+            "icon#mpa-swap",
+            "icon#mpa-arrows",
+            "icon#mpa-expand",
+            "icon#mpa-bag",
+            "icon#mpa-bars",
+            "icon#mpa-cog",
+            "icon#mpa-columns",
+            "icon#mpa-credit-card",
+            "icon#mpa-elypsis",
+            "icon#mpa-exchange",
+            "icon#mpa-export",
+            "icon#mpa-link",
+            "icon#mpa-settings",
+            "icon#mpa-store",
+            "icon#mpa-angle--down",
+            "icon#mpa-angle--up",
+            "icon#mpa-location-input",
+            "icon#inf-star",
+            "icon#inf-help--outline",
+            "icon#inf-help--filled",
+            "icon#inf-tooltip--outline",
+            "icon#inf-tooltip--filled",
+            "icon#inf-warning--outline",
+            "icon#inf-warning--filled",
+            "icon#nav-caret--down",
+            "icon#nav-caret--left",
+            "icon#nav-caret--right",
+            "icon#nav-caret--up",
+            "icon#nav-thin-caret--left",
+            "icon#nav-thin-caret--right",
+            "icon#nav-arrow--left",
+            "icon#nav-arrow--right",
+            "icon#nav-home",
+            "icon#nav-plus",
+            "icon#nav-minus",
+            "icon#sti-loading",
+            "icon#sti-check--line",
+            "icon#sti-check--outline",
+            "icon#sti-check--filled",
+            "icon#sti-close--line",
+            "icon#sti-close--outline",
+            "icon#sti-close--filled",
+            "icon#sti-clock",
+            "icon#sti-equals",
+            "icon#sti-discount"
+        ]
+    },
+    // "icon#home__orders--icon": {
+    //     "props": {
+    //         "id": "casa"
+    //     }
+    // },
+    "icon#bnd-logo": {
+        "props": {
+            "id": "bnd-logo"
+        }
+    },
+    "icon#hpa-arrow-from-bottom": {
+        "props": {
+            "id": "hpa-arrow-from-bottom"
+        }
+    },
+    "icon#hpa-arrow-to-bottom": {
+        "props": {
+            "id": "hpa-arrow-to-bottom"
+        }
+    },
+    "icon#hpa-arrow-back": {
+        "props": {
+            "id": "hpa-arrow-back"
+        }
+    },
+    "icon#hpa-calendar": {
+        "props": {
+            "id": "hpa-calendar"
+        }
+    },
+    "icon#hpa-cart": {
+        "props": {
+            "id": "hpa-cart"
+        }
+    },
+    "icon#hpa-delete": {
+        "props": {
+            "id": "hpa-delete"
+        }
+    },
+    "icon#mpa-play": {
+        "props": {
+            "id": "mpa-play"
+        }
+    },
+    "icon#mpa-pause": {
+        "props": {
+            "id": "mpa-pause"
+        }
+    },
+    "icon#sti-volume-on": {
+        "props": {
+            "id": "sti-volume-on"
+        }
+    },
+    "icon#hpa-profile": {
+        "props": {
+            "id": "hpa-profile"
+        }
+    },
+    "icon#hpa-save": {
+        "props": {
+            "id": "hpa-save"
+        }
+    },
+    "icon#hpa-search": {
+        "props": {
+            "id": "hpa-search"
+        }
+    },
+    "icon#hpa-hamburguer-menu": {
+        "props": {
+            "id": "hpa-hamburguer-menu"
+        }
+    },
+    "icon#hpa-location-marker": {
+        "props": {
+            "id": "hpa-location-marker"
+        }
+    },
+    "icon#hpa-telemarketing": {
+        "props": {
+            "id": "hpa-telemarketing"
+        }
+    },
+    "icon#mpa-globe": {
+        "props": {
+            "id": "mpa-globe"
+        }
+    },
+    "icon#mpa-filter-settings": {
+        "props": {
+            "id": "mpa-filter-settings"
+        }
+    },
+    "icon#mpa-single-item": {
+        "props": {
+            "id": "mpa-single-item"
+        }
+    },
+    "icon#mpa-gallery": {
+        "props": {
+            "id": "mpa-gallery"
+        }
+    },
+    "icon#mpa-list-items": {
+        "props": {
+            "id": "mpa-list-items"
+        }
+    },
+    "icon#mpa-heart": {
+        "props": {
+            "id": "mpa-heart"
+        }
+    },
+    "icon#mpa-clone--outline": {
+        "props": {
+            "id": "mpa-clone--outline"
+        }
+    },
+    "icon#mpa-clone--filled": {
+        "props": {
+            "id": "mpa-clone--filled"
+        }
+    },
+    "icon#mpa-edit--outline": {
+        "props": {
+            "id": "mpa-edit--outline"
+        }
+    },
+    "icon#mpa-bookmark--filled": {
+        "props": {
+            "id": "mpa-bookmark--filled"
+        }
+    },
+    "icon#mpa-bookmark--outline": {
+        "props": {
+            "id": "mpa-bookmark--outline"
+        }
+    },
+    "icon#mpa-edit--filled": {
+        "props": {
+            "id": "mpa-edit--filled"
+        }
+    },
+    "icon#mpa-external-link--line": {
+        "props": {
+            "id": "mpa-external-link--line"
+        }
+    },
+    "icon#mpa-external-link--outline": {
+        "props": {
+            "id": "mpa-external-link--outline"
+        }
+    },
+    "icon#mpa-eyesight--outline--off": {
+        "props": {
+            "id": "mpa-eyesight--outline--off"
+        }
+    },
+    "icon#mpa-eyesight--filled--off": {
+        "props": {
+            "id": "mpa-eyesight--filled--off"
+        }
+    },
+    "icon#mpa-eyesight--outline--on": {
+        "props": {
+            "id": "mpa-eyesight--outline--on"
+        }
+    },
+    "icon#mpa-eyesight--filled--on": {
+        "props": {
+            "id": "mpa-eyesight--filled--on"
+        }
+    },
+    "icon#mpa-filter--outline": {
+        "props": {
+            "id": "mpa-filter--outline"
+        }
+    },
+    "icon#mpa-filter--filled": {
+        "props": {
+            "id": "mpa-filter--filled"
+        }
+    },
+    "icon#mpa-minus--line": {
+        "props": {
+            "id": "mpa-minus--line"
+        }
+    },
+    "icon#mpa-minus--outline": {
+        "props": {
+            "id": "mpa-minus--outline"
+        }
+    },
+    "icon#mpa-minus--filled": {
+        "props": {
+            "id": "mpa-minus--filled"
+        }
+    },
+    "icon#mpa-plus--line": {
+        "props": {
+            "id": "mpa-plus--line"
+        }
+    },
+    "icon#mpa-plus--outline": {
+        "props": {
+            "id": "mpa-plus--outline"
+        }
+    },
+    "icon#mpa-plus--filled": {
+        "props": {
+            "id": "mpa-plus--filled"
+        }
+    },
+    "icon#mpa-remove": {
+        "props": {
+            "id": "mpa-remove"
+        }
+    },
+    "icon#mpa-swap": {
+        "props": {
+            "id": "mpa-swap"
+        }
+    },
+    "icon#mpa-arrows": {
+        "props": {
+            "id": "mpa-arrows"
+        }
+    },
+    "icon#mpa-expand": {
+        "props": {
+            "id": "mpa-expand"
+        }
+    },
+    "icon#mpa-bag": {
+        "props": {
+            "id": "mpa-bag"
+        }
+    },
+    "icon#mpa-bars": {
+        "props": {
+            "id": "mpa-bars"
+        }
+    },
+    "icon#mpa-cog": {
+        "props": {
+            "id": "mpa-cog"
+        }
+    },
+    "icon#mpa-columns": {
+        "props": {
+            "id": "mpa-columns"
+        }
+    },
+    "icon#mpa-credit-card": {
+        "props": {
+            "id": "mpa-credit-card"
+        }
+    },
+    "icon#mpa-elypsis": {
+        "props": {
+            "id": "mpa-elypsis"
+        }
+    },
+    "icon#mpa-exchange": {
+        "props": {
+            "id": "mpa-exchange"
+        }
+    },
+    "icon#mpa-export": {
+        "props": {
+            "id": "mpa-export"
+        }
+    },
+    "icon#mpa-link": {
+        "props": {
+            "id": "mpa-link"
+        }
+    },
+    "icon#mpa-settings": {
+        "props": {
+            "id": "mpa-settings"
+        }
+    },
+    "icon#mpa-store": {
+        "props": {
+            "id": "mpa-store"
+        }
+    },
+    "icon#mpa-angle--down": {
+        "props": {
+            "id": "mpa-angle--down"
+        }
+    },
+    "icon#mpa-angle--up": {
+        "props": {
+            "id": "mpa-angle--up"
+        }
+    },
+    "icon#mpa-location-input": {
+        "props": {
+            "id": "mpa-location-input"
+        }
+    },
+    "icon#inf-star": {
+        "props": {
+            "id": "inf-star"
+        }
+    },
+    "icon#inf-help--outline": {
+        "props": {
+            "id": "inf-help--outline"
+        }
+    },
+    "icon#inf-help--filled": {
+        "props": {
+            "id": "inf-help--filled"
+        }
+    },
+    "icon#inf-tooltip--outline": {
+        "props": {
+            "id": "inf-tooltip--outline"
+        }
+    },
+    "icon#inf-tooltip--filled": {
+        "props": {
+            "id": "inf-tooltip--filled"
+        }
+    },
+    "icon#inf-warning--outline": {
+        "props": {
+            "id": "inf-warning--outline"
+        }
+    },
+    "icon#inf-warning--filled": {
+        "props": {
+            "id": "inf-warning--filled"
+        }
+    },
+    "icon#nav-caret--down": {
+        "props": {
+            "id": "nav-caret--down"
+        }
+    },
+    "icon#nav-caret--left": {
+        "props": {
+            "id": "nav-caret--left"
+        }
+    },
+    "icon#nav-caret--right": {
+        "props": {
+            "id": "nav-caret--right"
+        }
+    },
+    "icon#nav-caret--up": {
+        "props": {
+            "id": "nav-caret--up"
+        }
+    },
+    "icon#nav-thin-caret--left": {
+        "props": {
+            "id": "nav-thin-caret--left"
+        }
+    },
+    "icon#nav-thin-caret--right": {
+        "props": {
+            "id": "nav-thin-caret--right"
+        }
+    },
+    "icon#nav-arrow--left": {
+        "props": {
+            "id": "nav-arrow--left"
+        }
+    },
+    "icon#nav-arrow--right": {
+        "props": {
+            "id": "nav-arrow--right"
+        }
+    },
+    "icon#nav-home": {
+        "props": {
+            "id": "nav-home"
+        }
+    },
+    "icon#nav-plus": {
+        "props": {
+            "id": "nav-plus"
+        }
+    },
+    "icon#nav-minus": {
+        "props": {
+            "id": "nav-minus"
+        }
+    },
+    "icon#sti-loading": {
+        "props": {
+            "id": "sti-loading"
+        }
+    },
+    "icon#sti-check--line": {
+        "props": {
+            "id": "sti-check--line"
+        }
+    },
+    "icon#sti-check--outline": {
+        "props": {
+            "id": "sti-check--outline"
+        }
+    },
+    "icon#sti-check--filled": {
+        "props": {
+            "id": "sti-check--filled"
+        }
+    },
+    "icon#sti-close--line": {
+        "props": {
+            "id": "sti-close--line"
+        }
+    },
+    "icon#sti-close--outline": {
+        "props": {
+            "id": "sti-close--outline"
+        }
+    },
+    "icon#sti-close--filled": {
+        "props": {
+            "id": "sti-close--filled"
+        }
+    },
+    "icon#sti-clock": {
+        "props": {
+            "id": "sti-clock"
+        }
+    },
+    "icon#sti-equals": {
+        "props": {
+            "id": "sti-equals"
+        }
+    },
+    "icon#sti-discount": {
+        "props": {
+            "id": "sti-discount"
+        }
+    }
+}
