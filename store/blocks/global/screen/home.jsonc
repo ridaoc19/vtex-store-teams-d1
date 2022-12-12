@@ -24,8 +24,8 @@
       "header-row#global__container--otros",
       "list-context.product-list#desktop__home--shelf",
       "header-row#global__container--extra",
-      "list-context.product-list#desktop__home--shelf",
-      "flex-layout.row#iconos"
+      "list-context.product-list#desktop__home--shelf"
+      // "flex-layout.row#iconos"
     ]
   }
 }

@@ -1,6 +1,6 @@
 {
-  "header-row#desktop__header--address": {
-    "title": "desktop__header--address",
+  "header-row#global__header--address": {
+    "title": "global__header--address",
     "children": [
       "header-spacer",
       "logo#header__logo--address",
@@ -9,7 +9,7 @@
       "header-spacer"
     ],
     "props": {
-      "blockClass": "desktop__header--address"
+      "blockClass": "global__header--address"
     }
   },
   "link#header__address--title": {

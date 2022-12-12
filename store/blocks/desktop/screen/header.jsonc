@@ -4,7 +4,7 @@
     "children": [
       "header-row#desktop__header--contact",
       "header-row#desktop__header--utilities",
-      "header-row#desktop__header--address"
+      "header-row#global__header--address"
 
     ],
     "props": {
