@@ -4,18 +4,7 @@
     padding-bottom: 1rem;
 }
 
-.sliderLayoutContainer--home-products {
-    display: grid;
-}
-
-.sliderLayoutContainer--home-products :global(.vtex-button) {
-    width         : 70%;
-    height        : 15px;
-    font-size     : 0.7rem;
-    text-transform: none;
-}
-
-.caretIcon--global__header--slider {
+.caretIcon--global__home--slider {
     padding         : 5px;
     border-radius   : 50%;
     background-color: #DB071E1A;
@@ -23,7 +12,16 @@
     border-color    : #DB071E;
 }
 
-.caretIcon--global__header--slider:hover {
+.caretIcon--global__home--slider:hover {
     background-color: #DB071E;
     color           : rgb(242, 211, 216);
+}
+
+/* slider de vitrina */
+.sliderLayoutContainer--home-products :global(.vtex-button) {
+    width         : 70%;
+    height        : 15px;
+    font-size     : 0.7rem;
+    text-transform: none;
+    border-radius: 30rem;
 }

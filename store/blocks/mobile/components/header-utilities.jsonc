@@ -1,0 +1,77 @@
+{
+  "header-row#mobile__header--utilities": {
+    "title": "mobile__header--utilities",
+    "children": [
+      "drawer",
+      "logo#mobile__header--logo",
+      "header-spacer",
+      "drawer#mobile__header--search",
+      "login#mobile__login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "mobile__header--utilities"
+    }
+  },
+  // hamburguesa buscar
+  "drawer#mobile__header--search": {
+    "title": "mobile__header--search",
+    "children": [
+      "search-bar#mobile__header--search"
+    ],
+    "blocks": [
+      "drawer-trigger#header__search--icon"
+    ],
+    "props": {
+      "isFullWidth": true,
+      "blockClass": "mobile__header--search"
+    }
+  },
+  "drawer-trigger#header__search--icon": {
+    "title": "header__search--icon",
+    "children": [
+      "icon#header__icon--hpa-search"
+    ],
+    "props": {
+      "blockClass": "drawer__search"
+    }
+  },
+  "icon#header__icon--hpa-search": {
+    "title": "header__icon--hpa-search",
+    "props": {
+      "id": "hpa-search",
+      "blockClass": "icono"
+    }
+  },
+  "search-bar#mobile__header--search": {
+    "title": "mobile__header--search",
+    "props": {
+      "displayMode": "search-and-clear-buttons",
+      "blockClass": "mobil-search"
+    }
+  },
+  // logo D1
+  "logo#mobile__header--logo": {
+    "title": "mobile__header--logo",
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://ecommerce-image-catalog.s3.amazonaws.com/D1/D1logo.png",
+      "width": "35",
+      "blockClass": "mobile__header--logo"
+    }
+  },
+  "login#mobile__login": {
+    "title": "mobile__login",
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "iconLabel": false,
+      "showIconProfile": true,
+      "blockClass": "mobile__login"
+    }
+  }
+}

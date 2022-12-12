@@ -1,7 +1,9 @@
 {
-  "header-layout.mobile":{
+  "header-layout.mobile": {
     "title": "header__mobile",
     "children": [
+      "header-row#mobile__header--utilities",
+      "header-row#global__header--address"
 
     ],
     "props": {
