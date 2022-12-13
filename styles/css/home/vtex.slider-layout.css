@@ -24,4 +24,11 @@
     font-size     : 0.7rem;
     text-transform: none;
     border-radius: 30rem;
+    margin-left: 14%;    
+}
+
+.sliderLayoutContainer--home-products {
+    display: grid;
+    justify-content: center;
+
 }
