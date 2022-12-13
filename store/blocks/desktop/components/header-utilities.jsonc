@@ -12,6 +12,7 @@
       "minicart.v2"
     ],
     "props": {
+      "sticky": true,
       "blockClass": "desktop__header--utilities"
     }
   },
@@ -70,7 +71,7 @@
       "passwordPlaceholder": "password",
       "showPasswordVerificationIntoTooltip": true,
       "iconLabel": "Mi cuenta ⌵",
-      // "showIconProfile": true
+      // "showIconProfile": "icon#sti-volume-on",
       "blockClass": "desktop__login"
     }
   }

@@ -10,6 +10,7 @@
       "minicart.v2"
     ],
     "props": {
+      "sticky": true,
       "blockClass": "mobile__header--utilities"
     }
   },
@@ -24,7 +25,8 @@
     ],
     "props": {
       "isFullWidth": true,
-      "blockClass": "mobile__header--search"
+      "blockClass": "mobile__header--search",
+      "slideDirection": "rightToLeft"
     }
   },
   "drawer-trigger#header__search--icon": {

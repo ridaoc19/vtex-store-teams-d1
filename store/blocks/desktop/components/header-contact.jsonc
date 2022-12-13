@@ -9,6 +9,7 @@
       "header-spacer"
     ],
     "props": {
+      "sticky": true,
       "blockClass": "desktop__header--contact"
     }
   },

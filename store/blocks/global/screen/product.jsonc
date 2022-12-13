@@ -17,11 +17,14 @@
   "product-summary.shelf#home__shelf": {
     "title": "home--shelf",
     "children": [
-      "stack-layout#prodsum",
+      // "stack-layout#prodsum",
       "product-summary-space",
       "product-summary-image",
+      "product-summary-space",
       "product-summary-price",
-      "product-summary-name",
+       "product-summary-name",
+      "product-summary-description",
+      "product-summary-space",
       "add-to-cart-button"
     ],
     "props": {
@@ -31,11 +34,11 @@
   "slider-layout#home-products": {
     "title": "home--products",
     "props": {
-      "itemsPerPage": {
-        "desktop": 6,
-        "tablet": 3,
-        "phone": 2
-      },
+      // "itemsPerPage": {
+      //   "desktop": 6,
+      //   "tablet": 3,
+      //   "phone": 2
+      // },
       "infinite": false,
       "showNavigationArrows": "never",
       "showPaginationDots": "never",
@@ -45,13 +48,13 @@
   "product-summary-image": {
     "title": "summary-image",
     "props": {
-      "width": 100
+      "width": "100%"
     }
   },
   "add-to-cart-button": {
     "title": "cart-button",
     "props": {
-      "text": "Agregar",
+      "text": "Agregar 🛒",
       "icon": true,
       "blockClass": "home__boton"
     }
