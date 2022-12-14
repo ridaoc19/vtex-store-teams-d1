@@ -5,7 +5,6 @@
       "header-row#desktop__header--contact",
       "header-row#desktop__header--utilities",
       "header-row#global__header--address"
-
     ],
     "props": {
       "blockClass": "header__desktop"

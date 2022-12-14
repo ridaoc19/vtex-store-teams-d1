@@ -3,6 +3,7 @@
 }
 
 .headerRowContentContainer--desktop__header--contact {
+    height: 100%;
     background-color: #DB071E;
     color           : white;
 }
@@ -23,3 +24,12 @@
 .headerRowContainer--desktop__header--utilities {
     color: rgb(231, 229, 229);
 }
+
+
+/* .headerRowBackground--desktop__header--utilities {
+    background-color: #DB071E;
+} */
+
+.headerRowContentContainer {
+    min-width: 100%;
+  }
