@@ -1,6 +1,8 @@
 {
   "store.product": {
-    "children": []
+    "children": [
+      "product-details"
+    ]
   },
   "list-context.product-list#desktop__home--shelf": {
     "title": "desktop__home--shelf",
