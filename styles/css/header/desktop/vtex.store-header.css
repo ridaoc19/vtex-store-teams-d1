@@ -1,35 +1,28 @@
 .headerRowContainer--desktop__header--contact {
-    gap: 10px;
-}
-
-.headerRowContentContainer--desktop__header--contact {
-    height: 100%;
-    background-color: #DB071E;
-    color           : white;
-}
-
-.headerRowContentContainer--desktop__header--utilities {
-    background-color: #DB071E;
-    max-height      : 4.8rem;
-}
-
-.headerRowContainer--desktop__header--contact {
+    gap       : 10px;
     max-height: 1rem;
 }
 
 .headerRowContentContainer--desktop__header--contact {
-    display: grid;
+    display         : grid;
+    height          : 100%;
+    background-color: #DB071E;
+    color           : white;
+    min-width       : 100%;
 }
 
 .headerRowContainer--desktop__header--utilities {
     color: rgb(231, 229, 229);
 }
 
-
-/* .headerRowBackground--desktop__header--utilities {
+.headerRowContentContainer--desktop__header--utilities {
     background-color: #DB071E;
-} */
+    max-height      : 4.8rem;
+    min-width       : 100%;
+}
 
-.headerRowContentContainer {
-    min-width: 100%;
-  }
+.headerRowContentContainer--global__header--address {
+    box-shadow: 0px 2px 10px rgb(213, 211, 211);
+    height    : 2.5rem;
+    min-width : 100%;
+}
