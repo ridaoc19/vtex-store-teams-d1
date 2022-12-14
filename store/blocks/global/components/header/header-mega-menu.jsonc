@@ -11,7 +11,7 @@
       },
       "mega-menu#desktop": {
         "props": {
-          "openOnly": "horizontal"
+          "openOnly": "horizontal"          
         }
       },
       "flex-layout.col#trigger-mega-menu": {
