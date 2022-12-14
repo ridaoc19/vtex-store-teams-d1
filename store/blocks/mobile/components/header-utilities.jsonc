@@ -2,7 +2,7 @@
   "header-row#mobile__header--utilities": {
     "title": "mobile__header--utilities",
     "children": [
-      "drawer",
+      "flex-layout.row#1-mobile",
       "logo#mobile__header--logo",
       "header-spacer",
       "drawer#mobile__header--search",

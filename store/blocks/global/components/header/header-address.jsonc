@@ -30,7 +30,7 @@
     "props": {
       "title": "address",
       "url": "https://cdn-icons-png.flaticon.com/16/1001/1001022.png",
-      // "width": "60",
+
       "height": 13,
       "blockClass": "header__logo--address"
     }
@@ -40,7 +40,7 @@
     "props": {
       "title": "arrow",
       "url": "https://cdn-icons-png.flaticon.com/16/5791/5791372.png",
-      // "width": "60",
+   
       "height": 13,
       "blockClass": "header__logo--header__logo--downarrow"
     }
