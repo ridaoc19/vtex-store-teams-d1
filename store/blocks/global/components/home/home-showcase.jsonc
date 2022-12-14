@@ -1,5 +1,5 @@
 {
-  ////////// ALIMENTO
+  // ALIMENTO
   "header-row#global__container--alimentos": {
     "title": "global__container--alimentos",
     "children": [
@@ -186,7 +186,7 @@
       "displayMode": "buttonProps",
       "label": "Ver más →",
       "blockClass": "home__link--vermas",
-      "href": "#"
+      "href": "https://ricardodavid--itgloberspartnercl.myvtex.com/electrodomesticos"
     }
   }
 }

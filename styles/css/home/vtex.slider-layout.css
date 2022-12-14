@@ -2,6 +2,7 @@
     margin-top    : 2rem;
     margin-bottom : 1rem;
     padding-bottom: 1rem;
+    
 }
 
 .caretIcon--global__home--slider {
@@ -17,7 +18,8 @@
     color           : rgb(242, 211, 216);
 }
 
-/* vitrina */
+
+
 .sliderLayoutContainer--home-products :global(.vtex-button) {
     width         : 70%;
     height        : 15px;
@@ -30,9 +32,4 @@
 .sliderLayoutContainer--home-products {
     display: grid;
     justify-content: center;
-
-}
-
-.sliderLayoutContainer--home__slider {
- background-color: aqua;
 }
