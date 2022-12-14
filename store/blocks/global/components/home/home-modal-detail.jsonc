@@ -1,0 +1,92 @@
+{
+  "stack-layout#global__home--modal": {
+    "title": "global__home--modal",
+    "children": [
+      "modal-trigger#home__modal--trigger"
+    ],
+    "props": {
+      "blockClass": "global__home--modal"
+    }
+  },
+  "modal-trigger#home__modal--trigger": {
+    "title": "home__modal--trigger",
+    "children": [
+      "product-summary-space",
+      // "icon#home__modal--icon",
+      "product-summary-image",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-name",
+      "product-summary-description",
+      "product-summary-space",
+      "add-to-cart-button",
+      "modal-layout#home__modal--cart"
+    ],
+    "props": {
+      "blockClass": "home__shelf"
+       }
+  },
+  // "icon#home__modal--icon": {
+  //   "title": "home__modal--icon",
+  //   "props": {
+  //     "id": "mpa-expand",
+  //     "blockClass": "home__modal--icon"
+  //   }
+  // },
+  "modal-layout#home__modal--cart": {
+    "title": "home__modal--cart",
+    "children": [
+      "modal-header#modal__cart--header",
+      "modal-content#modal__cart--content"
+    ],
+    "props": {
+      "blockClass": "home__modal--cart"
+    }
+  },
+  "modal-header#modal__cart--header": {
+    "props": {
+      "blockClass": "modal__cart--header"
+    }
+  },
+  "modal-content#modal__cart--content": {
+    "children": [
+      "flex-layout.row#modal__cart--container"
+    ]
+  },
+  "flex-layout.row#modal__cart--container": {
+    "title": "modal__cart--container",
+    "children": [
+      "flex-layout.col#modal__cart--images",
+      "flex-layout.col#modal__cart--detail"
+    ],
+    "props": {
+      "blockClass": "modal__cart--container"
+    }
+  },
+  "flex-layout.col#modal__cart--images": {
+    "title": "modal__cart--images",
+    "children": [
+      "product-images#cart__images"
+    ],
+    "props": {
+      "blockClass": "modal__cart--images"
+    }
+  },
+  "product-images#cart__images": {
+    "props": {
+      "blockClass": "cart__images"
+    }
+  },
+  "flex-layout.col#modal__cart--detail": {
+    "title": "modal__cart--detail",
+    "children": [
+      "product-summary-name",
+      "product-price",
+      "add-to-cart-button",
+      "product-summary-space"
+    ],
+    "props": {
+      "blockClass": "modal__cart--detail"
+    }
+  }
+}
