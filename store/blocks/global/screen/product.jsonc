@@ -19,15 +19,16 @@
   "product-summary.shelf#home__shelf": {
     "title": "home--shelf",
     "children": [
-      // "stack-layout#prodsum",
-      "product-summary-space",
-      "product-summary-image",
-      "product-summary-space",
-      "product-summary-price",
-       "product-summary-name",
-      "product-summary-description",
-      "product-summary-space",
-      "add-to-cart-button"
+      // "product-summary-space",
+      "stack-layout#global__home--modal"
+      // "product-summary-image",
+      // "product-summary-space",
+      // "product-summary-price",
+      //  "product-summary-name",
+      // "product-summary-description",
+      // "product-summary-space",
+      // "add-to-cart-button"
+
     ],
     "props": {
       "blockClass": "home__shelf"
@@ -59,35 +60,6 @@
       "text": "Agregar 🛒",
       "icon": true,
       "blockClass": "home__boton"
-    }
-  },
-
-
-  //ENSAYO
-  "stack-layout#prodsum":{
-    "children":[
-      "modal-trigger#example"
-    ]
-  },
-   "modal-trigger#example": {
-    "children": [
-      "rich-text#example",
-      "modal-layout#example"
-    ]
-  },
-  "rich-text#example": {
-    "props": {
-      "text": "Click me"
-    }
-  },
-  "modal-layout#example": {
-    "children": [
-      "rich-text#modal-content"
-    ]
-  },
-  "rich-text#modal-content": {
-    "props": {
-      "text": "Hello"
     }
   }
 }
