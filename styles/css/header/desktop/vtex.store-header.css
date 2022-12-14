@@ -1,11 +1,16 @@
+.headerRowContainer--desktop__header--contact {
+    gap: 10px;
+}
 
 .headerRowContentContainer--desktop__header--contact {
+    height: 100%;
     background-color: #DB071E;
+    color           : white;
 }
 
 .headerRowContentContainer--desktop__header--utilities {
     background-color: #DB071E;
-    max-height: 4.8rem;
+    max-height      : 4.8rem;
 }
 
 .headerRowContainer--desktop__header--contact {
@@ -17,5 +22,14 @@
 }
 
 .headerRowContainer--desktop__header--utilities {
-    color: white;
+    color: rgb(231, 229, 229);
 }
+
+
+/* .headerRowBackground--desktop__header--utilities {
+    background-color: #DB071E;
+} */
+
+.headerRowContentContainer {
+    min-width: 100%;
+  }

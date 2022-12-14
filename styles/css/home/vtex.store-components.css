@@ -2,3 +2,11 @@
     border-radius: 1rem;
 }
 
+.backToTopButtonActive :global(.vtex-button) {
+    border-radius: 50%;
+}
+
+.backToTopButtonActive :global(.vtex-button__label) {
+    height: 2.2rem;    
+    padding: 0.8rem;
+}

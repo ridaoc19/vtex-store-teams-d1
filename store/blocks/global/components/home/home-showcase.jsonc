@@ -183,7 +183,7 @@
         "variant": "secondary",
         "size": "small"
       },
-      "displayMode": "button",
+      "displayMode": "buttonProps",
       "label": "Ver más →",
       "blockClass": "home__link--vermas",
       "href": "#"

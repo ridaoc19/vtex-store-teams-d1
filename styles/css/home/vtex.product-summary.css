@@ -1,12 +1,65 @@
+
 .element--home__shelf {
-    display         : grid;
-    justify-items   : center;
-    margin          : 0.8rem;
+  
+    margin          : 0.5rem;
+    padding         : 1rem;
     box-shadow      : 1px 2px 12px rgb(238, 235, 235);
     border-radius   : 1rem;
-    background-color: white;
 }
 
 .element--home__shelf:hover {
     box-shadow: 0px 7px 16px rgb(211, 210, 210);
+}
+
+.imageContainer {
+    height: 8rem;
+}
+
+.spacer {
+    height: 0.5rem;
+}
+
+.price_listPriceContainer {
+    display: none;
+}
+
+.priceContainer {
+    display    : flex;
+    padding    : 0px;
+    width      : 100%;
+    align-items: flex-start;
+}
+
+.price_sellingPrice {
+    color: #DB071E;
+}
+
+.price_sellingPriceLabel {
+    display: none;
+}
+
+
+.price_installmentContainer {
+    display: none;
+}
+
+.productNameContainer,
+.description,
+.nameContainer {
+    padding            : 0px;
+    width              : 100%;
+    text-align         : start;
+}
+
+.nameContainer {
+    height: 2.3rem;
+}
+
+.description {
+    height: 4rem;
+}
+
+.brandName {
+    font-weight: bold;
+    text-transform: uppercase
 }
