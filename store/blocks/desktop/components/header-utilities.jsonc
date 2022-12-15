@@ -3,8 +3,10 @@
     "title": "desktop__header--utilities",
     "children": [
       "logo#desktop__header--logo",
-      "flex-layout.row#4-desktop",
-      "flex-layout.row#mega-menu",
+      // "flex-layout.row#4-desktop",
+      // "flex-layout.row#mega-menu",
+      // "drawer#header__drawer--categoria",
+      "category-menu",
       "rich-text#desktop__header--categoria",
       "header-spacer",
       "search-bar",
@@ -27,6 +29,11 @@
       "width": "60",
       "blockClass": "desktop__header--logo"
     }
+  },
+  "drawer#header__drawer--categoria": {
+    "children":[
+      "category-menu"
+    ]
   },
   "rich-text#desktop__header--categoria": {
     "title": "desktop__header--categoria",
