@@ -10,6 +10,7 @@
       "search-bar",
       "header-spacer",
       "login#desktop__login",
+      "icon#mi-carro",
       "minicart.v2"
     ],
     "props": {
