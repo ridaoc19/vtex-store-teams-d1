@@ -1,6 +1,6 @@
 .flexColChild--hola {
-    display: flex;
+    display        : flex;
     justify-content: flex-end;
-    max-height: 2rem;
-    width: 10rem;
+    max-height     : 2rem;
+    width          : 10rem;
 }

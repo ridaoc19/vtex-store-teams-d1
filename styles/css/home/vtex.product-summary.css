@@ -1,10 +1,8 @@
-
 .element--home__shelf {
-  
-    margin          : 0.5rem;
-    padding         : 1rem;
-    box-shadow      : 1px 2px 12px rgb(238, 235, 235);
-    border-radius   : 1rem;
+    margin       : 0.5rem;
+    padding      : 1rem;
+    box-shadow   : 1px 2px 12px rgb(238, 235, 235);
+    border-radius: 1rem;
 }
 
 .element--home__shelf:hover {
@@ -46,9 +44,9 @@
 .productNameContainer,
 .description,
 .nameContainer {
-    padding            : 0px;
-    width              : 100%;
-    text-align         : start;
+    padding   : 0px;
+    width     : 100%;
+    text-align: start;
 }
 
 .nameContainer {
@@ -60,6 +58,6 @@
 }
 
 .brandName {
-    font-weight: bold;
+    font-weight   : bold;
     text-transform: uppercase
 }

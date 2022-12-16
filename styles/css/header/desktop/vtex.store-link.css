@@ -1,16 +1,14 @@
-    .link { 
-  
-         text-decoration: none;
-     }
+.link {
+    text-decoration: none;
+}
 
 .label--header__contact {
-    color           : white;
-    font-size       : 0.7rem;
+    color               : white;
+    font-size           : 0.7rem;
     text-decoration-line: underline;
-
 }
 
 .label--header__address--title {
-    color: #2C2E30;
+    color    : #2C2E30;
     font-size: 0.8rem;
 }

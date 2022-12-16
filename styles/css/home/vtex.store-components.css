@@ -1,6 +1,6 @@
-.imageElement--global__slider--image{
+.imageElement--global__slider--image {
     border-radius: 1rem;
-    width: 1500px;
+    width        : 93.7rem;
 }
 
 .backToTopButtonActive :global(.vtex-button) {
@@ -8,6 +8,6 @@
 }
 
 .backToTopButtonActive :global(.vtex-button__label) {
-    height: 2.2rem;    
+    height : 2.2rem;
     padding: 0.8rem;
 }
