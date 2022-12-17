@@ -3,7 +3,7 @@
     "title": "desktop__header--utilities",
     "children": [
       "logo#desktop__header--logo",
-      "flex-layout.row#1-mobile",
+      "flex-layout.row#global__header--megamenu",
       "rich-text#desktop__header--categoria",
       "header-spacer",
       "search-bar",
@@ -41,6 +41,7 @@
   },
   "search-bar": {
     "props": {
+      "openAutocompleteOnFocus": true,
       "blockClass": "search"
     }
   },

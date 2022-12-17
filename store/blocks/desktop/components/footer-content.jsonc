@@ -1,0 +1,18 @@
+{
+  "responsive-layout.desktop#desktop__footer--responsive": {
+    "title": "desktop__footer--responsive",
+    "children": [
+      "header-row#desktop__footer--content"
+    ]
+  },
+  "header-row#desktop__footer--content": {
+    "title": "desktop__footer--content",
+    "children": [
+      "link.product#footer__content--privacidad",
+      "link.product#footer__content--terminos"
+    ],
+    "props":{
+    "blockClass": "desktop__footer--content"
+    }
+  }
+}
