@@ -1,0 +1,9 @@
+.headerRowBackground--megamenu__header--logo {
+    background-color: #DB071E;
+}
+
+.headerRowBackground--mega-menu-go-back-btn {
+    display: flex;
+    align-content: flex-end;
+    height: 2rem;
+}
