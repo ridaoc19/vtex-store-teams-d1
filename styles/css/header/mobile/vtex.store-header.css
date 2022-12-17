@@ -7,7 +7,6 @@
     color: white;
 }
 
-
 .headerRowContentContainer--mobile__header--utilities :global(.vtex-button) {
     width: 2rem;
 }

@@ -1,78 +1,221 @@
+
 {
-    "sticky-layout#4-desktop": {
-        "children": ["flex-layout.row#4-desktop", "flex-layout.row#mega-menu"]
-      },
-      "flex-layout.row#4-desktop": {
-        "children": ["flex-layout.col#trigger-mega-menu"]
-      },
+  "flex-layout.row#global__header--megamenu": {
+    "children": [
+      "flex-layout.col#trigger-mega-menu"
+    ],
+    "props": {}
+  },
+  "flex-layout.col#trigger-mega-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "mega-menu-trigger-btn"
+    ]
+  },
+  "mega-menu-trigger-btn": {
+    "props": {
+      "Drawer": "drawer"
+    }
+  },
+  "drawer": {
+    "children": [
+      "mega-menu#mobile"
+    ],
+    "blocks": [
+      "drawer-header#my-drawer"
+    ]
+  },
+  "mega-menu#mobile": {
+    "props": {
+      "defaultDepartmentActive": "...",
+      "orientation": "vertical",
+      "openOnly": "vertical"
+    }
+  },
+  "drawer-header#my-drawer": {
+    "children": [
+      "flex-layout.col#drawer-header"
+    ]
+  },
+//ENSAYO
+"flex-layout.col#drawer-header": {
+  "children": [
+    "flex-layout.row#mega-menu-go-back-btn", // BOTON VOLVER
+    // "logo#desktop__header--logo",
+    // "flex-layout.row#spacer",
     
-      "flex-layout.row#mega-menu": {
-        "children": ["mega-menu#desktop"]
-      },
-      "mega-menu#desktop": {
-        "props": {
-          "openOnly": "horizontal"          
-        }
-      },
-      "flex-layout.col#trigger-mega-menu": {
-        "props": {
-          "verticalAlign": "middle"
-        },
-        "children": ["mega-menu-trigger-btn"]
-      },
-      "mega-menu-trigger-btn": {
-        "props": {
-          "Drawer": "drawer"
-        }
-      },
+    "flex-layout.row#drawer-close-button" // BOTON CERRAR
+  ],
+  "props": {
+    "blockClass": "drawer-header",
+    "preventHorizontalStretch": true,
+    "preventVerticalStretch": true,
+    "preserveLayoutOnMobile": true,
+    "fullWidth": true
+  }
+},
+
+
+  // CABEZA
+  "flex-layout.col#drawer-header2": {
+    "children": [
+      "flex-layout.row#mega-menu-go-back-btn", // BOTON VOLVER
+      // "logo#desktop__header--logo",
+      // "flex-layout.row#spacer",
+      
+      "flex-layout.row#drawer-close-button" // BOTON CERRAR
+    ],
+    "props": {
+      "blockClass": "drawer-header",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#drawer-close-button": {
+    "children": [
+      "drawer-close-button"
+    ],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "right"
+    }
+  },
+  "flex-layout.row#mega-menu-go-back-btn": {
+    "children": [
+      "mega-menu-go-back-btn"
+    ],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "left",
+      "paddingLeft": 4
+    }
+  },
+
+
+
+
+
+  "flex-layout.row#spacer": {
+    "children":[
+      "rich-text#ensayo"
+    ]
+  },
+  "rich-text#ensayo": {
+    "props":{
+      "text": "ensayo"
+    }
+  }
+//   "flex-layout.row#global__header--megamenu": {
+//     "children": [
+//       "flex-layout.col#trigger-mega-menu"
+//     ],
+//     "props": {}
+//   },
+//   "flex-layout.col#trigger-mega-menu": {
+//     "props": {
+//       "verticalAlign": "middle"
+//     },
+//     "children": [
+//       "mega-menu-trigger-btn"
+//     ]
+//   },
+//   "mega-menu-trigger-btn": {
+//     "props": {
+//       "Drawer": "drawer"
+//     }
+//   },
+//   "drawer": {
+//     "children": [
+//       "mega-menu#mobile"
+//     ],
+//     "blocks": [
+//       "drawer-header#my-drawer"
+//     ]
+//   },
+//   "mega-menu#mobile": {
+//     "props": {
+//       "defaultDepartmentActive": "...",
+//       "orientation": "vertical",
+//       "openOnly": "vertical"
+//     }
+//   },
+//   "drawer-header#my-drawer": {
+//     "children": [
+//       "flex-layout.row#drawer-header"
+//     ]
+//   },
+// //ENSAYO
+// "flex-layout.row#drawer-header": {
+//   "children": [
+//     "flex-layout.col#mega-menu-go-back-btn", // BOTON VOLVER
+//     // "logo#desktop__header--logo",
+//     // "flex-layout.col#spacer",
     
-      // Mobile
-      "flex-layout.row#1-mobile": {
-        "children": ["flex-layout.col#trigger-mega-menu"],
-        "props": {}
-      },
-    
-      "drawer": {
-        "children": ["mega-menu#mobile"],
-        "blocks": ["drawer-header#my-drawer"]
-      },
-      "mega-menu#mobile": {
-        "props": {
-          "defaultDepartmentActive": "...",
-          "orientation": "vertical",
-          "openOnly": "vertical"
-        }
-      },
-      "drawer-header#my-drawer": {
-        "children": ["flex-layout.row#drawer-header"]
-      },
-      "flex-layout.row#drawer-header": {
-        "children": [
-          "flex-layout.col#mega-menu-go-back-btn",
-          // "flex-layout.col#spacer",
-          "flex-layout.col#drawer-close-button"
-        ],
-        "props": {
-          "blockClass": "drawer-header",
-          "preventHorizontalStretch": true,
-          "preventVerticalStretch": true,
-          "preserveLayoutOnMobile": true,
-          "fullWidth": true
-        }
-      },
-      "flex-layout.col#drawer-close-button": {
-        "children": ["drawer-close-button"],
-        "props": {
-          "verticalAlign": "middle",
-          "horizontalAlign": "right"
-        }
-      },
-      "flex-layout.col#mega-menu-go-back-btn": {
-        "children": ["mega-menu-go-back-btn"],
-        "props": {
-          "verticalAlign": "middle",
-          "horizontalAlign": "left",
-          "paddingLeft": 4
-        }
-      }
+//     "flex-layout.col#drawer-close-button" // BOTON CERRAR
+//   ],
+//   "props": {
+//     "blockClass": "drawer-header",
+//     "preventHorizontalStretch": true,
+//     "preventVerticalStretch": true,
+//     "preserveLayoutOnMobile": true,
+//     "fullWidth": true
+//   }
+// },
+
+
+//   // CABEZA
+//   "flex-layout.row#drawer-header2": {
+//     "children": [
+//       "flex-layout.col#mega-menu-go-back-btn", // BOTON VOLVER
+//       // "logo#desktop__header--logo",
+//       // "flex-layout.col#spacer",
+      
+//       "flex-layout.col#drawer-close-button" // BOTON CERRAR
+//     ],
+//     "props": {
+//       "blockClass": "drawer-header",
+//       "preventHorizontalStretch": true,
+//       "preventVerticalStretch": true,
+//       "preserveLayoutOnMobile": true,
+//       "fullWidth": true
+//     }
+//   },
+//   "flex-layout.col#drawer-close-button": {
+//     "children": [
+//       "drawer-close-button"
+//     ],
+//     "props": {
+//       "verticalAlign": "middle",
+//       "horizontalAlign": "right"
+//     }
+//   },
+//   "flex-layout.col#mega-menu-go-back-btn": {
+//     "children": [
+//       "mega-menu-go-back-btn"
+//     ],
+//     "props": {
+//       "verticalAlign": "middle",
+//       "horizontalAlign": "left",
+//       "paddingLeft": 4
+//     }
+//   },
+
+
+
+
+
+//   "flex-layout.col#spacer": {
+//     "children":[
+//       "rich-text#ensayo"
+//     ]
+//   },
+//   "rich-text#ensayo": {
+//     "props":{
+//       "text": "ensayo"
+//     }
+//   }
 }

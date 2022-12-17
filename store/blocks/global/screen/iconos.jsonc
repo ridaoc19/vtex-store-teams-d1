@@ -1,6 +1,7 @@
 {
     "flex-layout.row#iconos": {
         "children": [
+            "icon#mi-carro",
             "icon#bnd-logo",
             "icon#hpa-arrow-from-bottom",
             "icon#hpa-arrow-to-bottom",
@@ -91,11 +92,14 @@
             "icon#sti-discount"
         ]
     },
-    // "icon#home__orders--icon": {
-    //     "props": {
-    //         "id": "casa"
-    //     }
-    // },
+    "icon#mi-carro": {
+        "props": {
+            "id": "mi-carro",
+            "blockclass": "elcarro",
+            "isActive": false
+            
+        }
+    },
     "icon#bnd-logo": {
         "props": {
             "id": "bnd-logo"

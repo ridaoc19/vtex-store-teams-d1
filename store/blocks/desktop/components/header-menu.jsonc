@@ -1,0 +1,13 @@
+{
+    "category-menu": {
+      "props": {
+        "showAllDepartments": false,
+        "showSubcategories": true,
+        "menuDisposition": "left",
+        "departments": ["Madera"],
+        "sortSubcategories": "name",
+        // "mobileMode": true,
+        "blockClass": "uno"
+      }
+    }
+  }
