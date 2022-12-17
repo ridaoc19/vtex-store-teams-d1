@@ -1,0 +1,14 @@
+.link--footer__content--privacidad {
+    border-right: 1px solid #595959;
+}
+
+.label--footer__content--privacidad {
+    color: #595959;
+    margin-right: 1rem;
+}
+
+.label--footer__content--terminos {
+    color: #595959;
+
+    margin-left: 1rem; 
+}

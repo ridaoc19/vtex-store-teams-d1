@@ -1,0 +1,20 @@
+{
+  "link.product#footer__content--privacidad": {
+    "title": "footer__content--privacidad",
+    "props": {
+      "displayMode": "buttonProps",
+      "label": "Privacidad",
+      "blockClass": "footer__content--privacidad",
+      "href": "#"
+    }
+  },
+  "link.product#footer__content--terminos": {
+    "title": "footer__content--terminos",
+    "props": {
+      "displayMode": "buttonProps",
+      "label": "Términos y condiciones",
+      "blockClass": "footer__content--terminos",
+      "href": "#"
+    }
+  }
+}

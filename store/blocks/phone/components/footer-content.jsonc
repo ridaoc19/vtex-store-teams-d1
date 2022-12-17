@@ -1,0 +1,21 @@
+{
+  "responsive-layout.phone#phone__footer--responsive": {
+    "title": "phone__footer--responsive",
+    "children": [
+      "header-row#phone__footer--contentprivacidad",
+      "header-row#phone__footer--contenttermino"
+    ]
+  },
+  "header-row#phone__footer--contentprivacidad": {
+    "title": "phone__footer--contentprivacidad",
+    "children": [
+      "link.product#footer__content--privacidad"
+    ]
+  },
+  "header-row#phone__footer--contenttermino": {
+    "title": "phone__footer--contenttermino",
+    "children": [
+      "link.product#footer__content--terminos"
+    ]
+  }
+}
