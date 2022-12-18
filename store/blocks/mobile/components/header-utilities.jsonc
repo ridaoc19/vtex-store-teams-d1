@@ -5,7 +5,6 @@
       "flex-layout.row#global__header--megamenu",
       "logo#mobile__header--logo",
       "header-spacer",
-      // "drawer#mobile__header--search",
       "flex-layout.row#mobile__header--search",
       "login#mobile__login",
       "minicart.v2"
@@ -15,45 +14,6 @@
       "blockClass": "mobile__header--utilities"
     }
   },
-  // hamburguesa buscar
-  // "drawer#mobile__header--search": {
-  //   "title": "mobile__header--search",
-  //   "children": [
-  //     "search-bar#mobile__header--search"
-  //   ],
-  //   "blocks": [
-  //     "drawer-trigger#header__search--icon"
-  //   ],
-  //   "props": {
-  //     "isFullWidth": true,
-  //     "blockClass": "mobile__header--search",
-  //     "slideDirection": "rightToLeft"
-  //   }
-  // },
-  // "drawer-trigger#header__search--icon": {
-  //   "title": "header__search--icon",
-  //   "children": [
-  //     "icon#header__icon--hpa-search"
-  //   ],
-  //   "props": {
-  //     "blockClass": "drawer__search"
-  //   }
-  // },
-  // "icon#header__icon--hpa-search": {
-  //   "title": "header__icon--hpa-search",
-  //   "props": {
-  //     "id": "hpa-search",
-  //     "blockClass": "icono"
-  //   }
-  // },
-  // "search-bar#mobile__header--search": {
-  //   "title": "mobile__header--search",
-  //   "props": {
-  //     "openAutocompleteOnFocus": true,
-  //     "displayMode": "search-and-clear-buttons",
-  //     "blockClass": "mobil-search"
-  //   }
-  // },
   // logo D1
   "logo#mobile__header--logo": {
     "title": "mobile__header--logo",
