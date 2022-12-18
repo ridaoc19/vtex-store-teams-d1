@@ -12,8 +12,13 @@
    border: none;
 }
 
-.autoCompleteOuterContainer--search :global(.vtex-input__suffix) {
+/* .autoCompleteOuterContainer--search :global(.vtex-input__suffix) {
    padding-right: 0px;
+} */
+
+.searchBarIcon--search--external-search {
+   background-color: #fafafa;
+   border          : none;
 }
 
 .searchBarContainer,
@@ -33,11 +38,10 @@
    .searchBarInnerContainer--search {
       width: 15rem;
    }
-
 }
 
 .logoLink--desktop__header--logo {
    margin-bottom: 0.5rem;
-   margin-right: 4%;
-   margin-left: 5%;
+   margin-right : 4%;
+   margin-left  : 5%;
 }
