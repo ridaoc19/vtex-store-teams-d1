@@ -10,3 +10,8 @@
 .headerRowContentContainer--mobile__header--utilities :global(.vtex-button) {
     width: 2rem;
 }
+
+.headerRowBackground--megamenu__header--logo {
+    background-color: #DB071E;
+    max-height      : 4.8rem;
+}
