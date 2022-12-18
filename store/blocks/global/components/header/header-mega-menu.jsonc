@@ -110,13 +110,20 @@
   "flex-layout.row#drawer-close-button": {
     "title": "drawer-close-button",
     "children": [
-      "drawer-close-button"
+      "drawer-close-button#mega-menu"
     ],
     "props": {
       "verticalAlign": "middle",
       "horizontalAlign": "right",
-      "blockClass": "drawer-close-button"
+      "blockClass": "cerrar-boton-megamenu"
+    }
+  },
+  "drawer-close-button#mega-menu":{
+    "title": "boton cerrar",
+    "props": {
+      "blockClass": "boton__megamenu--cerrar"
 
     }
+
   }
 }
