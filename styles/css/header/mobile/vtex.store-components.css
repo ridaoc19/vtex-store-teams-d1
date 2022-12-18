@@ -5,3 +5,8 @@
  .autoCompleteOuterContainer--search-bar :global(.vtex-input__suffix) {
     padding-right: 0px;
  }
+
+ .searchBarIcon--search-bar {
+   background-color: #fafafa;
+   border          : none;
+}

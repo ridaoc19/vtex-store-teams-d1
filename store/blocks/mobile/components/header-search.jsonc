@@ -67,6 +67,8 @@
   },
   "search-bar#drawer":{
     "props": {
+      "displayMode": "search-and-clear-buttons",
+      "openAutocompleteOnFocus": true,
       "blockClass": "search-bar"
     }
   }
