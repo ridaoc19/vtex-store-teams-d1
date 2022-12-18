@@ -1,15 +1,11 @@
 .paragraph--header__contact--title {
-    color: white;
-    font-size: 0.7rem;
+    color      : white;
+    font-size  : 0.7rem;
     font-weight: bold;
 }
 
 .paragraph--desktop__header--categoria {
-    color: white;
+    color    : white;
     min-width: 7.5rem;
     font-size: 1.5rem;
-}
-
-.paragraph--desktop__login--title {
-    color: white;
 }

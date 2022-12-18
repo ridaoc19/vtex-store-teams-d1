@@ -27,11 +27,6 @@
       "blockClass": "desktop__header--logo"
     }
   },
-  "drawer#header__drawer--categoria": {
-    "children":[
-      // "category-menu"
-    ]
-  },
   "rich-text#desktop__header--categoria": {
     "title": "desktop__header--categoria",
     "props": {
@@ -40,19 +35,21 @@
     }
   },
   "search-bar": {
+    "title": "search-bar-desktop",
     "props": {
+      "displayMode": "search-and-clear-buttons",
       "openAutocompleteOnFocus": true,
       "blockClass": "search"
     }
   },
-
-
-
   "flex-layout.row#desktop__header--login": {
     "title": "desktop__header--login",
-    "children": ["flex-layout.col#desktop__header--title"]
+    "children": [
+      "flex-layout.col#desktop__header--title"
+    ]
   },
   "flex-layout.col#desktop__header--title": {
+    "title": "desktop__header--title",
     "children": [
       // "rich-text#desktop__login--title",
       "login#desktop__login"
