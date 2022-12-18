@@ -1,0 +1,8 @@
+{
+  "responsive-layout.tablet": {
+    "title": "responsive-layout.tablet",
+    "children": [
+      "header-layout.desktop#desktop"
+    ]
+  }
+}

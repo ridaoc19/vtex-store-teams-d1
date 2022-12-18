@@ -1,5 +1,22 @@
 {
-  "header-layout.desktop": {
+  "header-layout.desktop#header__desktop": {
+    "title": "header__desktop",
+    "children": [
+      "responsive-layout.desktop",
+      "responsive-layout.tablet",
+      "responsive-layout.phone"
+    ]
+  },
+  "responsive-layout.desktop": {
+    "title": "responsive-layout.desktop",
+    "children": [
+      "header-layout.desktop#desktop"
+    ],
+    "props": {
+      "blockClass": "responsive-layout.desktop"
+    }
+  },
+  "header-layout.desktop#desktop": {
     "title": "header__desktop",
     "children": [
       "header-row#desktop__header--contact",
@@ -7,6 +24,7 @@
       "header-row#global__header--address"
     ],
     "props": {
+      "sticky": true,
       "blockClass": "header__desktop"
     }
   }

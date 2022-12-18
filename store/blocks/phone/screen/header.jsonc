@@ -1,0 +1,8 @@
+{
+  "responsive-layout.phone": {
+    "title": "responsive-layout.phone",
+    "children": [
+      "header-layout.mobile#mobile"
+    ]
+  }
+}

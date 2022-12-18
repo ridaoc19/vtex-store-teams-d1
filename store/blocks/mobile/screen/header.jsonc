@@ -1,5 +1,13 @@
 {
-  "header-layout.mobile": {
+  "header-layout.mobile#header__mobile": {
+    "title": "header__mobile",
+    "children": [
+      "responsive-layout.desktop",
+      "responsive-layout.tablet",
+      "responsive-layout.phone"
+    ]
+  },
+  "header-layout.mobile#mobile": {
     "title": "header__mobile",
     "children": [
       "header-row#mobile__header--utilities",
