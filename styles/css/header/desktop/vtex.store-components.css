@@ -1,19 +1,43 @@
-.logoLink--desktop__header--logo {
-    min-width: 6rem;
-    margin   : 1.3rem 3rem 2rem 2.5rem;
+.autoCompleteOuterContainer--search {
+   display         : flex;
+   align-items     : center;
+   background-color: white;
+   border-radius   : 0.5rem;
+   height          : 2.6rem;
+   width           : 30rem;
+   border-radius   : 0.8rem;
 }
 
-.searchBarContainer {
-    max-width: 32rem;
+.autoCompleteOuterContainer--search :global(.vtex-input-prefix__group) {
+   border: none;
+}
+
+.autoCompleteOuterContainer--search :global(.vtex-input__suffix) {
+   padding-right: 0px;
+}
+
+.searchBarContainer,
+.searchBarInnerContainer--search {
+   width        : 30rem;
+   border-radius: 2rem;
 }
 
 .searchIcon--search {
-    color: #DB071E;
+   height: 1.5rem;
+   width : 1.5rem;
 }
 
-.sizeDesktop {
-    min-width: 1px;
-    padding  : 6px;
+@media (max-width: 769px) {
+   .autoCompleteOuterContainer--search,
+   .searchBarContainer,
+   .searchBarInnerContainer--search {
+      width: 15rem;
+   }
+
 }
 
-
+.logoLink--desktop__header--logo {
+   margin-bottom: 0.5rem;
+   margin-right: 4%;
+   margin-left: 5%;
+}
