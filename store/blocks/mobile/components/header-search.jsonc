@@ -61,11 +61,13 @@
   },
 
   "drawer-close-button":{
+    "title": "close__drawer",
       "props": {
         "blockClass": "boton-cerrar"
       }
   },
   "search-bar#drawer":{
+    "title": "search_drawer",
     "props": {
       "displayMode": "search-and-clear-buttons",
       "openAutocompleteOnFocus": true,
