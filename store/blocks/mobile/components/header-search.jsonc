@@ -26,7 +26,8 @@
       "drawer-header#search__content--header"
     ],
     "props": {
-      "blockClass": "search__button--drawer"
+      "blockClass": "search__button--drawer",
+      "isFullWidth": true
     }
   },
   //ICONO
@@ -43,40 +44,30 @@
     "title": "header__icon--hpa-search",
     "props": {
       "id": "hpa-searchuno",
-      "blockClass": "icono"
+      "blockClass": "icono__header--serch",
+      "size": 20
     }
   },
   // HEADER
   "drawer-header#search__content--header": {
     "title": "search__content--header",
     "children": [
-      "flex-layout.col#drawer-close-button",
-      "flex-layout.col#search-bar"
+      "drawer-close-button",
+      "search-bar#drawer"
     ],
     "props": {
       "blockClass": "search__content--header"
     }
   },
-  "flex-layout.col#search-bar": {
-    "title": "search-bar",
-    "children": [
-      "search-bar"
-    ],
-    "props": {
-      "verticalAlign": "middle",
-      "horizontalAlign": "right",
-      "blockClass": "search-bar"
-    }
+
+  "drawer-close-button":{
+      "props": {
+        "blockClass": "boton-cerrar"
+      }
   },
-  "flex-layout.col#drawer-close-button": {
-    "title": "drawer-close-button",
-    "children": [
-      "drawer-close-button"
-    ],
+  "search-bar#drawer":{
     "props": {
-      "verticalAlign": "middle",
-      "horizontalAlign": "right",
-      "blockClass": "drawer-close-button"
+      "blockClass": "search-bar"
     }
   }
 }

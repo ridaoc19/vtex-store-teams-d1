@@ -1,6 +1,7 @@
-/* .autoCompleteOuterContainer--mobil-search {
-    width   : 16rem;
-    position: absolute;
-    top     : 0.5rem;
-    left    : 55px;
-} */
+.autoCompleteOuterContainer--search-bar :global(.vtex-input-prefix__group) {
+    border: none;
+ }
+ 
+ .autoCompleteOuterContainer--search-bar :global(.vtex-input__suffix) {
+    padding-right: 0px;
+ }
