@@ -1,0 +1,34 @@
+{
+  "list-context.product-list#desktop__home--shelf": {
+    "title": "desktop__home--shelf",
+    "blocks": [
+      "product-summary.shelf#home__shelf"
+    ],
+    "children": [
+      "slider-layout#home-products"
+    ],
+    "props": {
+      "orderBy": "OrderByNameDESC"
+    }
+  },
+  "product-summary.shelf#home__shelf": {
+    "title": "home--shelf",
+    "children": [
+      "modal-trigger#home__modal--trigger"
+
+      // "stack-layout#global__home--modal"
+    ],
+    "props": {
+      "blockClass": "home__shelf-principal"
+    }
+  },
+  "slider-layout#home-products": {
+    "title": "home--products",
+    "props": {
+      "infinite": false,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "blockClass": "home-products"
+    }
+  }
+}

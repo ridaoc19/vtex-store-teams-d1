@@ -12,10 +12,6 @@
    border: none;
 }
 
-/* .autoCompleteOuterContainer--search :global(.vtex-input__suffix) {
-   padding-right: 0px;
-} */
-
 .searchBarIcon--search--external-search {
    background-color: #fafafa;
    border          : none;
@@ -33,6 +29,7 @@
 }
 
 @media (max-width: 769px) {
+
    .autoCompleteOuterContainer--search,
    .searchBarContainer,
    .searchBarInnerContainer--search {

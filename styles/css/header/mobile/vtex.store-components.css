@@ -1,12 +1,12 @@
 .autoCompleteOuterContainer--search-bar :global(.vtex-input-prefix__group) {
-    border: none;
- }
- 
- .autoCompleteOuterContainer--search-bar :global(.vtex-input__suffix) {
-    padding-right: 0px;
- }
+   border: none;
+}
 
- .searchBarIcon--search-bar {
+.autoCompleteOuterContainer--search-bar :global(.vtex-input__suffix) {
+   padding-right: 0px;
+}
+
+.searchBarIcon--search-bar {
    background-color: #fafafa;
    border          : none;
 }
