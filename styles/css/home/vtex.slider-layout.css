@@ -2,7 +2,6 @@
     margin-top    : 2rem;
     margin-bottom : 1rem;
     padding-bottom: 1rem;
-
 }
 
 .caretIcon--global__home--slider {
@@ -18,24 +17,35 @@
     color           : rgb(242, 211, 216);
 }
 
-
-
-.sliderLayoutContainer--home-products :global(.vtex-button) {
-    width         : 70%;
-    height        : 15px;
-    font-size     : 0.7rem;
-    text-transform: none;
-    border-radius : 30rem;
-    margin-left   : 14%;
-}
-
-.sliderLayoutContainer--home-products {
-    display        : grid;
-    justify-content: center;
-}
-
 @media (min-width: 1800px) {
     .sliderArrows {
         display: none;
     }
+}
+
+/* VITRINA */
+.sliderLayoutContainer--home-products {
+    justify-content: center;
+}
+
+/* boton tarjeta */
+.sliderLayoutContainer--home-products :global(.vtex-button) {
+    font-size     : 0.8rem;
+    text-transform: none;
+    border-radius : 30rem;
+}
+
+/* tarjeta */
+.slide--home-products,
+.slide--home-products--visible,
+.slideChildrenContainer--home-products {
+    max-width    : 13rem;
+    border-radius: 30px;
+}
+
+.sliderTrackContainer--home-products {
+    display       : grid;
+    max-width     : 93.7rem;
+    padding-top   : 10px;
+    padding-bottom: 10px;
 }

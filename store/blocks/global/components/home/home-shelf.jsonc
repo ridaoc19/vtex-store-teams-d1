@@ -15,8 +15,6 @@
     "title": "home--shelf",
     "children": [
       "modal-trigger#home__modal--trigger"
-
-      // "stack-layout#global__home--modal"
     ],
     "props": {
       "blockClass": "home__shelf-principal"
@@ -25,6 +23,11 @@
   "slider-layout#home-products": {
     "title": "home--products",
     "props": {
+      // "itemsPerPage": {
+      //   "desktop": 6,
+      //   "tablet": 4,
+      //   "phone": 2
+      // },
       "infinite": false,
       "showNavigationArrows": "never",
       "showPaginationDots": "never",
