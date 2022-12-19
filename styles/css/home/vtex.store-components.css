@@ -1,8 +1,3 @@
-.imageElement--global__slider--image {
-    border-radius: 1rem;
-    width        : 93.7rem;
-}
-
 .backToTopButtonActive :global(.vtex-button) {
     border-radius: 50%;
 }

@@ -1,23 +1,12 @@
 {
-  "stack-layout#global__home--modal": {
-    "title": "global__home--modal",
-    "children": [
-      "modal-trigger#home__modal--trigger"
-    ],
-    "props": {
-      "blockClass": "global__home--modal"
-    }
-  },
   "modal-trigger#home__modal--trigger": {
     "title": "home__modal--trigger",
     "children": [
       "product-summary-space",
-      // "icon#home__modal--icon",
       "product-summary-image",
       "product-summary-space",
       "product-summary-price",
       "product-summary-name",
-      "product-summary-description",
       "product-summary-space",
       "add-to-cart-button",
       "modal-layout#home__modal--cart"
@@ -26,13 +15,20 @@
       "blockClass": "home__shelf"
        }
   },
-  // "icon#home__modal--icon": {
-  //   "title": "home__modal--icon",
-  //   "props": {
-  //     "id": "mpa-expand",
-  //     "blockClass": "home__modal--icon"
-  //   }
-  // },
+  "product-summary-image": {
+    "title": "summary-image",
+    "props": {
+      "width": "130%"
+    }
+  },
+  "add-to-cart-button": {
+    "title": "cart-button",
+    "props": {
+      "text": "Agregar 🛒",
+      "icon": true,
+      "blockClass": "home__boton"
+    }
+  },
   "modal-layout#home__modal--cart": {
     "title": "home__modal--cart",
     "children": [
