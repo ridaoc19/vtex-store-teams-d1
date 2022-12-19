@@ -4,3 +4,15 @@
     border-radius   : 1rem;
     padding         : 1rem;
 }
+
+.paper--home__modal--cart {
+    max-width : 50rem;
+    min-width : 50rem;
+    max-height: 25rem;
+    min-height: 25rem;
+}
+
+.paper--home__modal--cart :global(.vtex-button) {
+    border-radius: 2rem;
+    height       : 2.2rem;
+}
