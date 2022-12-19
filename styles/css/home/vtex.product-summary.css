@@ -64,3 +64,9 @@
     text-transform: uppercase;
     font-size     : 0.8rem;
 }
+
+
+/* MODAL LAYOUT PRODUCTOS */
+.brandName--modal__cart--nem{
+    font-size:x-large;    
+}
