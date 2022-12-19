@@ -11,3 +11,19 @@
     height : 2.2rem;
     padding: 0.8rem;
 }
+
+
+/* modal layout */
+.currencyContainer--modal__cart--price {
+    color: #DB071E;
+    font-size: x-large;
+}
+
+.price_sellingPriceLabel--modal__cart--price,
+.price_listPriceContainer--modal__cart--price {
+    display: none;
+}
+
+.productImageTag--cart__images--main {
+    min-height: 15rem;
+}

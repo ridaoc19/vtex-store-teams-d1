@@ -1,0 +1,9 @@
+.flexCol--modal__cart--detail {
+    width           : 10px;
+    background-color: bisque;
+}
+
+/* modal layout */
+.stretchChildrenWidth {
+    width: 30px;
+}
