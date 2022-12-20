@@ -31,8 +31,7 @@
   },
   "back-to-top-button": {
     "props": {
-      "display": "caret-icon",
-      "blockClass": "back-button"
+      "display": "caret-icon"
     }
   }
 }
