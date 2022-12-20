@@ -4,18 +4,27 @@
     "children": [
       "header-row#phone__footer--contentprivacidad",
       "header-row#phone__footer--contenttermino"
-    ]
+    ],
+    "props": {
+      "blockClass": "phone__footer--responsive"
+    }
   },
   "header-row#phone__footer--contentprivacidad": {
     "title": "phone__footer--contentprivacidad",
     "children": [
       "link.product#footer__content--privacidad"
-    ]
+    ],
+    "props": {
+      "blockClass": "phone__footer--contentprivacidad"
+    }
   },
   "header-row#phone__footer--contenttermino": {
     "title": "phone__footer--contenttermino",
     "children": [
       "link.product#footer__content--terminos"
-    ]
+    ],
+    "props": {
+      "blockClass": "phone__footer--contenttermino"
+    }
   }
 }

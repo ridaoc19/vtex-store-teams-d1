@@ -5,14 +5,14 @@
     padding         : 1rem;
 }
 
-/* .paper--home__modal--cart {
+.paper--home__modal--cart {
     max-width : 50rem;
     min-width : 50rem;
     max-height: 25rem;
     min-height: 25rem;
 }
 
-@media (max-width: 769px) {
+/* @media (max-width: 769px) {
 
     .paper--home__modal--cart {
         max-width : 18rem;
