@@ -12,7 +12,9 @@
   "header-row#phone__footer--contentprivacidad": {
     "title": "phone__footer--contentprivacidad",
     "children": [
-      "link.product#footer__content--privacidad"
+      "link.product#footer__content--privacidad",
+      "header-spacer",
+      "icon#nav-caret--right"
     ],
     "props": {
       "blockClass": "phone__footer--contentprivacidad"
@@ -21,7 +23,9 @@
   "header-row#phone__footer--contenttermino": {
     "title": "phone__footer--contenttermino",
     "children": [
-      "link.product#footer__content--terminos"
+      "link.product#footer__content--terminos",
+      "header-spacer",
+      "icon#nav-caret--right"
     ],
     "props": {
       "blockClass": "phone__footer--contenttermino"
