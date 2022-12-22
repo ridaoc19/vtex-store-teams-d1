@@ -23,6 +23,12 @@
     }
 }
 
+@media (max-width: 640px) {
+    .sliderArrows {
+        display: none;
+    }
+}
+
 /* VITRINA */
 .sliderLayoutContainer--home-products {
     justify-content: center;

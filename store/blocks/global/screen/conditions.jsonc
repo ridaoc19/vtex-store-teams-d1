@@ -10,23 +10,31 @@
     "title": "conditions __content--flexrow",
     "children": ["flex-layout.col#conditions __content--flexcol"],
     "props": {
-      "marginTop": 6,
+      // "border":"all",
+      // "paddingTop": 2,
       "blockClass": "conditions __content--flexrow"
     }
   },
   "flex-layout.col#conditions __content--flexcol": {
     "title": "conditions __content--flexcol",
     "children": [
-      "rich-text#conditions __content--body"
+      "flex-layout.row#conditions __content--ensayo"
     ],
     "props": {
-      "marginLeft": 5,
-      "marginRight": 5,
-      "paddingLeft": 9,
-      "paddingRight": 9,
+      // "border":"all",
       "blockClass": "conditions __content--flexcol"
     }
   },
+  "flex-layout.row#conditions __content--ensayo":{
+    "children":[
+      "rich-text#conditions __content--body"
+    ],
+    "props":{
+      // "border":"all"
+      // "paddingTop":2
+    }
+  },
+
 
   "rich-text#conditions __content--body": {
     "props": {

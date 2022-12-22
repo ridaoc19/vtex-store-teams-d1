@@ -10,7 +10,6 @@
     "title": "privacy__content--flexrow",
     "children": ["flex-layout.col#privacy__content--flexcol"],
     "props": {
-      "marginTop": 6,
       "blockClass": "privacy__content--flexrow"
     }
   },
@@ -20,10 +19,6 @@
       "rich-text#privacy__content--body"
     ],
     "props": {
-      "marginLeft": 5,
-      "marginRight": 5,
-      "paddingLeft": 9,
-      "paddingRight": 9,
       "blockClass": "privacy__content--flexcol"
     }
   },
