@@ -1,6 +1,7 @@
 .label--home__link--vermas {
     color : #DB071E;
-    margin: 0px 1rem 0px 0px;
+    /* margin: 0px 1rem 0px 0px; */
+    white-space: nowrap;
 }
 
 /* FOOTER */
