@@ -1,0 +1,108 @@
+{
+  "disclosure-layout-group#phone__footer--disclosure": {
+    "title": "phone__footer--disclosure",
+    "children": [
+      "disclosure-layout#footer__extraordinarios--container"
+    ],
+    "props": {
+      "blockClass": "phone__footer--disclosure"
+    }
+  },
+  "disclosure-layout#footer__extraordinarios--container": {
+    "title": "footer__extraordinarios--container",
+    "children": [
+      "disclosure-trigger#footer__extraordinarios--trigger",
+      "disclosure-content#footer__extraordinarios--content"
+    ],
+    "props": {
+      "blickClass": "footer__extraordinarios--container"
+    }
+  },
+  "disclosure-trigger#footer__extraordinarios--trigger": {
+    "title": "footer__extraordinarios--trigger",
+    "children": [
+      "rich-text#footer__extraordinarios--title",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "footer__trigger"
+    }
+  },
+  "rich-text#footer__extraordinarios--title": {
+    "props": {
+      "text": "Extraordinarios",
+      "blockClass": "footer__extraordinarios--title"
+    }
+  },
+  "disclosure-content#footer__extraordinarios--content": {
+    "title": "footer__extraordinarios--content",
+    "children": [
+      "link.product#footer__extraordinarios--zapatos"
+    ],
+    "props": {
+      "blockClass": "footer__extraordinarios--content"
+    }
+  },
+  "link.product#footer__extraordinarios--zapatos": {
+    "title": "footer__extraordinarios--zapatos",
+    "props": {
+      "label": "Zapatos vans",
+      "blockClass": "footer__extraordinarios--zapatos"
+      // "href": "https://ricardodavid--itgloberspartnercl.myvtex.com/zapatos-vans-url/p/"
+    }
+  },
+  //botones
+  "disclosure-state-indicator": {
+    "title": "disclosure__icon--down-up",
+    "props": {
+      "Show": "icon-caret#down",
+      "Hide": "icon-caret#up",
+      "blockClass": "footer__disclosure--indicator"
+    }
+  },
+  "icon-caret#down": {
+    "title": "disclosure__icon--down",
+    "props": {
+      "orientation": "down"
+    }
+  },
+  "icon-caret#up": {
+    "title": "disclosure__icon--up",
+    "props": {
+      "orientation": "up"
+    }
+  },
+
+
+  // ICONOS
+  "flex-layout.col#footer__incos--first-mobile": {
+    "title": "footer icos container mobile",
+    "children": [
+      "social-networks#footer__socialnetwork"
+    ]
+  },
+  "social-networks#footer__socialnetwork": {
+    "title": "footer icos networking content mobile",
+    "props": {
+      "socialNetworks": [
+        {
+          "url": "https//facebook.com/exito",
+          "name": "facebook"
+        },
+        {
+          "url": "https//instagram.com/exito",
+          "name": "Instagram"
+        },
+        {
+          "url": "https//twitter.com/exito",
+          "name": "twitter"
+        },
+        {
+          "url": "https//youtube.com/exito",
+          "name": "youtube"
+        }
+      ],
+      "blockclass": "footer__socialnetwork"
+    }
+  }
+}

@@ -6,7 +6,10 @@
       "rich-text#home__alimento--title",
       "header-spacer",
       "link.product#home_link--ver"
-    ]
+    ],
+    "props":{
+      "blockClass": "global__header--vitrina"
+    }
   },
   "rich-text#home__alimento--title": {
     "title": "home__alimento--title",
@@ -22,7 +25,10 @@
       "rich-text#home__aseo--title",
       "header-spacer",
       "link.product#home_link--ver"
-    ]
+    ],
+    "props":{
+      "blockClass": "global__header--vitrina"
+    }
   },
   "rich-text#home__aseo--title": {
     "title": "home__aseo--title",
@@ -38,7 +44,10 @@
       "rich-text#home__cuidado--title",
       "header-spacer",
       "link.product#home_link--ver"
-    ]
+    ],
+    "props":{
+      "blockClass": "global__header--vitrina"
+    }
   },
   "rich-text#home__cuidado--title": {
     "title": "home__cuidado--title",
@@ -54,7 +63,10 @@
       "rich-text#home__bebe--title",
       "header-spacer",
       "link.product#home_link--ver"
-    ]
+    ],
+    "props":{
+      "blockClass": "global__header--vitrina"
+    }
   },
   "rich-text#home__bebe--title": {
     "title": "home__bebe--title",
@@ -70,7 +82,10 @@
       "rich-text#home__bebidas--title",
       "header-spacer",
       "link.product#home_link--ver"
-    ]
+    ],
+    "props":{
+      "blockClass": "global__header--vitrina"
+    }
   },
   "rich-text#home__bebidas--title": {
     "title": "home__bebidas--title",
@@ -86,7 +101,10 @@
       "rich-text#home__congelados--title",
       "header-spacer",
       "link.product#home_link--ver"
-    ]
+    ],
+    "props":{
+      "blockClass": "global__header--vitrina"
+    }
   },
   "rich-text#home__congelados--title": {
     "title": "home__congelados--title",
@@ -102,7 +120,10 @@
       "rich-text#home__lacteos--title",
       "header-spacer",
       "link.product#home_link--ver"
-    ]
+    ],
+    "props":{
+      "blockClass": "global__header--vitrina"
+    }
   },
   "rich-text#home__lacteos--title": {
     "title": "home__lacteos--title",
@@ -118,7 +139,10 @@
       "rich-text#home__nuevo--title",
       "header-spacer",
       "link.product#home_link--ver"
-    ]
+    ],
+    "props":{
+      "blockClass": "global__header--vitrina"
+    }
   },
   "rich-text#home__nuevo--title": {
     "title": "home__nuevo--title",
@@ -134,7 +158,10 @@
       "rich-text#home__mascotas--title",
       "header-spacer",
       "link.product#home_link--ver"
-    ]
+    ],
+    "props":{
+      "blockClass": "global__header--vitrina"
+    }
   },
   "rich-text#home__mascotas--title": {
     "title": "home__mascotas--title",
@@ -150,7 +177,10 @@
       "rich-text#home__otros--title",
       "header-spacer",
       "link.product#home_link--ver"
-    ]
+    ],
+    "props":{
+      "blockClass": "global__header--vitrina"
+    }
   },
   "rich-text#home__otros--title": {
     "title": "home__otros--title",
@@ -166,7 +196,10 @@
       "rich-text#home__extra--title",
       "header-spacer",
       "link.product#home_link--ver"
-    ]
+    ],
+    "props":{
+      "blockClass": "global__header--vitrina"
+    }
   },
   "rich-text#home__extra--title": {
     "title": "home__extra--title",
@@ -179,11 +212,6 @@
   "link.product#home_link--ver": {
     "title": "link de ver mas",
     "props": {
-      "buttonProps": {
-        "variant": "secondary",
-        "size": "small"
-      },
-      "displayMode": "buttonProps",
       "label": "Ver más →",
       "blockClass": "home__link--vermas",
       "href": "https://ricardodavid--itgloberspartnercl.myvtex.com/electrodomesticos"

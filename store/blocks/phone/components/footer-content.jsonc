@@ -3,7 +3,8 @@
     "title": "phone__footer--responsive",
     "children": [
       "header-row#phone__footer--contentprivacidad",
-      "header-row#phone__footer--contenttermino"
+      "header-row#phone__footer--contenttermino",
+      "disclosure-layout-group#phone__footer--disclosure"
     ],
     "props": {
       "blockClass": "phone__footer--responsive"
