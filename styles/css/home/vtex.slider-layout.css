@@ -7,13 +7,13 @@
 .caretIcon--global__home--slider {
     padding         : 5px;
     border-radius   : 50%;
-    background-color: #DB071E1A;
-    color           : #DB071E;
-    border-color    : #DB071E;
+    background-color: #db071e1a;
+    color           : #db071e;
+    border-color    : #db071e;
 }
 
 .caretIcon--global__home--slider:hover {
-    background-color: #DB071E;
+    background-color: #db071e;
     color           : rgb(242, 211, 216);
 }
 
@@ -47,6 +47,33 @@
 .slideChildrenContainer--home-products {
     max-width    : 13rem;
     border-radius: 30px;
+}
+
+@media (max-width: 440px) {
+
+    .slide--home-products,
+    .slide--home-products--visible,
+    .slideChildrenContainer--home-products {
+        max-width: 12rem;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .slide--home-products,
+    .slide--home-products--visible,
+    .slideChildrenContainer--home-products {
+        max-width: 11rem;
+    }
+}
+
+@media (max-width: 374px) {
+
+    .slide--home-products,
+    .slide--home-products--visible,
+    .slideChildrenContainer--home-products {
+        max-width: 9.5rem;
+    }
 }
 
 .sliderTrackContainer--home-products {

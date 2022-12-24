@@ -1,15 +1,15 @@
 .label--home__link--vermas {
-    color : #DB071E;
-    /* margin: 0px 1rem 0px 0px; */
+    color      : #db071e;
+    /* margin  : 0px 1rem 0px 0px; */
     white-space: nowrap;
 }
 
 /* FOOTER */
 
-.label--footer__content--terminos{
+.label--footer__content--terminos {
     margin: 10px;
-    
 }
-.label--footer__content--privacidad{
+
+.label--footer__content--privacidad {
     margin-left: 10px;
 }

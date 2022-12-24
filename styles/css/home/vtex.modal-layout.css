@@ -1,9 +1,11 @@
 .triggerContainer--home__shelf {
-    height          : 100%;
-    border-radius   : 1rem;
-    padding         : 1rem;
+    height       : 100%;
+    border-radius: 1rem;
+    padding      : 1rem;
 }
 
+
+/* MODAL LAYOUT */
 .paper--home__modal--cart {
     max-width : 50rem;
     min-width : 50rem;
@@ -11,15 +13,23 @@
     min-height: 25rem;
 }
 
-/* @media (max-width: 769px) {
-
+@media (max-width: 769px) {
     .paper--home__modal--cart {
-        max-width : 18rem;
-        min-width : 18rem;
-        max-height: 15rem;
-        min-height: 15rem;
+        max-width : 40rem;
+        min-width : 40rem;
+        max-height: 20rem;
+        min-height: 20rem;
     }
- } */
+}
+
+@media (max-width: 640px) {
+    .paper--home__modal--cart {
+        max-width : auto;
+        min-width : 100%;
+        max-height: auto;
+        min-height: 100%;
+    }
+}
 
 .paper--home__modal--cart :global(.vtex-button) {
     border-radius: 2rem;
