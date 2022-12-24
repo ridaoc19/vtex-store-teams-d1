@@ -1,11 +1,9 @@
 .label--home__link--vermas {
     color      : #db071e;
-    /* margin  : 0px 1rem 0px 0px; */
     white-space: nowrap;
 }
 
 /* FOOTER */
-
 .label--footer__content--terminos {
     margin: 10px;
 }
