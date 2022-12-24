@@ -1,9 +1,8 @@
-.headerRowContentContainer--global__header--vitrina{
+.headerRowContentContainer--global__header--vitrina {
     justify-content: center;
 }
 
 .headerRowContainer--global__header--vitrina {
-    background-color: bisque;
-    /* padding: 0 16px 0 16px; */
-    max-width        : 91rem;
+    padding  : 0 1rem 0 1rem;
+    max-width: 93rem;
 }

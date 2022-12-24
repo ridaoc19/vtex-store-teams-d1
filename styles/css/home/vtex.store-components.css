@@ -12,10 +12,9 @@
     padding: 0.8rem;
 }
 
-
 /* modal layout */
 .currencyContainer--modal__cart--price {
-    color: #DB071E;
+    color    : #db071e;
     font-size: x-large;
 }
 
