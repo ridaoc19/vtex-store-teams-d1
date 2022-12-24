@@ -2,6 +2,7 @@
   "responsive-layout.tablet#tablet__footer--responsive": {
     "title": "tablet__footer--responsive",
     "children": [
+      "header-row#desktop__footer--prefooter",
       "header-row#desktop__footer--content"
     ]
   }

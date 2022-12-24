@@ -1,0 +1,204 @@
+{
+  "disclosure-layout-group#phone__footer--disclosure": {
+    "title": "phone__footer--disclosure",
+    "children": [
+      "disclosure-layout#footer__extraordinarios--container",
+      "disclosure-layout#footer__promociones--container",
+      "disclosure-layout#footer__blanco--container"
+    ],
+    "props": {
+      "blockClass": "phone__footer--disclosure"
+    }
+  },
+  // EXTRAORDINARIOS
+  "disclosure-layout#footer__extraordinarios--container": {
+    "title": "footer__extraordinarios--container",
+    "children": [
+      "disclosure-trigger#footer__extraordinarios--trigger",
+      "disclosure-content#footer__extraordinarios--content"
+    ],
+    "props": {
+      "blickClass": "footer__extraordinarios--container"
+    }
+  },
+  "disclosure-trigger#footer__extraordinarios--trigger": {
+    "title": "footer__extraordinarios--trigger",
+    "children": [
+      "rich-text#footer__extraordinarios--title",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "footer__trigger"
+    }
+  },
+  "rich-text#footer__extraordinarios--title": {
+    "title": "footer__extraordinarios--title",
+    "props": {
+      "text": "Extraordinarios",
+      "blockClass": "footer__extraordinarios--title"
+    }
+  },
+  "disclosure-content#footer__extraordinarios--content": {
+    "title": "footer__extraordinarios--content",
+    "children": [
+      "link.product#footer__extraordinarios--zapatos",
+      "link.product#footer__extraordinarios--camara",
+      "link.product#footer__extraordinarios--puerta"
+    ],
+    "props": {
+      "blockClass": "footer__extraordinarios--content"
+    }
+  },
+  "link.product#footer__extraordinarios--zapatos": {
+    "title": "footer__extraordinarios--zapatos",
+    "props": {
+      "label": "Zapatos vans",
+      "blockClass": "footer__link--todos",
+      "href": "zapatos-vans-url/p/"
+    }
+  },
+  "link.product#footer__extraordinarios--camara": {
+    "title": "footer__extraordinarios--camara",
+    "props": {
+      "label": "Cámara",
+      "blockClass": "footer__link--todos",
+      "href": "camara/p"
+    }
+  },
+  "link.product#footer__extraordinarios--puerta": {
+    "title": "footer__extraordinarios--puerta",
+    "props": {
+      "label": "Puerta triplex",
+      "blockClass": "footer__link--todos",
+      "href": "puerta-triplex-okume/p"
+    }
+  },
+  // PROMOCIONES
+  "disclosure-layout#footer__promociones--container": {
+    "title": "footer__promociones--container",
+    "children": [
+      "disclosure-trigger#footer__promociones--trigger",
+      "disclosure-content#footer__promociones--content"
+    ],
+    "props": {
+      "blickClass": "footer__promociones--container"
+    }
+  },
+  "disclosure-trigger#footer__promociones--trigger": {
+    "title": "footer__promociones--trigger",
+    "children": [
+      "rich-text#footer__promociones--title",
+      "disclosure-state-indicator"
+    ],
+    "props": {
+      "blockClass": "footer__trigger"
+    }
+  },
+  "rich-text#footer__promociones--title": {
+    "title": "footer__promociones--title",
+    "props": {
+      "text": "Promociones",
+      "blockClass": "footer__promociones--title"
+    }
+  },
+  "disclosure-content#footer__promociones--content": {
+    "title": "footer__promociones--content",
+    "children": [
+      "link.product#footer__promociones--varilla",
+      "link.product#footer__promociones--cemento",
+      "link.product#footer__promociones--queso"
+    ],
+    "props": {
+      "blockClass": "footer__promociones--content"
+    }
+  },
+  "link.product#footer__promociones--varilla": {
+    "title": "footer__promociones--varilla",
+    "props": {
+      "label": "Varilla",
+      "blockClass": "footer__link--todos",
+      "href": "varilla-corrugada-g60-w-4-1-2-pulg-x-6m/p"
+    }
+  },
+  "link.product#footer__promociones--cemento": {
+    "title": "footer__promociones--cemento",
+    "props": {
+      "label": "Cemento",
+      "blockClass": "footer__link--todos",
+      "href": "sol/p"
+    }
+  },
+  "link.product#footer__promociones--queso": {
+    "title": "footer__promociones--queso",
+    "props": {
+      "label": "Queso alpina",
+      "blockClass": "footer__link--todos",
+      "href": "queso-alpina/p"
+    }
+  },
+  // en blanco
+  "disclosure-layout#footer__blanco--container": {
+    "title": "footer__blanco--container",
+    "children": [
+      "disclosure-trigger#footer__blanco--trigger"
+    ],
+    "props": {
+      "blickClass": "footer__blanco--container"
+    }
+  },
+  "disclosure-trigger#footer__blanco--trigger": {
+    "title": "footer__blanco--trigger",
+    "children": [
+      "social-networks#footer__socialnetwork"
+    ],
+    "props": {
+      "blockClass": "footer__trigger--redes"
+    }
+  },
+  //botones
+  "disclosure-state-indicator": {
+    "title": "disclosure__icon--down-up",
+    "props": {
+      "Show": "icon-caret#down",
+      "Hide": "icon-caret#up",
+      "blockClass": "footer__disclosure--indicator"
+    }
+  },
+  "icon-caret#down": {
+    "title": "disclosure__icon--down",
+    "props": {
+      "orientation": "down"
+    }
+  },
+  "icon-caret#up": {
+    "title": "disclosure__icon--up",
+    "props": {
+      "orientation": "up"
+    }
+  },
+  // ICONOS
+  "social-networks#footer__socialnetwork": {
+    "title": "footer__socialnetwork",
+    "props": {
+      "socialNetworks": [
+        {
+          "url": "https//facebook.com/exito",
+          "name": "facebook"
+        },
+        {
+          "url": "https//instagram.com/exito",
+          "name": "Instagram"
+        },
+        {
+          "url": "https//twitter.com/exito",
+          "name": "twitter"
+        },
+        {
+          "url": "https//youtube.com/exito",
+          "name": "youtube"
+        }
+      ],
+      "blockclass": "footer__socialnetwork"
+    }
+  }
+}

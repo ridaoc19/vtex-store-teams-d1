@@ -1,3 +1,9 @@
 .flexCol--privacy__content--flexcol {
     background-color: white;
 }
+
+
+.flexCol ,
+.flexCol--footer__prefooter--extraordinarios  {
+    gap: 6px;
+}
