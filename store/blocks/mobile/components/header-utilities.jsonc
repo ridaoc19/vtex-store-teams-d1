@@ -3,6 +3,7 @@
     "title": "mobile__header--utilities",
     "children": [
       "flex-layout.row#global__header--megamenu",
+      // "flex-layout.row#phone__header--megamenu",
       "logo#mobile__header--logo",
       "header-spacer",
       "flex-layout.row#mobile__header--search",
@@ -33,7 +34,7 @@
       "emailPlaceholder": "e-mail",
       "passwordPlaceholder": "password",
       "showPasswordVerificationIntoTooltip": true,
-      "iconLabel": false,
+      // "iconLabel": false,
       "showIconProfile": true,
       "blockClass": "mobile__login"
     }

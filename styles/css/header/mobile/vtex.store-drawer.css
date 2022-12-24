@@ -9,3 +9,10 @@
 .closeIcon--boton__megamenu--cerrar {
     color: white;
 }
+
+@media (max-width: 640px) {
+    .opened--megamenu__button--drawer {
+        width    : 100% !important;
+        max-width: 100% !important;
+    }
+}
