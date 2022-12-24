@@ -1,6 +1,7 @@
 .headerRowContentContainer--desktop__footer--content {
-    height     : 5rem;
-    margin-left: 10px;
+    height    : 5rem;
+    box-shadow: 0px 2px 10px rgb(213, 211, 211);
+    margin-top: 10px;
 }
 
 .headerRowContentContainer--phone__footer--contentprivacidad {
