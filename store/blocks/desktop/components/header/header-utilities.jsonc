@@ -23,7 +23,7 @@
       "title": "Logo",
       "href": "/",
       "url": "https://ecommerce-image-catalog.s3.amazonaws.com/D1/D1logo.png",
-      "width": "60",
+      "width": 60,
       "blockClass": "desktop__header--logo"
     }
   },
@@ -35,11 +35,11 @@
     }
   },
   "search-bar": {
-    "title": "search-bar-desktop",
+    // "title": "search-bar-desktop",
     "props": {
       "displayMode": "search-and-clear-buttons",
-      "openAutocompleteOnFocus": true,
-      "blockClass": "search"
+      "openAutocompleteOnFocus": true
+      // "blockClass": "search"
     }
   },
   "flex-layout.row#desktop__header--login": {
@@ -66,16 +66,16 @@
     }
   },
   "login#desktop__login": {
-    "title": "desktop__login",
+    // "title": "desktop__login",
     "props": {
       "emailAndPasswordTitle": "LOG-IN",
       "accessCodeTitle": "Acess Code LOG-IN",
       "emailPlaceholder": "e-mail",
       "passwordPlaceholder": "password",
       "showPasswordVerificationIntoTooltip": true,
-      "iconLabel": "Mi cuenta ⌵",
+      "iconLabel": "Mi cuenta ⌵"
       // "showIconProfile": "icon#sti-volume-on",
-      "blockClass": "desktop__login"
+      // "blockClass": "desktop__login"
     }
   }
 }
