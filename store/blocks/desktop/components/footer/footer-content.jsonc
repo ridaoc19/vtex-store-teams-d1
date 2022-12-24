@@ -2,17 +2,68 @@
   "responsive-layout.desktop#desktop__footer--responsive": {
     "title": "desktop__footer--responsive",
     "children": [
+      "header-row#desktop__footer--prefooter",
       "header-row#desktop__footer--content"
     ]
   },
+  "header-row#desktop__footer--prefooter": {
+    "title": "desktop__footer--prefooter",
+    "children": [
+      "flex-layout.row#footer__prefooter--content",
+      "header-spacer",
+      "social-networks#footer__socialnetwork"
+    ],
+    "props": {
+      "blockClass": "desktop__footer--prefooter"
+    }
+  },
+  "flex-layout.row#footer__prefooter--content": {
+    "title": "footer__prefooter--content",
+    "children": [
+      "flex-layout.col#footer__prefooter--extraordinarios",
+      "flex-layout.col#footer__prefooter--promociones"
+    ],
+    "props": {
+      "blockClass": "footer__prefooter--content"
+    }
+  },
+  "flex-layout.col#footer__prefooter--extraordinarios": {
+    "title": "footer__prefooter--extraordinarios",
+    "children": [
+      "rich-text#footer__extraordinarios--title",
+      "link.product#footer__extraordinarios--zapatos",
+      "link.product#footer__extraordinarios--camara",
+      "link.product#footer__extraordinarios--puerta"
+    ],
+    "props": {
+      "width": "grow",
+      "blockClass": "footer__prefooter--extraordinarios"
+    }
+  },
+  "flex-layout.col#footer__prefooter--promociones": {
+    "title": "footer__prefooter--promociones",
+    "children": [
+      "rich-text#footer__promociones--title",
+      "link.product#footer__promociones--varilla",
+      "link.product#footer__promociones--cemento",
+      "link.product#footer__promociones--queso"
+    ],
+    "props": {
+      "blockClass": "footer__prefooter--promociones"
+    }
+  },
+  // final
   "header-row#desktop__footer--content": {
     "title": "desktop__footer--content",
     "children": [
+      "header-spacer",
       "link.product#footer__content--privacidad",
-      "link.product#footer__content--terminos"
+      "link.product#footer__content--terminos",
+      "header-spacer"
+
     ],
-    "props":{
-    "blockClass": "desktop__footer--content"
+    "props": {
+      "blockClass": "desktop__footer--content"
     }
   }
 }
