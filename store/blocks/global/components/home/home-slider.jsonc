@@ -23,7 +23,7 @@
       "image#home__slider--two",
       "image#home__slider--three",
       "image#home__slider--four",
-      // "image#home__slider--five",
+      "image#home__slider--five",
       "image#home__slider--six"
     ]
   },
@@ -58,7 +58,7 @@
   "image#home__slider--five": {
     "title": "slider five",
     "props": {
-      "src": "https://d1.com.co/wp-content/uploads/Banner_TemporadaBlackFriday_D1Corp.png",
+      "src": "https://ik.imagekit.io/instaleap/Alexander/Banners_CIERRES_diciembre_bannerpricipales.png",
       "blockClass": "global__slider--image"
     }
   },
