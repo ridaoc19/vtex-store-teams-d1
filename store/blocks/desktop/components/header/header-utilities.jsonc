@@ -35,11 +35,11 @@
     }
   },
   "search-bar": {
-    // "title": "search-bar-desktop",
+    "title": "search-bar-desktop",
     "props": {
       "displayMode": "search-and-clear-buttons",
-      "openAutocompleteOnFocus": true
-      // "blockClass": "search"
+      "openAutocompleteOnFocus": true,
+      "blockClass": "search"
     }
   },
   "flex-layout.row#desktop__header--login": {
@@ -58,24 +58,24 @@
       "blockClass": "hola"
     }
   },
-  "rich-text#desktop__login--title": {
-    "title": "desktop_desktop__login--title",
-    "props": {
-      "text": "¡Hola! Inicia sesión",
-      "blockClass": "desktop__login--title"
-    }
-  },
+  // "rich-text#desktop__login--title": {
+  //   "title": "desktop_desktop__login--title",
+  //   "props": {
+  //     "text": "¡Hola! Inicia sesión",
+  //     "blockClass": "desktop__login--title"
+  //   }
+  // },
   "login#desktop__login": {
-    // "title": "desktop__login",
+    "title": "desktop__login",
     "props": {
       "emailAndPasswordTitle": "LOG-IN",
       "accessCodeTitle": "Acess Code LOG-IN",
       "emailPlaceholder": "e-mail",
       "passwordPlaceholder": "password",
       "showPasswordVerificationIntoTooltip": true,
-      "iconLabel": "Mi cuenta ⌵"
+      "iconLabel": "Mi cuenta ⌵",
       // "showIconProfile": "icon#sti-volume-on",
-      // "blockClass": "desktop__login"
+      "blockClass": "desktop__login"
     }
   }
 }
