@@ -1,6 +1,7 @@
 {
     "flex-layout.row#iconos": {
         "children": [
+            "icon#icon-carro",
             "icon#mi-carro",
             "icon#bnd-logo",
             "icon#hpa-arrow-from-bottom",
@@ -91,6 +92,13 @@
             "icon#sti-equals",
             "icon#sti-discount"
         ]
+    },
+    "icon#icon-carro": {
+        "props": {
+            "id": "icon-carro",
+            "size": 100
+
+        }
     },
     "icon#mi-carro": {
         "props": {
