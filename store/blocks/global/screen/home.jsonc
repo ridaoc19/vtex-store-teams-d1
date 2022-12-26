@@ -26,7 +26,7 @@
       "list-context.product-list#desktop__home--shelf",
       "header-row#global__container--extra",
       "list-context.product-list#desktop__home--shelf",
-      // "flex-layout.row#iconos",
+      "flex-layout.row#iconos",
       "back-to-top-button"
     ]
   },
