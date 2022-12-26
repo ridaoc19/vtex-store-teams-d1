@@ -1,0 +1,69 @@
+{
+    "modal-trigger#header_modal--trigger": {
+      "title": "header_modal--trigger",
+      "children": [
+        // "product-summary-space",
+        // "product-summary-image",
+        // "product-summary-space",
+        // "product-summary-price",
+        // "product-summary-name",
+        // "product-summary-space",
+        // "add-to-address-button",
+        "header-spacer",
+        "logo#header__logo--address",
+        "link#header__address--title",
+        "logo#header__logo--downarrow",
+        "header-spacer",
+        "modal-layout#header_modal--address"
+      ],
+      "props": {
+        "blockClass": "header_shelf"
+      }
+    },
+    "modal-layout#header_modal--address": {
+      "title": "header_modal--address",
+      "children": [
+        "modal-header#modal__address--header",
+        "modal-content#modal__address--content"
+      ],
+      "props": {
+        "blockClass": "header_modal--address"
+      }
+    },
+    "modal-header#modal__address--header": {
+      "title": "modal__address--header",
+      "props": {
+        "blockClass": "modal__address--header"
+      }
+    },
+    "modal-content#modal__address--content": {
+      "title": "modal__address--content",
+      "children": [
+        "flex-layout.row#modal__address--images",
+        "flex-layout.row#modal__address--detail"
+      ]
+    },
+    "flex-layout.row#modal__address--images": {
+      "title": "modal__address--images",
+      "children": [
+         "rich-text"
+      ],
+      "props": {
+        "blockClass": "modal__address--images"
+      }
+    },
+    "flex-layout.row#modal__address--detail": {
+      "title": "modal__address--detail",
+      "children": [
+        "rich-text"
+      ],
+      "props": {
+        "blockClass": "modal__address--detail"
+      }
+    },
+    "rich-text": {
+        "props": {
+            "text": "¿Cómo te gustaría recibir tu pedido de Tiendas D1?"
+        }
+    }
+  }
