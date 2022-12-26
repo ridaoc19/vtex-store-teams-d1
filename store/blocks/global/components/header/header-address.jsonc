@@ -2,11 +2,12 @@
   "header-row#global__header--address": {
     "title": "global__header--address",
     "children": [
-      "header-spacer",
-      "logo#header__logo--address",
-      "link#header__address--title",
-      "logo#header__logo--downarrow",
-      "header-spacer"
+      "modal-trigger#header_modal--trigger"
+      // "header-spacer",
+      // "logo#header__logo--address",
+      // "link#header__address--title",
+      // "logo#header__logo--downarrow",
+      // "header-spacer"
     ],
     "props": {
       "blockClass": "global__header--address"
@@ -19,7 +20,7 @@
         "variant": "secondary",
         "size": "small"
       },
-      "displayMode": "buttonProps",
+      // "displayMode": "buttonProps",
       "label": "Cómo te gustaría recibir tu pedido",
       "blockClass": "header__address--title",
       "href": "#"
