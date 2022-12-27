@@ -1,0 +1,13 @@
+{
+  "responsive-layout.tablet#tablet__search--responsive": {
+    "title": "tablet__search--responsive",
+    "children": [
+      "flex-layout.row#searchbread",
+      "order-by.v2",
+      "flex-layout.row#global__search--container"
+    ],
+    "props": {
+      "blockClass": "tablet__search--responsive"
+    }
+  } 
+}

@@ -96,7 +96,7 @@
     "icon#icon-carro": {
         "props": {
             "id": "icon-carro",
-            "size": 100
+            "size": 120
 
         }
     },

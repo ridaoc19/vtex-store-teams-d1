@@ -1,0 +1,24 @@
+.italic--address__title--content {
+    color: #DB071E;
+    font-style: normal;
+}
+
+.strong--address__title--content{
+    width: 100%;
+}
+
+
+.headingLevel4--address__title--content{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.paragraph--addressform__title--domicilio {
+    white-space: nowrap;
+    margin: 0px;
+    padding: 0px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-right: 1.5rem;
+}

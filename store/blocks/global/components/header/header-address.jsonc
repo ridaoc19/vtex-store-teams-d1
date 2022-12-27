@@ -3,11 +3,6 @@
     "title": "global__header--address",
     "children": [
       "modal-trigger#header_modal--trigger"
-      // "header-spacer",
-      // "logo#header__logo--address",
-      // "link#header__address--title",
-      // "logo#header__logo--downarrow",
-      // "header-spacer"
     ],
     "props": {
       "blockClass": "global__header--address"
