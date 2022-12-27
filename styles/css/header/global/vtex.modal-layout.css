@@ -4,5 +4,11 @@
 .paperNotFullScreen ,
 .paperScrollContent ,
 .paperScrollContent {
-    width: 18.37rem;
+    width: 20rem;
+}
+
+
+/* raya borde */
+.headerContainer--modal__address--header{
+    border: none;
 }

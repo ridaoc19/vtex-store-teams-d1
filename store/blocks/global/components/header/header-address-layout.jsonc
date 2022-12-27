@@ -94,7 +94,7 @@
   "rich-text#address__title--content": {
     "title": "address__title--content",
     "props": {
-      "text": "#### ¿Cómo te gustaría recibir tu pedido de Tiendas D1?",
+      "text": "#### **¿Cómo te gustaría recibir tu pedido de _Tiendas D1_?**",
       "blockClass": "address__title--content"
     }
   },
