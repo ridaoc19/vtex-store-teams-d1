@@ -1,0 +1,12 @@
+{
+  "search-result-layout.mobile": {
+    "title": "search-result-layout.mobile",
+    "children": [
+      "responsive-layout.tablet#tablet__search--responsive",
+      "responsive-layout.phone#phone__search--responsive"
+    ],
+    "props": {
+      "blockClass": "search-result-layout.mobile"
+    }
+  }
+}
