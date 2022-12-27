@@ -1,4 +1,12 @@
-.flexRow--modal__address--detail{
+.flexRowContent--modal__address--detail{
     box-shadow: 0px 2px 10px rgb(213, 211, 211);
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 1rem;
+}
+
+.flexColChild--modal__address--car{
+    margin-top: 1.5rem;
+    /* width: 9rem; */
 }
 
