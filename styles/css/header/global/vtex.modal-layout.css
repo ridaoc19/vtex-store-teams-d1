@@ -1,14 +1,13 @@
-
-.paper ,
-.paper--header_modal--address ,
-.paperNotFullScreen ,
-.paperScrollContent ,
-.paperScrollContent {
-    width: 20rem;
+.paper--header_modal--address {
+    width: 24rem;
+    height: 26rem;
 }
 
-
 /* raya borde */
-.headerContainer--modal__address--header{
+.headerContainer--modal__address--header {
     border: none;
+}
+
+.contentContainer--modal__address--content {
+    padding: 0 2rem 3rem 2rem;
 }

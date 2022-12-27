@@ -2,13 +2,6 @@
   "modal-trigger#header_modal--trigger": {
     "title": "header_modal--trigger",
     "children": [
-      // "product-summary-space",
-      // "product-summary-image",
-      // "product-summary-space",
-      // "product-summary-price",
-      // "product-summary-name",
-      // "product-summary-space",
-      // "add-to-address-button",
       "header-spacer",
       "logo#header__logo--address",
       "link#header__address--title",
@@ -30,12 +23,14 @@
       "blockClass": "header_modal--address"
     }
   },
+  // HEADER
   "modal-header#modal__address--header": {
     "title": "modal__address--header",
     "props": {
       "blockClass": "modal__address--header"
     }
   },
+  // CONTENIDO
   "modal-content#modal__address--content": {
     "title": "modal__address--content",
     "children": [
@@ -44,7 +39,6 @@
     ],
     "props": {
       "blockClass": "modal__address--content"
-
     }
   },
   "flex-layout.row#modal__address--title": {
@@ -54,6 +48,13 @@
     ],
     "props": {
       "blockClass": "modal__address--title"
+    }
+  },
+  "rich-text#address__title--content": {
+    "title": "address__title--content",
+    "props": {
+      "text": "#### **¿Cómo te gustaría recibir tu pedido de _Tiendas D1_?**",
+      "blockClass": "address__title--content"
     }
   },
   "flex-layout.row#modal__address--detail": {
@@ -69,40 +70,11 @@
     "title": "modal__address--car",
     "children": [
       "icon#icon-carro",
-      "flex-layout.row#modal__address--domicilio"
+      "stack-layout#global__home--modal"
     ],
     "props": {
-      "blockClass":"modal__address--car"
-    }
-  },
-  "flex-layout.row#modal__address--domicilio": {
-    "title": "modal__address--domicilio",
-    "children": [
-      "rich-text#address__title--domicilio",
-      "icon#nav__caret--right"
-    ],
-    "props": {
-      "blockClass": "modal__address--domicilio"
-    }
-  },
-  "icon#nav__caret--right": {
-    "title": "nav__caret--right",
-    "props": {
-      "id": "nav-caret--right"
-    }
-  },
-  "rich-text#address__title--content": {
-    "title": "address__title--content",
-    "props": {
-      "text": "#### **¿Cómo te gustaría recibir tu pedido de _Tiendas D1_?**",
-      "blockClass": "address__title--content"
-    }
-  },
-  "rich-text#address__title--domicilio": {
-    "title": "address__title--domicilio",
-    "props": {
-      "text": "A domicilio",
-      "blockClass":"address__title--domicilio"
+      "blockClass": "modal__address--car",
+      "horizontalAlign": "center"
     }
   }
 }

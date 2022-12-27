@@ -1,0 +1,110 @@
+{
+  "stack-layout#global__home--modal": {
+    "title": "global__home--modal",
+    "children": [
+      "modal-trigger#header_modal--triggerform"
+    ],
+    "props": {
+      "blockClass": "global__home--modal"
+    }
+  },
+  "modal-trigger#header_modal--triggerform": {
+    "title": "header_modal--triggerform",
+    "children": [
+      // "modal-actions.close",
+      "flex-layout.row#modal__address--domicilio",
+      "modal-layout#header_modal--addressform"
+    ],
+    "props": {
+      "blockClass": "header_form"
+    }
+  },
+  "flex-layout.row#modal__address--domicilio": {
+    "title": "modal__address--domicilio",
+    "children": [
+      "rich-text#addressform__title--domicilio",
+      "icon#nav-caret--right-personal"
+    ],
+    "props": {
+      "blockClass": "modal__address--domicilio",
+      "fullWidth": true,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "rich-text#addressform__title--domicilio": {
+    "props": {
+      "text": "A domicilio",
+      "blockClass": "addressform__title--domicilio"
+    }
+  },
+  "icon#nav-caret--right-personal": {
+    "title": "nav-caret--right-personal",
+    "props": {
+      "id": "nav-caret--right-personal"
+    }
+  },
+  //MODAL LAYOUT
+  "modal-layout#header_modal--addressform": {
+    "title": "header_modal--addressform",
+    "children": [
+      "modal-header#modal__addressform--header",
+      "modal-content#modal__addressform--content"
+    ],
+    "props": {
+      "blockClass": "header_modal--addressform"
+    }
+  },
+  // HEADER
+  "modal-header#modal__addressform--header": {
+    "title": "modal__addressform--header",
+    "props": {
+      "blockClass": "modal__addressform--header"
+    }
+  },
+  // CONTENIDO
+  "modal-content#modal__addressform--content": {
+    "title": "modal__addressform--content",
+    "children": [
+      "flex-layout.row#modal__addressform--title",
+      "flex-layout.row#modal__addressform--detail"
+    ],
+    "props": {
+      "blockClass": "modal__addressform--content"
+    }
+  },
+  "flex-layout.row#modal__addressform--title": {
+    "title": "modal__addressform--title",
+    "children": [
+      "rich-text#addressform__title--content"
+    ],
+    "props": {
+      "blockClass": "modal__addressform--title"
+    }
+  },
+  "rich-text#addressform__title--content": {
+    "title": "addressform__title--content",
+    "props": {
+      "text": "#### **¿A dónde quieres que llevemos tu pedido?**",
+      "blockClass": "addressform__title--content"
+    }
+  },
+  "flex-layout.row#modal__addressform--detail": {
+    "title": "modal__addressform--detail",
+    "children": [
+      "flex-layout.col#modal__addressform--car"
+    ],
+    "props": {
+      "blockClass": "modal__addressform--detail"
+    }
+  },
+  "flex-layout.col#modal__addressform--car": {
+    "title": "modal__addressform--car",
+    "children": [
+      // "icon#icon-carro"
+      // "flex-layout.row#modal__addressform--domicilio"
+    ],
+    "props": {
+      "blockClass": "modal__addressform--car"
+    }
+  }
+}

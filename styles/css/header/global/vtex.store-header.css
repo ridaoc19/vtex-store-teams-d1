@@ -7,3 +7,7 @@
     height    : 2.5rem;
     min-width : 100%;
 }
+
+.headerRowContainer--global__header--address {
+    justify-content: center;
+}
