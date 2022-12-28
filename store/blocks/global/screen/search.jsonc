@@ -96,21 +96,21 @@
       "fullWidth": true
     }
   },
-  "filter-navigator.v3": {
-    "blocks": [
-      "sidebar-close-button"
-    ],
-    "props": {
-      "truncateFilters": true,
-      "showClearByFilter": true,
-      "fullWidthOnMobile": true,
-      "navigationTypeOnMobile": "collapsible",
-      "appliedFiltersOverview": "show",
-      "totalProductsOnMobile": "show",
-      "updateOnFilterSelectionOnMobile": true,
-      "priceRangeLayout": "inputAndSlider"
-    }
-  },
+  // "filter-navigator.v3": {
+  //   "blocks": [
+  //     "sidebar-close-button"
+  //   ],
+  //   "props": {
+  //     "truncateFilters": true,
+  //     "showClearByFilter": true,
+  //     "fullWidthOnMobile": true,
+  //     "navigationTypeOnMobile": "collapsible",
+  //     "appliedFiltersOverview": "show",
+  //     "totalProductsOnMobile": "show",
+  //     "updateOnFilterSelectionOnMobile": true,
+  //     "priceRangeLayout": "inputAndSlider"
+  //   }
+  // },
   "header-row#global__search--header": {
     "children": [
       "flex-layout.row#searchbread",
