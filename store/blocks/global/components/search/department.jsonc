@@ -9,14 +9,17 @@
       "blockClass": "global__search--container"
     }
   },
+  /////ensayo//
   "flex-layout.col#search__results--filter": {
     "title": "search__results--filter",
     "children": [
-      "filter-navigator.v3"
+      // "filter-navigator.v3"
+      "mega-menu-go-back-btn",
+      "mega-menu#header__megamenu--content"
     ],
     "props": {
       "blockClass": "search__results--filter",
-      "width": "25%"
+      "width": "30%"
     }
   },
   "flex-layout.col#search__results--content": {
