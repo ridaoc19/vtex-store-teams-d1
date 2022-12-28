@@ -1,13 +1,4 @@
 {
-  // "stack-layout#global__home--modal": {
-  //   "title": "global__home--modal",
-  //   "children": [
-  //     "modal-trigger#home__modal--trigger"
-  //   ],
-  //   "props": {
-  //     "blockClass": "global__home--modal"
-  //   }
-  // },
   "modal-trigger#home__modal--trigger": {
     "title": "home__modal--trigger",
     "children": [
