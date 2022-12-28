@@ -3,7 +3,7 @@
     "title": "phone__search--responsive",
     "children": [
       "header-row#global__search--header",
-      "flex-layout.row#global__search--container"
+      "flex-layout.row#mobile__search--container"
     ],
     "props": {
       "blockClass": "phone__search--responsive"
