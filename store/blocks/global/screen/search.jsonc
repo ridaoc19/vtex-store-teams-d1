@@ -75,6 +75,12 @@
       "fullWidth": true
     }
   },
+  "breadcrumb.search": {
+    "props": {
+      "showOnMobile": true,
+      "homeIconSize": 14
+    }
+  },
   // no hay resultados
   "search-not-found-layout": {
     "children": [
@@ -104,5 +110,12 @@
       "updateOnFilterSelectionOnMobile": true,
       "priceRangeLayout": "inputAndSlider"
     }
+  },
+  "header-row#global__search--header": {
+    "children": [
+      "flex-layout.row#searchbread",
+      "header-spacer",
+      "order-by.v2"
+    ]
   }
 }
