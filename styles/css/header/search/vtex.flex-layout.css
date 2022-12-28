@@ -1,0 +1,6 @@
+
+.flexColChild--search__results--filter{
+    height: min-content !important;
+    background-color: white;
+    border-radius: 1rem;
+}

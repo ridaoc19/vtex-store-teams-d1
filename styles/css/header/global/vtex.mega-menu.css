@@ -1,0 +1,19 @@
+.menuContainerNavVertical--header__megamenu--content {
+  margin: 0 0.5rem 0 0.5rem;
+}
+
+.submenuItemVertical--header__megamenu--content--isClosed,
+.menuItemVertical--header__megamenu--content {
+  border: none;
+}
+
+.submenuItemVertical--header__megamenu--content--isClosed:hover,
+.menuItemVertical--header__megamenu--content:hover {
+  background-color: #db071e1a;
+  border-radius   : 2rem;
+}
+
+
+.submenuContainerVertical--header__megamenu--content {
+  background-color: white !important;
+}

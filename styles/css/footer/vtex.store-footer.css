@@ -2,6 +2,8 @@
     margin-top: 3rem;
 }
 
-.socialNetworksContainer {
-    margin-right: 10rem;
+@media (min-width: 640px) {
+    .socialNetworksContainer {
+        margin-right: 10rem;
+    }
 }

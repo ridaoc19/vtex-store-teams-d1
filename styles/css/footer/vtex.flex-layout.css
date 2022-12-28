@@ -2,8 +2,6 @@
     background-color: white;
 }
 
-
-.flexCol ,
-.flexCol--footer__prefooter--extraordinarios  {
-    gap: 6px;
+.flexCol--footer__prefooter--extraordinarios {
+    height: 7rem !important;
 }

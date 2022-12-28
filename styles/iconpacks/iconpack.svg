@@ -280,7 +280,7 @@
       <path d="M2.80524 8.73746C2.37243 8.34108 2.37243 7.65892 2.80525 7.26254L10.7353 0L13 2.07407L6.52941 8L13 13.9259L10.7353 16L2.80524 8.73746Z" fill="currentColor"/>
     </g>
     <g id="nav-caret--right">
-     <path d="M6 12L10 8L6 4" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> 
+     <path d="M6 12L10 8L6 4" stroke="#3f3f40" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> 
     </g>
     <g id="nav-caret--up">
       <path d="M7.26254 2.80524C7.65892 2.37243 8.34108 2.37243 8.73746 2.80525L16 10.7353L13.9259 13L8 6.52941L2.07407 13L0 10.7353L7.26254 2.80524Z" fill="currentColor"/>

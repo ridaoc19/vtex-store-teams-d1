@@ -36,15 +36,16 @@
       "drawer-header#megamenu__content--header"
     ],
     "props": {
+      "renderingStrategy": "eager",
+      // "customPixelEventName":"modal-actions.close",
+
+      "customPixelEventName":"removeFromCart",
       "blockClass": "megamenu__button--drawer"
     }
   },
   "mega-menu#header__megamenu--content": {
     "title": "header__megamenu--content",
     "props": {
-      "defaultDepartmentActive": false,
-      "orientation": "vertical",
-      "openOnly": "vertical",
       "title": "Categorías",
       "blockClass": "header__megamenu--content"
 
