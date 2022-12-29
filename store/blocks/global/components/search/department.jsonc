@@ -13,9 +13,9 @@
   "flex-layout.col#search__results--filter": {
     "title": "search__results--filter",
     "children": [
-      // "filter-navigator.v3"
-      "mega-menu-go-back-btn",
-      "mega-menu#header__megamenu--content"
+      "filter-navigator.v3"
+      // "mega-menu-go-back-btn",
+      // "mega-menu#header__megamenu--content"
     ],
     "props": {
       "blockClass": "search__results--filter",
@@ -60,3 +60,8 @@
     }
   }
 }
+
+// Responsive:
+// Mayor > 1023 -> Desktop
+// 1023 - 678 -> Tablet
+// Menor < 678 -> Phone

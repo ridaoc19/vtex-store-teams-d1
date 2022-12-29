@@ -99,8 +99,7 @@
   "flex-layout.col#modal__addressform--car": {
     "title": "modal__addressform--car",
     "children": [
-      // "icon#icon-carro"
-      // "flex-layout.row#modal__addressform--domicilio"
+      "newsletter-form"
     ],
     "props": {
       "blockClass": "modal__addressform--car"

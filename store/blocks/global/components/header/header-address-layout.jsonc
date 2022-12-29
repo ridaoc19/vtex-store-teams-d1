@@ -70,7 +70,7 @@
     "title": "modal__address--car",
     "children": [
       "icon#icon-carro",
-      "modal-actions.close",
+      // "modal-actions.close",
       "stack-layout#global__home--modal"
     ],
     "props": {

@@ -1,0 +1,34 @@
+{
+  "flex-layout.row#product__info": {
+    "title": "overview pdp",
+    "children": [
+      "flex-layout.col#product__info--image",
+      "flex-layout.col#product__info--data"
+    ]
+  },
+  "flex-layout.col#product__info--image": {
+    "title": "Image product",
+    "children": ["product-images#product__info--image"]
+  },
+  "product-images#product__info--image": {
+    "title": "Images",
+    "props": {
+      "zoomMode": "open-modal"
+    }
+  },
+
+  "flex-layout.col#product__info--data": {
+    "title": "Data product",
+    "children": [
+      "share",
+      // "product-name",
+      // "product-brand",
+      "product-rating-inline",
+      "product-price",
+      "product-quantity",
+      "product-description",
+      "shipping-simulator",
+      "availability-subscriber"
+    ]
+  }
+}
