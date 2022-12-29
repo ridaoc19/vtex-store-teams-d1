@@ -56,11 +56,22 @@
           }
         }
       ],
-      "GeneralGrid": "product-summary.shelf#home__shelf"
+      "GeneralGrid": "product-summary.shelf#pdp__shelf"
     }
+  },
+  "product-summary.shelf#pdp__shelf": {
+    "title": "pdp__shelf",
+    "children": [
+      "product-summary-space",
+      "product-summary-image",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-name",
+      "product-summary-space",
+      "add-to-cart-button"
+    ]
   }
 }
-
 // Responsive:
 // Mayor > 1023 -> Desktop
 // 1023 - 678 -> Tablet
