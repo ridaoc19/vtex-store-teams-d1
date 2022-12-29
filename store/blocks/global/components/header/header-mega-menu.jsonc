@@ -39,7 +39,7 @@
       "renderingStrategy": "eager",
       // "customPixelEventName":"modal-actions.close",
 
-      "customPixelEventName":"removeFromCart",
+      // "customPixelEventName":"removeFromCart",
       "blockClass": "megamenu__button--drawer"
     }
   },
