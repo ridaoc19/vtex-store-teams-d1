@@ -1,0 +1,107 @@
+{
+  "newsletter-form": {
+    "children": [
+      "header-row#uno",
+      "header-row#dos",
+      "header-row#tres",
+      "header-row#cuatro",
+      "header-row#cinco",
+      "header-row#seis",
+      "newsletter-submit"
+    ]
+  },
+  "header-row#uno": {
+    "children": [
+      "newsletter-input-email#form__address--estado",
+      "newsletter-input-name#form__address--ciudad"
+    ],
+    "props": {
+      "blockClass": "uno"
+    }
+  },
+  "header-row#dos": {
+    "children": [
+      "newsletter-input-phone#form__address--calle"
+    ],
+    "props": {
+      "blockClass": "dos"
+    }
+  },
+  "header-row#tres": {
+    "children": [
+      "newsletter-input-phone#form__address--num1",
+      "newsletter-input-phone#form__address--num2",
+      "newsletter-input-phone#form__address--num3"
+    ],
+    "props": {
+      "blockClass": "tres"
+    }
+  },
+  "header-row#cuatro": {
+    "children": [
+      "newsletter-input-name#form__address--detalle"
+    ],
+    "props": {
+      "blockClass": "cuatro"
+    }
+  },
+  "header-row#cinco": {
+    "children": [
+      "newsletter-input-name#form__address--nombre"
+    ],
+    "props": {
+      "blockClass": "cinco"
+    }
+  },
+  "header-row#seis": {
+    "children": [],
+    "props": {
+      "blockClass": "seis"
+    }
+  },
+  "newsletter-input-email#form__address--estado": {
+    "props": {
+      "placeholderText": "Estado"
+    }
+  },
+  "newsletter-input-name#form__address--ciudad": {
+    "props": {
+      "placeholderText": "Ciudad"
+    }
+  },
+  "newsletter-input-phone#form__address--calle": {
+    "props": {
+      "placeholderText": "Calle"
+    }
+  },
+  "newsletter-input-phone#form__address--num1": {
+    "props": {
+      "placeholderText": "00"
+    }
+  },
+  "newsletter-input-phone#form__address--num2": {
+    "props": {
+      "placeholderText": "00"
+    }
+  },
+  "newsletter-input-phone#form__address--num3": {
+    "props": {
+      "placeholderText": "00"
+    }
+  },
+  "newsletter-input-name#form__address--detalle": {
+    "props": {
+      "placeholderText": "detalle"
+    }
+  },
+  "newsletter-input-name#form__address--nombre": {
+    "props": {
+      "placeholderText": "detalle"
+    }
+  },
+  "newsletter-submit":{
+    "props": {
+      "submitButtonLabel": "Agregar PIN de Referencia"
+    }
+  }
+}
