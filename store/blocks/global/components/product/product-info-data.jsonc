@@ -8,7 +8,9 @@
   },
   "flex-layout.col#product__info--image": {
     "title": "Image product",
-    "children": ["product-images#product__info--image"]
+    "children": [
+      "product-images#product__info--image"
+    ]
   },
   "product-images#product__info--image": {
     "title": "Images",
@@ -16,7 +18,6 @@
       "zoomMode": "open-modal"
     }
   },
-
   "flex-layout.col#product__info--data": {
     "title": "Data product",
     "children": [

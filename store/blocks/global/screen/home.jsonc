@@ -31,6 +31,7 @@
     ]
   },
   "back-to-top-button": {
+    "title": "back-to-top-button",
     "props": {
       "display": "caret-icon"
     }

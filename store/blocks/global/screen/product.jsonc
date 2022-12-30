@@ -1,5 +1,6 @@
 {
   "store.product": {
+    "title": "store.product",
     "children": [
       "flex-layout.row#product__breadcrumb",
       "flex-layout.row#product__info",

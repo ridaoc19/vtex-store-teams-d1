@@ -1,5 +1,6 @@
 {
   "store.search": {
+    "title": "store.search",
     "blocks": [
       "search-result-layout"
     ],
@@ -11,6 +12,7 @@
     }
   },
   "store.search#brand": {
+    "title": "brand",
     "blocks": [
       "search-result-layout"
     ],
@@ -25,6 +27,7 @@
     }
   },
   "store.search#department": {
+    "title": "department",
     "blocks": [
       "search-result-layout"
     ],
@@ -36,6 +39,7 @@
     }
   },
   "store.search#category": {
+    "title": "category",
     "blocks": [
       "search-result-layout"
     ],
@@ -47,6 +51,7 @@
     }
   },
   "store.search#subcategory": {
+    "title": "subcategory",
     "blocks": [
       "search-result-layout"
     ],
@@ -58,6 +63,7 @@
     }
   },
   "search-result-layout": {
+    "title": "search-result-layout",
     "blocks": [
       "search-result-layout.desktop",
       "search-result-layout.mobile",
@@ -76,6 +82,7 @@
     }
   },
   "breadcrumb.search": {
+    "title": "breadcrumb.search",
     "props": {
       "showOnMobile": true,
       "homeIconSize": 14
@@ -83,12 +90,14 @@
   },
   // no hay resultados
   "search-not-found-layout": {
+    "title": "search-not-found-layout",
     "children": [
       "flex-layout.row#searchbread",
       "flex-layout.row#notfound"
     ]
   },
   "flex-layout.row#notfound": {
+    "title": "notfound",
     "children": [
       "not-found"
     ],
@@ -97,6 +106,7 @@
     }
   },
   // "filter-navigator.v3": {
+    // "title": "filter-navigator.v3",
   //   "blocks": [
   //     "sidebar-close-button"
   //   ],
@@ -112,6 +122,7 @@
   //   }
   // },
   "header-row#global__search--header": {
+    "title": "global__search--header",
     "children": [
       "flex-layout.row#searchbread",
       "header-spacer",
