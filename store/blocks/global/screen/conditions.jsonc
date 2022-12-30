@@ -26,6 +26,7 @@
     }
   },
   "flex-layout.row#conditions __content--ensayo":{
+    "title": "conditions __content--ensayo",
     "children":[
       "rich-text#conditions __content--body"
     ],

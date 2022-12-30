@@ -1,9 +1,11 @@
 {
   "store.custom#global__privacy": {
+    "title": "global__privacy",
     "path": "/privacy"
   },
 
   "store.custom#global__conditions": {
+    "title": "global__conditions",
     "path": "/conditions"
   }
 }

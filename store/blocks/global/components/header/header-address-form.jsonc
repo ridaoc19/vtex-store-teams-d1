@@ -31,6 +31,7 @@
     }
   },
   "rich-text#addressform__title--domicilio": {
+    "title": "addressform__title--domicilio",
     "props": {
       "text": "A domicilio",
       "blockClass": "addressform__title--domicilio"
@@ -99,7 +100,7 @@
   "flex-layout.col#modal__addressform--car": {
     "title": "modal__addressform--car",
     "children": [
-      "newsletter-form"
+      "newsletter-form#header__form--newsletter"
     ],
     "props": {
       "blockClass": "modal__addressform--car"

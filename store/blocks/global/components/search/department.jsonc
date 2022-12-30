@@ -9,13 +9,10 @@
       "blockClass": "global__search--container"
     }
   },
-  /////ensayo//
   "flex-layout.col#search__results--filter": {
     "title": "search__results--filter",
     "children": [
       "filter-navigator.v3"
-      // "mega-menu-go-back-btn",
-      // "mega-menu#header__megamenu--content"
     ],
     "props": {
       "blockClass": "search__results--filter",
@@ -56,11 +53,22 @@
           }
         }
       ],
-      "GeneralGrid": "product-summary.shelf#home__shelf"
+      "GeneralGrid": "product-summary.shelf#pdp__shelf"
     }
+  },
+  "product-summary.shelf#pdp__shelf": {
+    "title": "pdp__shelf",
+    "children": [
+      "product-summary-space",
+      "product-summary-image",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-name",
+      "product-summary-space",
+      "add-to-cart-button"
+    ]
   }
 }
-
 // Responsive:
 // Mayor > 1023 -> Desktop
 // 1023 - 678 -> Tablet
