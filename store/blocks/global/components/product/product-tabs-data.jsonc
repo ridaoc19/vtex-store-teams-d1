@@ -45,6 +45,7 @@
     }
   },
   "tab-content#product__tabs--content": {
+    "title": "product__tabs--content",
     "children": [
       "tab-content.item#tabs__content--reviews-and-tatings",
       "tab-content.item#tabs__content--product-specification",
@@ -52,6 +53,7 @@
     ]
   },
   "tab-content.item#tabs__content--reviews-and-tatings": {
+    "title": "tabs__content--reviews-and-tatings",
     "props": {
       "tabId": "reviews-and-ratings"
     },
@@ -60,6 +62,7 @@
     ]
   },
   "tab-content.item#tabs__content--product-specification": {
+    "title": "tabs__content--product-specification",
     "props": {
       "tabId": "product-specification"
     },
@@ -68,6 +71,7 @@
     ]
   },
   "tab-content.item#tabs__content--questions": {
+    "title": "tabs__content--questions",
     "props": {
       "tabId": "questions"
     },

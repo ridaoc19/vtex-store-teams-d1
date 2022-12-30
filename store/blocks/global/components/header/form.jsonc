@@ -1,105 +1,129 @@
 {
-  "newsletter-form": {
+  "newsletter-form#header__form--newsletter": {
+    "title": "header__form--newsletter",
     "children": [
-      "header-row#uno",
-      "header-row#dos",
-      "header-row#tres",
-      "header-row#cuatro",
-      "header-row#cinco",
-      "header-row#seis",
+      "header-row#form__content--one",
+      "header-row#form__content--two",
+      "header-row#form__content--three",
+      "header-row#form__content--four",
+      "header-row#form__content--five",
+      "header-row#form__content--six",
       "newsletter-submit"
     ]
   },
-  "header-row#uno": {
+  "header-row#form__content--one": {
+    "title": "form__content--one",
     "children": [
       "newsletter-input-email#form__address--estado",
       "newsletter-input-name#form__address--ciudad"
     ],
     "props": {
-      "blockClass": "uno"
+      "blockClass": "form__content--one"
     }
   },
-  "header-row#dos": {
+  "header-row#form__content--two": {
+    "title": "form__content--two",
     "children": [
       "newsletter-input-phone#form__address--calle"
     ],
     "props": {
-      "blockClass": "dos"
+      "blockClass": "form__content--two"
     }
   },
-  "header-row#tres": {
+  "header-row#form__content--three": {
+    "title": "form__content--three",
     "children": [
       "newsletter-input-phone#form__address--num1",
       "newsletter-input-phone#form__address--num2",
       "newsletter-input-phone#form__address--num3"
     ],
     "props": {
-      "blockClass": "tres"
+      "blockClass": "form__content--three"
     }
   },
-  "header-row#cuatro": {
+  "header-row#form__content--four": {
+    "title": "form__content--four",
     "children": [
       "newsletter-input-name#form__address--detalle"
     ],
     "props": {
-      "blockClass": "cuatro"
+      "blockClass": "form__content--four"
     }
   },
-  "header-row#cinco": {
+  "header-row#form__content--five": {
+    "title": "form__content--five",
     "children": [
       "newsletter-input-name#form__address--nombre"
     ],
     "props": {
-      "blockClass": "cinco"
+      "blockClass": "form__content--five"
     }
   },
-  "header-row#seis": {
+  "header-row#form__content--six": {
+    "title": "form__content--six",
     "children": [],
     "props": {
-      "blockClass": "seis"
+      "blockClass": "form__content--six"
     }
   },
   "newsletter-input-email#form__address--estado": {
+    "title": "form__address--estado",
     "props": {
+      "bockClass": "form__address--estado",
       "placeholderText": "Estado"
     }
   },
   "newsletter-input-name#form__address--ciudad": {
+    "title": "form__address--ciudad",
     "props": {
+      "bockClass": "form__address--ciudad",
       "placeholderText": "Ciudad"
     }
   },
   "newsletter-input-phone#form__address--calle": {
+    "title": "form__address--calle",
     "props": {
+      "bockClass": "form__address--calle",
       "placeholderText": "Calle"
     }
   },
   "newsletter-input-phone#form__address--num1": {
+    "title": "form__address--num1",
     "props": {
+      "bockClass": "form__address--num1",
       "placeholderText": "00"
     }
   },
   "newsletter-input-phone#form__address--num2": {
+    "title": "form__address--num2",
     "props": {
+      "bockClass": "form__address--num2",
       "placeholderText": "00"
     }
   },
   "newsletter-input-phone#form__address--num3": {
+    "title": "form__address--num3",
     "props": {
+      "bockClass": "form__address--num3",
       "placeholderText": "00"
     }
   },
   "newsletter-input-name#form__address--detalle": {
+    "title": "form__address--detalle",
     "props": {
+      "bockClass": "form__address--detalle",
       "placeholderText": "detalle"
     }
   },
   "newsletter-input-name#form__address--nombre": {
+    "title": "form__address--nombre",
     "props": {
+      "bockClass": "form__address--nombre",
       "placeholderText": "detalle"
     }
   },
   "newsletter-submit":{
+    "title": "newsletter-submit",
     "props": {
       "submitButtonLabel": "Agregar PIN de Referencia"
     }
