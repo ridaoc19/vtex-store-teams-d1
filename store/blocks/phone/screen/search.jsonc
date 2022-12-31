@@ -1,12 +1,12 @@
 {
-  "responsive-layout.phone#phone__search--responsive": {
-    "title": "phone__search--responsive",
-    "children": [
-      "header-row#global__search--header",
-      "flex-layout.row#mobile__search--container"
-    ],
-    "props": {
-      "blockClass": "phone__search--responsive"
-    }
-  }
+  // "responsive-layout.phone#phone__search--responsive": {
+  //   "title": "phone__search--responsive",
+  //   "children": [
+  //     "header-row#global__search--header",
+  //     "flex-layout.row#mobile__search--container"
+  //   ],
+  //   "props": {
+  //     "blockClass": "phone__search--responsive"
+  //   }
+  // }
 }
