@@ -1,0 +1,13 @@
+{
+  "responsive-layout.phone#phone__search--responsive": {
+    "title": "phone__search--responsive",
+    "children": [
+      "flex-layout.row#mobile__breadcrumb--content",
+      "flex-layout.row#mobile__filters--content",
+      "search-content#global__search--results"
+    ],
+    "props": {
+      "blockClass": "phone__search--responsive"
+    }
+  }
+}

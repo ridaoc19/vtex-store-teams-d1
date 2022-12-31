@@ -1,12 +1,12 @@
 {
-  "responsive-layout.tablet#tablet__search--responsive": {
-    "title": "tablet__search--responsive",
-    "children": [
-      "header-row#global__search--header",
-      "flex-layout.row#global__search--container"
-    ],
-    "props": {
-      "blockClass": "tablet__search--responsive"
-    }
-  }
+  // "responsive-layout.tablet#tablet__search--responsive": {
+  //   "title": "tablet__search--responsive",
+  //   "children": [
+  //     "header-row#global__search--header",
+  //     "flex-layout.row#global__search--container"
+  //   ],
+  //   "props": {
+  //     "blockClass": "tablet__search--responsive"
+  //   }
+  // }
 }
