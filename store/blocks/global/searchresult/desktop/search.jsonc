@@ -1,0 +1,22 @@
+{
+  "search-result-layout.desktop#desktop__search--container": {
+    "title": "desktop__search--container",
+    "children": [
+      "responsive-layout.desktop#desktop__search--responsive",
+      "responsive-layout.tablet#tablet__search--responsive",
+      "responsive-layout.phone#phone__search--responsive"
+    ],
+    "props": {
+      "blockClass": "desktop__search--container"
+    }
+  },
+  "responsive-layout.desktop#desktop__search--responsive": {
+    "title": "desktop__search--responsive",
+    "children": [
+      "flex-layout.row#desktop__search--content"
+    ],
+    "props": {
+      "blockClass": "desktop__search--responsive"
+    }
+  }
+}
