@@ -1,14 +1,16 @@
 {
-  "flex-layout.row#mobile__breadcrumb--content": {
+  "header-row#mobile__breadcrumb--content": {
     "title": "mobile__breadcrumb--content",
     "children": [
-      "breadcrumb.search"
+      "breadcrumb.search",
+      "header-spacer",
+      "gallery-layout-switcher"
     ],
     "props": {
       "blockClass": "mobile__breadcrumb--content"
     }
   },
-  "flex-layout.row#mobile__filters--content": {
+  "header-row#mobile__filters--content": {
     "title": "mobile__filters--content",
     "props": {
       "preserveLayoutOnMobile": true,
@@ -16,8 +18,8 @@
     },
     "children": [
       "filter-navigator.v3",
-      "order-by.v2",
-      "gallery-layout-switcher"
+      "header-spacer",
+      "order-by.v2"
     ]
   }
 }

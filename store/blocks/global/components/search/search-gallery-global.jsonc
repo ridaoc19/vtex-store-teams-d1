@@ -33,14 +33,14 @@
     }
   },
   "gallery-layout-switcher": {
-    "title": "",
+    "title": "gallery-layout-switcher",
     "children": [
       "gallery-layout-option#grid",
       "gallery-layout-option#list"
     ]
   },
   "gallery-layout-option#grid": {
-    "title": "",
+    "title": "gallery-layout-option-grid",
     "props": {
       "name": "grid"
     },
@@ -50,7 +50,7 @@
     ]
   },
   "gallery-layout-option#list": {
-    "title": "",
+    "title": "gallery-layout-option-list",
     "props": {
       "name": "list"
     },
@@ -60,19 +60,19 @@
     ]
   },
   "responsive-layout.desktop#textOptionGrid": {
-    "title": "",
+    "title": "responsive-layout.desktop-textOptionGrid",
     "children": [
       "rich-text#option-grid"
     ]
   },
   "responsive-layout.desktop#textOptionList": {
-    "title": "",
+    "title": "responsive-layout.desktop-textOptionList",
     "children": [
       "rich-text#option-list"
     ]
   },
   "rich-text#option-grid": {
-    "title": "",
+    "title": "option-grid",
     "props": {
       "text": "Grid",
       "textColor": "c-auto",
@@ -80,7 +80,7 @@
     }
   },
   "rich-text#option-list": {
-    "title": "",
+    "title": "option-list",
     "props": {
       "text": "List",
       "textColor": "c-auto",

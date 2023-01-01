@@ -37,8 +37,14 @@
 /* boton tarjeta */
 .sliderLayoutContainer--home-products :global(.vtex-button) {
     font-size     : 0.8rem;
-    text-transform: none;
     border-radius : 30rem;
+}
+
+/* PARA TODOS LOS BOTONES, GLOBAL */
+:global(.vtex-button){
+    text-transform: none;
+    white-space: nowrap;
+
 }
 
 /* tarjeta */

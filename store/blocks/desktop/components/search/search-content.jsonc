@@ -1,21 +1,28 @@
 {
-  // Breadcrumb
+  // Breadcrumb HEADER
   "header-row#desktop__search--header": {
     "title": "desktop__search--header",
     "children": [
       "breadcrumb.search",
       "header-spacer",
-      "order-by.v2",
-      "header-spacer",
-      "gallery-layout-switcher"
-    ],
-    "props":{
-    }
+      "order-by.v2"
+    ]
   },
   "breadcrumb.search": {
     "title": "Breadcrumb",
     "props": {
       "showOnMobile": true
+    }
+  },
+  "header-row#desktop__search--title": {
+    "title": "desktop__search--title",
+    "children": [
+      "search-title.v2",
+      "header-spacer",
+      "gallery-layout-switcher"
+    ],
+    "props": {
+      "blockClass": "desktop__search--title"
     }
   },
   //content
@@ -34,14 +41,14 @@
   "flex-layout.col#search__filter--container": {
     "title": "search__filter--container",
     "props": {
-      "width": "35%",
+      "width": "30%",
       "blockClass": "search__filter--container"
     },
     "children": [
       "filter-navigator.v3#desktop"
     ]
   },
-  "filter-navigator.v3#desktop":{
+  "filter-navigator.v3#desktop": {
     "title": "filter-navigator.v3-desktop",
     "props": {
       "layout": "desktop"
@@ -50,11 +57,12 @@
   "flex-layout.col#search__results--container": {
     "title": "Ressearch__results--container",
     "props": {
-      "width": "65%",
+      "width": "67%",
       "blockClass": "search__results--container"
     },
     "children": [
-      "header-row#desktop__search--header",//
+      "header-row#desktop__search--header",
+      "header-row#desktop__search--title",
       "search-content#global__search--results"
     ]
   }
