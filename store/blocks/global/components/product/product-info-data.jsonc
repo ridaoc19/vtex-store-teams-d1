@@ -4,7 +4,10 @@
     "children": [
       "flex-layout.col#product__info--image",
       "flex-layout.col#product__info--data"
-    ]
+    ],
+    "props": {
+      "colGap": 6
+    }
   },
   "flex-layout.col#product__info--image": {
     "title": "Image product",
@@ -16,20 +19,24 @@
     "title": "Images",
     "props": {
       "zoomMode": "open-modal"
+      // "thumbnailsOrientation": "horizontal"
     }
   },
   "flex-layout.col#product__info--data": {
     "title": "Data product",
     "children": [
       "share",
-      // "product-name",
-      // "product-brand",
+      "vtex.store-components:product-name",
+      "vtex.store-components:product-brand",
       "product-rating-inline",
       "product-price",
       "product-quantity",
       "product-description",
       "shipping-simulator",
       "availability-subscriber"
-    ]
+    ],
+    "props": {
+      "rowGap": 4
+    }
   }
 }

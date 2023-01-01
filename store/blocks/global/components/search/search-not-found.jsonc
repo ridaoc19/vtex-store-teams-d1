@@ -1,0 +1,29 @@
+{
+  "search-not-found-layout": {
+    "title": "search-not-found-layout",
+    "children": [
+      "flex-layout.row#not__found--title"
+    ],
+    "props": {
+      "blockClass": "search-not-found-layout"
+    }
+  },
+  "flex-layout.row#not__found--title":{
+    "title": "not__found--title",
+    "children": [
+      "rich-text#not-found"
+    ],
+    "props": {
+      "paddingTop": 8
+    }
+  },
+  "rich-text#not-found": {
+    "title": "not-found",
+    "props": {
+      "text": " # 🚫 Página _no encontrada_ 🚫",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "not-found"
+    }
+  }
+}
