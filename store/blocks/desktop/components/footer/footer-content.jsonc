@@ -60,7 +60,6 @@
       "link.product#footer__content--privacidad",
       "link.product#footer__content--terminos",
       "header-spacer"
-
     ],
     "props": {
       "blockClass": "desktop__footer--content"

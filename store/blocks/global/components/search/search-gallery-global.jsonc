@@ -5,7 +5,7 @@
       "gallery#global__search--gallery",
       "not-found"
     ],
-    "props":{
+    "props": {
       "blockClass": "global__search--results"
     }
   },

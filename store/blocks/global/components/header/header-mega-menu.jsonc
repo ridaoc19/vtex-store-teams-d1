@@ -13,7 +13,6 @@
     "props": {
       "verticalAlign": "middle",
       "blockClass": "header__megamenu--trigger"
-
     },
     "children": [
       "mega-menu-trigger-btn#header__megamenu--button"
@@ -24,7 +23,6 @@
     "props": {
       "Drawer": "drawer#megamenu__button--drawer",
       "blockClass": "header__megamenu--button"
-
     }
   },
   "drawer#megamenu__button--drawer": {
@@ -37,8 +35,6 @@
     ],
     "props": {
       "renderingStrategy": "eager",
-      // "customPixelEventName":"modal-actions.close",
-
       // "customPixelEventName":"removeFromCart",
       "blockClass": "megamenu__button--drawer"
     }
@@ -48,7 +44,6 @@
     "props": {
       "title": "Categorías",
       "blockClass": "header__megamenu--content"
-
     }
   },
   "drawer-header#megamenu__content--header": {
@@ -95,10 +90,9 @@
       "horizontalAlign": "left",
       "paddingLeft": 4,
       "blockClass": "mega-menu-go-back-btn"
-
     }
   },
- "logo#header__drawer--logo": {
+  "logo#header__drawer--logo": {
     "title": "desktop__header--logo",
     "props": {
       "title": "header__drawer--logo",
@@ -119,12 +113,10 @@
       "blockClass": "cerrar-boton-megamenu"
     }
   },
-  "drawer-close-button#mega-menu":{
+  "drawer-close-button#mega-menu": {
     "title": "boton cerrar",
     "props": {
       "blockClass": "boton__megamenu--cerrar"
-
     }
-
   }
 }

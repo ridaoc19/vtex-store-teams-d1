@@ -122,7 +122,7 @@
       "placeholderText": "detalle"
     }
   },
-  "newsletter-submit":{
+  "newsletter-submit": {
     "title": "newsletter-submit",
     "props": {
       "submitButtonLabel": "Agregar PIN de Referencia"

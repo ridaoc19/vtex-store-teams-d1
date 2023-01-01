@@ -2,7 +2,7 @@
     height    : 5rem;
     box-shadow: 0px 2px 10px rgb(213, 211, 211);
     margin-top: 10px;
-    min-width: 100%;
+    min-width : 100%;
 }
 
 .headerRowContentContainer--phone__footer--contentprivacidad {
@@ -15,7 +15,7 @@
     padding: 0 2rem 3rem 0;
 }
 
-.headerRowContainer--desktop__footer--prefooter{
-    max-width: 93rem;
+.headerRowContainer--desktop__footer--prefooter {
+    max-width  : 93rem;
     margin-left: 20px;
 }

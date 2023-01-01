@@ -1,14 +1,18 @@
 {
   "store.custom#global__privacy": {
     "title": "global__privacy",
-    "blocks": ["flex-layout.row#privacy__content--flexrow"],
+    "blocks": [
+      "flex-layout.row#privacy__content--flexrow"
+    ],
     "props": {
       "blockClass": "global__privacy"
     }
   },
   "flex-layout.row#privacy__content--flexrow": {
     "title": "privacy__content--flexrow",
-    "children": ["flex-layout.col#privacy__content--flexcol"],
+    "children": [
+      "flex-layout.col#privacy__content--flexcol"
+    ],
     "props": {
       "blockClass": "privacy__content--flexrow"
     }
@@ -22,7 +26,6 @@
       "blockClass": "privacy__content--flexcol"
     }
   },
-
   "rich-text#privacy__content--body": {
     "title": "privacy__content--body",
     "props": {
