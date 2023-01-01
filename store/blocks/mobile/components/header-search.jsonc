@@ -59,14 +59,13 @@
       "blockClass": "search__content--header"
     }
   },
-
-  "drawer-close-button":{
+  "drawer-close-button": {
     "title": "close__drawer",
-      "props": {
-        "blockClass": "boton-cerrar"
-      }
+    "props": {
+      "blockClass": "boton-cerrar"
+    }
   },
-  "search-bar#drawer":{
+  "search-bar#drawer": {
     "title": "search_drawer",
     "props": {
       "displayMode": "search-and-clear-buttons",

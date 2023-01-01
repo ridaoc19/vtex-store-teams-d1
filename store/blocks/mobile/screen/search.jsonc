@@ -9,7 +9,7 @@
     "props": {
       "blockClass": "mobile__search--container",
       "hiddenFacets": {
-        "priceRange":true,
+        "priceRange": true,
         "brands": true,
         "categories": true
       }

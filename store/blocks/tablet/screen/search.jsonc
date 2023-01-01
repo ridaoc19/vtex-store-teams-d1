@@ -13,7 +13,7 @@
     "children": [
       "flex-layout.row#global__gallery--container"
     ],
-    "props":{
+    "props": {
       "blockClass": "tablet__gallery--responsive"
     }
   }

@@ -1,10 +1,10 @@
-.flexColChild--search__results--container{
+.flexColChild--search__results--container {
     height: min-content !important;
 }
 
-.flexColChild--search__filter--container{
-    margin-top: 3rem;
+.flexColChild--search__filter--container {
+    margin-top      : 3rem;
     background-color: white;
-    padding: 1rem;
-    border-radius: 1rem;
+    padding         : 1rem;
+    border-radius   : 1rem;
 }

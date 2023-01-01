@@ -8,7 +8,7 @@
       "blockClass": "search-not-found-layout"
     }
   },
-  "flex-layout.row#not__found--title":{
+  "flex-layout.row#not__found--title": {
     "title": "not__found--title",
     "children": [
       "rich-text#not-found"
