@@ -18,6 +18,7 @@
     "title": "desktop__search--title",
     "children": [
       "search-title.v2",
+      "total-products.v2",
       "header-spacer",
       "gallery-layout-switcher"
     ],

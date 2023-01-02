@@ -5,3 +5,7 @@
 .filterPopupArrowIcon {
     padding-right: 0;
 }
+
+.orderByText{
+    display: none;
+}
