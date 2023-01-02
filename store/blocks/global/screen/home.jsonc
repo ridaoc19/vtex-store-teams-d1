@@ -2,6 +2,7 @@
   "store.home": {
     "title": "home",
     "blocks": [
+      // "whatsapp-button",
       "slider-layout#global__home--slider",
       "__fold__.desktop",
       "header-row#global__container--alimentos",
@@ -34,6 +35,15 @@
     "title": "back-to-top-button",
     "props": {
       "display": "caret-icon"
+    }
+  },
+  "whatsapp-button": {
+    "props": {
+      "logo": "assets/img/whatsapp.png",
+      "phone": "+573022964317",
+      "width": 50,
+      "height": 50
+
     }
   }
 }
