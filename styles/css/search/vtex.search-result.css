@@ -6,6 +6,21 @@
     padding-right: 0;
 }
 
-.orderByText{
+.orderByText {
     display: none;
+}
+
+.filter__container--ingredientes{
+ display: none;
+}
+
+/* productos */
+.totalProductsMessage {
+    display: none;
+}
+
+.totalProducts--layout {
+    padding    : 0;
+    max-width  :min-content;
+    font-size: large;
 }
