@@ -76,6 +76,7 @@
       "showNavigationArrows": false,
       "showPaginationDots": false,
       "maxHeight": 200,
+      "zoomMode": "in-place-hover",
       "blockClass": "cart__images"
     }
   },

@@ -18,7 +18,7 @@
   "product-images#product__info--image": {
     "title": "Images",
     "props": {
-      "zoomMode": "open-modal"
+      "zoomMode": "in-place-click"
       // "thumbnailsOrientation": "horizontal"
     }
   },
