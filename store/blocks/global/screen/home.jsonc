@@ -2,7 +2,7 @@
   "store.home": {
     "title": "home",
     "blocks": [
-      // "whatsapp-button",
+      "whatsapp-button",
       "slider-layout#global__home--slider",
       "__fold__.desktop",
       "header-row#global__container--alimentos",

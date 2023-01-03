@@ -3,14 +3,20 @@
     "title": "Additional Information",
     "children": [
       "tab-layout#product__tabs"
-    ]
+    ],
+    "props": {
+      "blockClass": "product__tabs1"
+    }
   },
   "tab-layout#product__tabs": {
     "title": "tabs container",
     "children": [
       "tab-list#product__tabs--list",
       "tab-content#product__tabs--content"
-    ]
+    ],
+    "props": {
+      "blockClass": "product__tabs2"
+    }
   },
   "tab-list#product__tabs--list": {
     "title": "product tabs list",
@@ -18,14 +24,18 @@
       "tab-list.item#tabs__list--reviews-and-tatings",
       "tab-list.item#tabs__list--product-specification",
       "tab-list.item#tabs__list--questions"
-    ]
+    ],
+    "props": {
+      "blockClass": "product__tabs--list"
+    }
   },
   "tab-list.item#tabs__list--reviews-and-tatings": {
     "title": "list rieviews and tatings",
     "props": {
       "tabId": "reviews-and-ratings",
       "label": "Revisiones y calificaciones",
-      "defaultActiveTab": true
+      "defaultActiveTab": true,
+      "blockClass": "tabs__list--reviews-and-tatings"
     }
   },
   "tab-list.item#tabs__list--product-specification": {
@@ -33,7 +43,9 @@
     "props": {
       "tabId": "product-specification",
       "label": "Especificaciones de productos",
-      "defaultActiveTab": false
+      "defaultActiveTab": false,
+      "blockClass": "tabs__list--product-specification"
+
     }
   },
   "tab-list.item#tabs__list--questions": {
@@ -41,7 +53,9 @@
     "props": {
       "tabId": "questions",
       "label": "Preguntas y Respuestas",
-      "defaultActiveTab": false
+      "defaultActiveTab": false,
+      "blockClass": "tabs__list--questions"
+
     }
   },
   "tab-content#product__tabs--content": {
@@ -55,7 +69,9 @@
   "tab-content.item#tabs__content--reviews-and-tatings": {
     "title": "tabs__content--reviews-and-tatings",
     "props": {
-      "tabId": "reviews-and-ratings"
+      "tabId": "reviews-and-ratings",
+      "blockClass": "tabs__content--reviews-and-tatings"
+
     },
     "children": [
       "product-reviews"
@@ -64,7 +80,9 @@
   "tab-content.item#tabs__content--product-specification": {
     "title": "tabs__content--product-specification",
     "props": {
-      "tabId": "product-specification"
+      "tabId": "product-specification",
+      "blockClass": "tabs__content--product-specification"
+
     },
     "children": [
       "product-specifications"
