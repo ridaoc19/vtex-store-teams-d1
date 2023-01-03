@@ -1,31 +1,4 @@
 {
-  // Breadcrumb HEADER
-  "header-row#desktop__search--header": {
-    "title": "desktop__search--header",
-    "children": [
-      "breadcrumb.search",
-      "header-spacer",
-      "order-by.v2"
-    ]
-  },
-  "breadcrumb.search": {
-    "title": "Breadcrumb",
-    "props": {
-      "showOnMobile": true
-    }
-  },
-  "header-row#desktop__search--title": {
-    "title": "desktop__search--title",
-    "children": [
-      "search-title.v2",
-      "total-products.v2",
-      "header-spacer",
-      "gallery-layout-switcher"
-    ],
-    "props": {
-      "blockClass": "desktop__search--title"
-    }
-  },
   //content
   "flex-layout.row#desktop__search--content": {
     "title": "desktop__search--content",
@@ -66,5 +39,79 @@
       "header-row#desktop__search--title",
       "search-content#global__search--results"
     ]
-  }
+  },
+    // Breadcrumb HEADER
+    "header-row#desktop__search--header": {
+      "title": "desktop__search--header",
+      "children": [
+        "breadcrumb.search",
+        "header-spacer",
+        "order-by.v2",
+        "header-spacer",
+        "gallery-layout-switcher"
+      ],
+      "props": {
+        "blockClass": "desktop__search--header"
+      }
+    },
+    "breadcrumb.search": {
+      "title": "Breadcrumb",
+      "props": {
+        "showOnMobile": true
+      }
+    },
+    "header-row#desktop__search--title": {
+      "title": "desktop__search--title",
+      "children": [
+        "header-row#search__title--join",
+        "header-spacer"
+      ],
+      "props": {
+        "blockClass": "desktop__search--title"
+      }
+    },
+    "header-row#search__title--join": {
+      "title": "search__title--join",
+      "children": [
+        "total-products.v2",
+        "rich-text#search__title--three",
+        "header-row#search__title--joindos",
+        "rich-text#search__title--two"
+      ],
+      "props": {
+        "blockClass": "search__title--join"
+      }
+    },
+    "header-row#search__title--joindos": {
+      "title": "search__title--joindos",
+      "children": [
+        "rich-text#search__title--one",
+        "search-title.v2",
+        "rich-text#search__title--one"
+      ],
+      "props": {
+        "blockClass": "search__title--joindos"
+      }
+    },
+    "rich-text#search__title--three": {
+      "title": "search__title--three",
+      "props": {
+        "blockClass": "search__title--rich",
+        "text": "resultados para"
+      }
+    },
+    "rich-text#search__title--two": {
+      "title": "search__title--two",
+      "props": {
+        "blockClass": "search__title--rich",
+        "text": "en **Bogota Tienda Domicilios:**"
+      }
+    },
+    "rich-text#search__title--one": {
+      "title": "search__title--one",
+      "props": {
+        "blockClass": "search__title--rich",
+        "text": "**''''**"
+      }
+    }
 }

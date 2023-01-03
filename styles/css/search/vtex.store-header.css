@@ -1,0 +1,12 @@
+.headerRowContentContainer--search__title--join {
+    padding: 0;
+}
+
+.headerRowContentContainer--search__title--joindos {
+    padding: 0;
+}
+
+.headerRowContainer--search__title--join {
+    display: flex;
+    gap    : 0.5rem;
+}
