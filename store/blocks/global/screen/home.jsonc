@@ -2,7 +2,7 @@
   "store.home": {
     "title": "home",
     "blocks": [
-      // "whatsapp-button",
+      "whatsapp-button",
       "slider-layout#global__home--slider",
       "__fold__.desktop",
       "header-row#global__container--alimentos",
@@ -30,6 +30,12 @@
       // "flex-layout.row#iconos",
       "back-to-top-button"
     ]
+  },
+  "stack-layout#": {
+    "title": "",
+   "children": [
+
+   ] 
   },
   "back-to-top-button": {
     "title": "back-to-top-button",
