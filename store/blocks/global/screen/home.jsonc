@@ -4,6 +4,7 @@
     "blocks": [
       "slider-layout#global__home--slider",
       "__fold__.desktop",
+      // "bullets-diagramation",
       "header-row#global__container--alimentos",
       "list-context.product-list#desktop__home--shelf",
       "header-row#global__container--aseo",
@@ -39,6 +40,7 @@
     }
   },
   "whatsapp-button": {
+    "title": "whatsapp-button",
     "props": {
       "logo": "assets/img/whatsapp.png",
       "phone": "+573022964317",
@@ -46,4 +48,5 @@
       "height": 44
     }
   }
+  //////////
 }
