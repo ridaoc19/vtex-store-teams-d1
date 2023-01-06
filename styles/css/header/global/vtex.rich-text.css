@@ -22,3 +22,9 @@
     font-weight : bold;
     margin-right: 1.5rem;
 }
+
+/* carrito  */
+.italic--minicart-default-empty-state{
+    color     : #DB071E;
+    font-style: normal;
+}
