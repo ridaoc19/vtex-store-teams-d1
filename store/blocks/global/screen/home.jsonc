@@ -32,7 +32,6 @@
       // "flex-layout.row#iconos",
       "back-to-top-button",
       "whatsapp-button"
-    
     ]
   },
   "back-to-top-button": {
@@ -51,85 +50,87 @@
     }
   },
   ////////// 1 bullet
-  "flex-layout.row#bullet":{
+  "flex-layout.row#bullet": {
     "title": "bullet",
     "children": [
       "list-context.bullet-group"
     ]
   },
-    "list-context.bullet-group":{
-      "title": "list-context-bullet-group",
-      "children":["slider-layout#bullet-group"],
-      "props":{
-        "bullets":[
-      {
-        "image": "https://stockimages.tiendasd1.com/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12000423.png",
-        "titleBullet":"SNACK",
-        "Link": {
-            "url":"/"
-        }
-      },
-      {
-         "image": "https://stockimages.tiendasd1.com/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12003355.png",
-         "titleBullet":"TÉ EN POLVO",
-         "Link": {
-            "url":"/"
-        }
-      },
-      {
-        "image": "https://stockimages.tiendasd1.com/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12003317.png",
-        "titleBullet":"PARFAIT",
-        "Link": {
-          "url":"/"
-        }
-      },
-      {
-        "image": "https://stockimages.tiendasd1.com/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12004943.png",
-        "titleBullet":"COMPOTA",
-        "Link": {
-            "url":"/"
+  "list-context.bullet-group": {
+    "title": "list-context-bullet-group",
+    "children": [
+      "slider-layout#bullet-group"
+    ],
+    "props": {
+      "bullets": [
+        {
+          "image": "https://stockimages.tiendasd1.com/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12000423.png",
+          "titleBullet": "SNACK",
+          "Link": {
+            "url": "/"
           }
-      },
-      {
-        "image": "https://stockimages.tiendasd1.com/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12000623.png",
-        "titleBullet":"FRUTOS ROJOS",
-        "Link": {
-            "url":"/"
+        },
+        {
+          "image": "https://stockimages.tiendasd1.com/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12003355.png",
+          "titleBullet": "TÉ EN POLVO",
+          "Link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "https://stockimages.tiendasd1.com/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12003317.png",
+          "titleBullet": "PARFAIT",
+          "Link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "https://stockimages.tiendasd1.com/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12004943.png",
+          "titleBullet": "COMPOTA",
+          "Link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "https://stockimages.tiendasd1.com/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12000623.png",
+          "titleBullet": "FRUTOS ROJOS",
+          "Link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "https://stockimages.tiendasd1.com/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12000460.png",
+          "titleBullet": "GRANOLA",
+          "Link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "https://stockimages.tiendasd1.com/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12002009.png",
+          "titleBullet": "GALLETAS",
+          "Link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "https://stockimages.tiendasd1.com/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12001617.png",
+          "titleBullet": "FRUTOS SECOS",
+          "Link": {
+            "url": "/"
+          }
         }
+      ]
+    }
+  },
+  "slider-layout#bullet-group": {
+    "title": "slider-bullet-group",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 7,
+        "tablet": 7,
+        "phone": 7
       },
-      {
-        "image": "https://stockimages.tiendasd1.com/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12000460.png",
-        "titleBullet":"GRANOLA",
-        "Link": {
-          "url":"/"
-        }
-      },
-      {
-        "image": "https://stockimages.tiendasd1.com/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12002009.png",
-        "titleBullet":"GALLETAS",
-        "Link": {
-          "url":"/"
-        }
-      },
-      {
-        "image": "https://stockimages.tiendasd1.com/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12001617.png",
-        "titleBullet":"FRUTOS SECOS",
-        "Link": {
-          "url":"/"
-        }
-      }
-    ]
+      "infinite": true
+    }
   }
-},
-"slider-layout#bullet-group":{
-  "title": "slider-bullet-group",
-  "props": {
-    "itemsPerPage": {
-      "desktop": 7,
-      "tablet": 7,
-      "phone": 7
-    },
-  "infinite": true
-  }
-}
 }
