@@ -1,7 +1,0 @@
-{
-  "store.custom#infocard":{
-    "children": [
-      "flex-layout.row#home__banner-categories--section-1"
-    ]
-  }
-}

@@ -283,13 +283,16 @@
      <path d="M6 12L10 8L6 4" stroke="#3f3f40" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> 
     </g>
     <g id="nav-caret--up">
-      <path d="M7.26254 2.80524C7.65892 2.37243 8.34108 2.37243 8.73746 2.80525L16 10.7353L13.9259 13L8 6.52941L2.07407 13L0 10.7353L7.26254 2.80524Z" fill="currentColor"/>
+      <path d="M7.00001 3.4V12H9.00001V3.4L13 7.4L14.4 6L8.70001 0.3C8.30001 -0.1 7.70001 -0.1 7.30001 0.3L1.60001 6L3.00001 7.4L7.00001 3.4Z" fill="currentColor"/>
+      <!-- <path d="M7.26254 2.80524C7.65892 2.37243 8.34108 2.37243 8.73746 2.80525L16 10.7353L13.9259 13L8 6.52941L2.07407 13L0 10.7353L7.26254 2.80524Z" fill="currentColor"/> -->
     </g>
     <g id="nav-thin-caret--left">
-      <path d="M11 1L4 8L11 15" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M0.499992 7.5C0.499992 7.75781 0.583325 7.92969 0.749992 8.10156L5.49999 13L6.66666 11.7969L3.33332 8.35938L16.0002 8.35938V6.64063L3.33332 6.64063L6.66666 3.20313L5.49999 2L0.749992 6.89844C0.583325 7.07031 0.499992 7.24219 0.499992 7.5Z" fill="currentColor"/>
+      <!-- <path d="M11 1L4 8L11 15" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> -->
     </g>
     <g id="nav-thin-caret--right">
-      <path d="M5 15L12 8L5 1" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M16 8.5C16 8.75781 15.914 8.92969 15.7419 9.10156L10.8388 14L9.6345 12.7969L13.0753 9.35938L0 9.35938L0 7.64063L13.0753 7.64063L9.6345 4.20313L10.8388 3L15.7419 7.89844C15.914 8.07031 16 8.24219 16 8.5Z" fill="currentColor"/>
+      <!-- <path d="M5 15L12 8L5 1" stroke="currentColor" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/> -->
     </g>
     <g id="nav-arrow--left">
       <path d="M0.499992 7.5C0.499992 7.75781 0.583325 7.92969 0.749992 8.10156L5.49999 13L6.66666 11.7969L3.33332 8.35938L16.0002 8.35938V6.64063L3.33332 6.64063L6.66666 3.20313L5.49999 2L0.749992 6.89844C0.583325 7.07031 0.499992 7.24219 0.499992 7.5Z" fill="currentColor"/>

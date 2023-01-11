@@ -2,7 +2,9 @@
   "header-row#desktop__header--utilities": {
     "title": "desktop__header--utilities",
     "children": [
+      "header-spacer",
       "logo#desktop__header--logo",
+      "header-spacer",
       "flex-layout.row#global__header--megamenu",
       "rich-text#desktop__header--categoria",
       "header-spacer",

@@ -7,5 +7,11 @@
     background-color: white;
     padding         : 1rem;
     border-radius   : 1rem;
-    box-shadow   : 0px 2px 12px rgb(226, 223, 223);
+    box-shadow      : 0px 2px 12px rgb(226, 223, 223);
+    min-width       : 20rem;
+}
+
+
+.flexCol--search__filter--container {
+    min-width: 20rem;
 }
