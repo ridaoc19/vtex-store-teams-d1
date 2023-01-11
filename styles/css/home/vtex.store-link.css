@@ -12,3 +12,14 @@
     margin-left: 10px;
 }
 
+
+.link--homeheader__shelf--title{
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    color: #2C2E30;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 2rem;
+}
