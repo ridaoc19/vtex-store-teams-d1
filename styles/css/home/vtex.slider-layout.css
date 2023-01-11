@@ -1,5 +1,5 @@
 .sliderLayoutContainer--global__home--slider {
-    margin-top    : 2rem;
+    margin-top    : 0.8rem;
     margin-bottom : 1rem;
     padding-bottom: 1rem;
 }
@@ -26,6 +26,10 @@
 @media (max-width: 640px) {
     .sliderArrows {
         display: none;
+    }
+    .sliderLayoutContainer--global__home--slider {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
     }
 }
 
