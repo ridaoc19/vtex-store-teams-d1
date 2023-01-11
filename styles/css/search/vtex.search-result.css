@@ -10,8 +10,8 @@
     display: none;
 }
 
-.filter__container--ingredientes{
- display: none;
+.filter__container--ingredientes {
+    display: none;
 }
 
 /* productos */
@@ -20,7 +20,7 @@
 }
 
 .totalProducts--layout {
-    padding    : 0;
-    max-width  :min-content;
+    padding  : 0;
+    max-width: min-content;
     font-size: large;
 }

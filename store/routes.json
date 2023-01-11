@@ -7,9 +7,5 @@
   "store.custom#global__conditions": {
     "title": "global__conditions",
     "path": "/conditions"
-  },
-   "store.custom#infocard": {
-    "title": "infocard",
-    "path": "/infocard"
   }
 }

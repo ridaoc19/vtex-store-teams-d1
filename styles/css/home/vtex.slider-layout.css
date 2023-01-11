@@ -1,5 +1,5 @@
 .sliderLayoutContainer--global__home--slider {
-    margin-top    : 0.8rem;
+    margin-top    : 1.5rem;
     margin-bottom : 1rem;
     padding-bottom: 1rem;
 }
@@ -28,6 +28,7 @@
         display: none;
     }
     .sliderLayoutContainer--global__home--slider {
+        margin-top    : 0.5rem;
         padding-left: 1rem !important;
         padding-right: 1rem !important;
     }
@@ -91,4 +92,6 @@
     max-width     : 93.7rem;
     padding-top   : 10px;
     padding-bottom: 10px;
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
 }

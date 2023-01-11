@@ -3,8 +3,16 @@
 }
 
 .label--header__address--title {
-    color    : #2C2E30;
-    font-size: 1rem;
-    font-weight: bolder;
+    color      : #2C2E30;
+    font-size  : 1rem;
+    font-weight: normal;
 }
+
 /* label--header__address--title */
+@media (max-width: 640px) {
+    .label--header__address--title {
+        font-weight: bold;
+        font-size  : 13px;
+
+    }
+}
