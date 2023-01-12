@@ -10,7 +10,7 @@
 }
 
 @media (min-width: 768px) {
-    .flexRow--desktop__search--content{
-       margin: 0 2rem 0 2rem;
-   }
-   }
+    .flexRow--desktop__search--content {
+        margin: 0 2rem 0 2rem;
+    }
+}

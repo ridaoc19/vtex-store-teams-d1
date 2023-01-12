@@ -4,7 +4,7 @@
    background-color: white;
    border-radius   : 0.5rem;
    height          : 2.6rem;
-   max-width           : 30rem;
+   max-width       : 30rem;
    border-radius   : 0.8rem;
 }
 
@@ -19,7 +19,7 @@
 
 .searchBarContainer,
 .searchBarInnerContainer--search {
-   max-width        : 30rem;
+   max-width    : 30rem;
    border-radius: 2rem;
 }
 
@@ -39,10 +39,4 @@
 
 .logoLink--desktop__header--logo {
    margin-bottom: 0.5rem;
-   /* margin-right : 4%;
-   margin-left  : 5%; */
-}
-
-.logoImage--desktop__header--logo{
-   /* min-width: 60px !important; */
 }
