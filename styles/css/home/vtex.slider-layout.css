@@ -27,9 +27,10 @@
     .sliderArrows {
         display: none;
     }
+
     .sliderLayoutContainer--global__home--slider {
-        margin-top    : 0.5rem;
-        padding-left: 1rem !important;
+        margin-top   : 0.5rem;
+        padding-left : 1rem !important;
         padding-right: 1rem !important;
     }
 }
@@ -88,10 +89,10 @@
 }
 
 .sliderTrackContainer--home-products {
-    display       : grid;
-    max-width     : 93.7rem;
-    padding-top   : 10px;
-    padding-bottom: 10px;
+    display        : grid;
+    max-width      : 93.7rem;
+    padding-top    : 10px;
+    padding-bottom : 10px;
     /* padding-left: 1rem;
-    padding-right: 1rem; */
+    padding-right  : 1rem; */
 }
