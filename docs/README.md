@@ -2,7 +2,7 @@
 
 ## Objetivo del proyecto
 
-Crear una eCommerce similar a [Tiendas D1](https://domicilios.tiendasd1.com/). 
+Crear una eCommerce similar a [Tiendas D1](https://domicilios.tiendasd1.com/).
 
 ## Tecnologia utilizada
 
@@ -12,64 +12,304 @@ Crear una eCommerce similar a [Tiendas D1](https://domicilios.tiendasd1.com/).
 <center> <h2>Vistas del proyecto</h2> </center>
 
 ## HEADER
+
 ```bash
 Desktop y Tablet
 ```
 
--  VTEX
+- VTEX
 
 <p>
   <img src="../assets/img/readme/headerdesktoptablet.png" />
 </p>
 
--  D1
+- D1
 
 <p>
   <img src="../assets/img/readme/HOMEHEADERDESKTOP.png" />
 </p>
 
-
-
-- Phone
-
-<p align="center" >
+```bash
+Phone
+```
+<div align="center">
+  <h3>VTEX ................... D1</h3>
   <img src="../assets/img/readme/headerphone.png" />
   <img src="../assets/img/readme/HEADERPHONED1.png" />
-</p>
+</div>
 
+<!--  -->
+<center> <h1>Mega Menu</h1> </center>
 
-- Mega menu  <br> Este es el mega menu de desktop y tablet, en phone ocupa todo el ancho de la pantalla <br/>
-  
+```bash
+Desktop y Tablet
+```
+- VTEX
 
 <p align="center" >
   <img src="../assets/img/readme/headermegamenudesktop.png" />
 </p>
 
-- Carrito <br> Este es el carrito de desktop y tablet, en phone ocupa todo el ancho de la pantalla <br/>
-
+- D1
 <p align="center" >
-  <img src="../assets/img/readme/headercarritodesktoptablet.png" />
+  <img src="../assets/img/readme/HEADERMEGAMENUDESKTOPD1.png" />
 </p>
 
-- Modal de 'Como te gustaría recibir tu pedido' <br> Este es el modal de desktop y tablet, en phone ocupa todo el ancho y largo de la pantalla <br/>
+```bash
+Phone
+```
+<div align="center">
+  <h3>VTEX ................... D1</h3>
+  <img src="../assets/img/readme/headerphonemegamenu.png" />
+  <img src="../assets/img/readme/HEADERPHONEMEGAMENUD1.png" />
+</div>
+
+<center> <h1>Carrito</h2> </center>
+
+```bash
+Desktop y Tablet
+```
+- VTEX
 
 <p align="center" >
-  <img src="../assets/img/readme/headerdesktopmodal.png" />
+  <img src="../assets/img/readme/carrito.png" />
 </p>
+
+- D1
+<p align="center" >
+  <img src="../assets/img/readme/CARRITOD1.png" />
+</p> -->
+
+```bash
+Phone
+```
+<div align="center">
+  <h3>VTEX ................... D1</h3>
+  <img src="../assets/img/readme/carritophone.png" />
+  <img src="../assets/img/readme/CARRITOPHONED1.png" />
+</div>
+
 
 ## HOME
--  Slider
+
+<center> <h1>Slider</h1> </center>
+
+```bash
+Desktop y Tablet
+```
+- VTEX
 
 <p align="center" >
-  <img src="../assets/img/readme/homesliderdescktop.png" />
+  <img src="../assets/img/readme/homeslider.png" />
+</p>
+
+- D1
+<p align="center" >
+  <img src="../assets/img/readme/HOMESLIDERD1.png" />
+</p>
+
+```bash
+Phone
+```
+<div align="center">
+  <h3>VTEX ................... D1</h3>
+  <img src="../assets/img/readme/phoneslider.png" />
+  <img src="../assets/img/readme/HOMESLIDERPHONED1.png" />
+</div>
+
+<!-- //////////// -->
+
+<center> <h1>Shelf</h1> </center>
+
+```bash
+Desktop y Tablet
+```
+- VTEX
+
+<p align="center" >
+  <img src="../assets/img/readme/homeshelf.png" />
+</p>
+
+- D1
+<p align="center" >
+  <img src="../assets/img/readme/HOMESHELFD1.png" />
+</p>
+
+```bash
+Phone
+```
+<div align="center">
+  <h3>VTEX ................... D1</h3>
+  <img src="../assets/img/readme/homeshelfphone.png" />
+  <img src="../assets/img/readme/HOMESHELPHONED1.png" />
+</div>
+<!-- //////////// -->
+
+<center> <h1>Modal con detalles del producto</h1> </center>
+
+```bash
+Desktop y Tablet
+```
+- VTEX
+
+<p align="center" >
+  <img src="../assets/img/readme/homemodal.png" />
+</p>
+
+- D1
+<p align="center" >
+  <img src="../assets/img/readme/HOMEMODALD1.png" />
+</p>
+
+```bash
+Phone
+```
+<div align="center">
+  <h3>VTEX ................... D1</h3>
+  <img src="../assets/img/readme/homemodalphone.png" />
+  <img src="../assets/img/readme/HOMEMODALPHONED1.png" />
+</div>
+<!-- ///////////////////// -->
+
+## FOOTER
+
+```bash
+Desktop y Tablet
+```
+- VTEX
+
+<p align="center" >
+  <img src="../assets/img/readme/footerdesktop.png" />
+</p>
+
+- D1
+<p align="center" >
+  <img src="../assets/img/readme/FOOTERDESKTOPD1.png" />
+</p>
+
+```bash
+Phone
+```
+<div align="center">
+  <h3>VTEX ................... D1</h3>
+  <img src="../assets/img/readme/footerphone.png" />
+  <img src="../assets/img/readme/FOOTERPHONED1.png" />
+</div>
+
+<!-- /////////// -->
+
+## PLP
+
+```bash
+Desktop y Tablet
+```
+- VTEX
+
+<p align="center" >
+  <img src="../assets/img/readme/plp.png" />
+</p>
+
+- D1
+<p align="center" >
+  <img src="../assets/img/readme/PLPD1.png" />
+</p>
+
+```bash
+Phone
+```
+<div align="center">
+  <h3>VTEX ................... D1</h3>
+  <img src="../assets/img/readme/plpphone.png" />
+  <img src="../assets/img/readme/PLPPHONED1.png" />
+</div>
+
+<!--  -->
+## PDP
+<p>La pagina web del D1 no cuenta con PDP, el muestra los detalles en un Modal, el cual se encuentra demostrado en el HOME, sin embargo se realizo en esta pagina</p>
+
+```bash
+Desktop y Tablet
+```
+- VTEX
+
+<p align="center" >
+  <img src="../assets/img/readme/pdp.png" />
+</p>
+
+- D1
+<p align="center" >
+  <!-- <img src="../assets/img/readme/PLPD1.png" /> -->
+</p>
+
+```bash
+Phone
+```
+<div align="center">
+  <h3>VTEX</h3>
+  <img src="../assets/img/readme/pdpphone.png" />
+
+</div>
+
+
+<!-- /////////// -->
+
+## CUSTOM
+
+<center> <h1>Privacity</h1> </center>
+
+```bash
+Desktop y Tablet
+```
+- VTEX
+
+<p align="center" >
+  <img src="../assets/img/readme/privacidad.png" />
+</p>
+
+- D1
+<p align="center" >
+  <img src="../assets/img/readme/PRIVACIDADD1.png" />
+</p>
+
+```bash
+Phone
+```
+<div align="center">
+  <h3>VTEX ................... D1</h3>
+  <img src="../assets/img/readme/privacidadphones.png" />
+  <img src="../assets/img/readme/PRIVACIDADPHONESD1.png" />
+</div>
+
+<!--  -->
+
+<center> <h1>Whatsapp</h1> </center>
+
+```bash
+Desktop, Mobile
+```
+- VTEX
+
+<p align="center" >
+  <img src="../assets/img/readme/whatsapp.png" />
+</p>
+
+<center> <h1>CATEGORIES-DIAGRAMATION</h1> </center>
+
+```bash
+Desktop, Mobile
+```
+- VTEX
+
+<p align="center" >
+  <img src="../assets/img/readme/homecurstombullet.png" />
 </p>
 
 
 
+## Configuración
 
-## Configuration
+### Paso 1 - Configuración básica
 
-### Paso 1 - Configuración básica  
 Ingrese a la [guía básica de configuración](https://developers.vtex.com/vtex-developer-docs/docs/vtex-io-documentation-2-basicsetuptodevelopinvtexio) de VTEX IO y siga los pasos.  
 Al final de la configuración, debería tener instalada la interfaz de línea de comandos de VTEX (Toolbelt) junto con un workspace para desarrolladores en el que pueda trabajar.
 
@@ -80,18 +320,20 @@ Use este repositorio como [plantilla](https://github.com/vtex-apps/minimum-boile
 Luego, acceda al directorio del repositorio usando su terminal.
 
 ### Paso 3 - Editando el archivo Manifest.json
+
 Una vez en el directorio del repositorio, es hora de editar el archivo manifest.json.
 
-Una vez estemos en el archivo, deberá remplazar los valores de vendor y name. vendor es el nombre de la cuenta en la que estamos trabajando y account es lo que desee colocar de nombre para su tema. Opcionalmente puede modificar la versión  
+Una vez estemos en el archivo, deberá remplazar los valores de vendor y name. vendor es el nombre de la cuenta en la que estamos trabajando y account es lo que desee colocar de nombre para su tema. Opcionalmente puede modificar la versión
 
 Por ejemplo:  
 {
-  "vendor": "itgloberspartnercl",
-  "name": "store-theme",
-  "version": "0.0.1"
+"vendor": "itgloberspartnercl",
+"name": "store-theme",
+"version": "0.0.1"
 }
 
 ### Paso 4 - Instalando las apps requeridas
+
 Para usar Store Framework y trabajar en el tema de su tienda, es necesario tener `vtex.store-sitemap` y `vtex.store` instalados.
 
 Ejecute `vtex list` y compruebe si esas aplicaciones ya están instaladas.
@@ -99,6 +341,7 @@ Ejecute `vtex list` y compruebe si esas aplicaciones ya están instaladas.
 Si no es así, ejecute el siguiente comando para instalarlos: `vtex install vtex.store-sitemap vtex.store -f`
 
 ### Paso 5 - Desinstalar cualquier tema existente
+
 Al correr `vtex list`, puede verificar si hay algún tema instalado.
 
 Es común tener ya instalado un vtex.store-theme cuando inicia el proceso de desarrollo front de la tienda.
@@ -108,13 +351,14 @@ Por lo tanto, si lo encuentra en la lista de la aplicación, copie su nombre y u
 ```json
 vtex uninstall vtex.store-theme
 ```
+
 ### Paso 6 - Ejecute y obtenga una vista previa de su tienda
+
 Entonces ha llegado el momento de cargar todos los cambios que realizó en sus archivos locales a la plataforma. Para eso, use el comando `vtex link`.
 
 Si el proceso se ejecuta sin errores, se mostrará el siguiente mensaje: `App linked successfully`. Luego, ejecute el comando vtex browse para abrir una ventana del navegador con su tienda vinculada.
 
 Esto le permitirá ver los cambios aplicados en tiempo real, a través de la cuenta y el espacio de trabajo en el que está trabajando.
-
 
 ```json
 "dependencies": {
@@ -176,12 +420,6 @@ Esto le permitirá ver los cambios aplicados en tiempo real, a través de la cue
   }
 ```
 
+## Contributors
 
-## Contributors  
-1.	Ricardo David Ocampo
-
-
-
-
-
-
+1. Ricardo David Ocampo
