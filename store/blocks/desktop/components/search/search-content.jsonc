@@ -43,6 +43,7 @@
     "header-row#desktop__search--header": {
       "title": "desktop__search--header",
       "children": [
+        "link.product#breadcrumb__title",
         "breadcrumb.search",
         "header-spacer",
         "order-by.v2",
@@ -53,6 +54,14 @@
         "blockClass": "desktop__search--header"
       }
     },
+    "link.product#breadcrumb__title":{
+      "title": "breadcrumb__title",
+      "props": {
+        "blockClass": "breadcrumb__title",
+        "label": "Inicio"
+      }
+    },
+
     "breadcrumb.search": {
       "title": "Breadcrumb",
       "props": {
