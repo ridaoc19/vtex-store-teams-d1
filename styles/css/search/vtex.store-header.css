@@ -10,3 +10,8 @@
     display: flex;
     gap    : 0.5rem;
 }
+
+.headerRowContentContainer--desktop__search--header,
+.headerRowContentContainer--desktop__search--title{
+    padding: 0;
+}

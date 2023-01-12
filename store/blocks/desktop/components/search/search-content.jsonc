@@ -15,7 +15,6 @@
   "flex-layout.col#search__filter--container": {
     "title": "search__filter--container",
     "props": {
-      "width": "30%",
       "blockClass": "search__filter--container"
     },
     "children": [
@@ -31,7 +30,7 @@
   "flex-layout.col#search__results--container": {
     "title": "Ressearch__results--container",
     "props": {
-      "width": "67%",
+      "width": "80%",
       "blockClass": "search__results--container"
     },
     "children": [
@@ -44,6 +43,7 @@
     "header-row#desktop__search--header": {
       "title": "desktop__search--header",
       "children": [
+        "link.product#breadcrumb__title",
         "breadcrumb.search",
         "header-spacer",
         "order-by.v2",
@@ -54,6 +54,14 @@
         "blockClass": "desktop__search--header"
       }
     },
+    "link.product#breadcrumb__title":{
+      "title": "breadcrumb__title",
+      "props": {
+        "blockClass": "breadcrumb__title",
+        "label": "Inicio"
+      }
+    },
+
     "breadcrumb.search": {
       "title": "Breadcrumb",
       "props": {

@@ -23,7 +23,9 @@
       "rich-text#privacy__content--body"
     ],
     "props": {
-      "blockClass": "privacy__content--flexcol"
+      "blockClass": "privacy__content--flexcol",
+      "paddingLeft":6,
+      "paddingRight":6
     }
   },
   "rich-text#privacy__content--body": {
