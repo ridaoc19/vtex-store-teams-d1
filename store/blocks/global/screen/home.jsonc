@@ -5,7 +5,7 @@
       "slider-layout#global__home--slider",
       "__fold__.desktop",
       // "bullets-diagramation",
-      // "flex-layout.row#bullet",
+      "flex-layout.row#bullet",
       // "list-context.bullet-group",
       "header-row#global__container--alimentos",
       "list-context.product-list#desktop__home--shelf",
