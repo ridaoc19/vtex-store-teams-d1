@@ -1,15 +1,4 @@
 {
-  "responsive-layout.phone#phone__footer--responsive": {
-    "title": "phone__footer--responsive",
-    "children": [
-      "disclosure-layout-group#phone__footer--disclosure",
-      "header-row#phone__footer--contentprivacidad",
-      "header-row#phone__footer--contenttermino"
-    ],
-    "props": {
-      "blockClass": "phone__footer--responsive"
-    }
-  },
   "header-row#phone__footer--contentprivacidad": {
     "title": "phone__footer--contentprivacidad",
     "children": [
