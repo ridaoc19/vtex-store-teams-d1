@@ -1,11 +1,4 @@
 {
-  "responsive-layout.desktop#desktop__footer--responsive": {
-    "title": "desktop__footer--responsive",
-    "children": [
-      "header-row#desktop__footer--prefooter",
-      "header-row#desktop__footer--content"
-    ]
-  },
   "header-row#desktop__footer--prefooter": {
     "title": "desktop__footer--prefooter",
     "children": [

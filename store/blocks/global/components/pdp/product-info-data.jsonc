@@ -33,7 +33,9 @@
       "product-quantity",
       "product-description",
       "shipping-simulator",
-      "availability-subscriber"
+      "availability-subscriber",
+      "add-to-cart-info"
+
     ],
     "props": {
       "rowGap": 4
