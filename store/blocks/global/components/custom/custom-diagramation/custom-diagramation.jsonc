@@ -1,0 +1,41 @@
+{
+    "custom-grid":{
+    "children":[
+      "image#custom-grid-1",
+      "image#custom-grid-2",
+      "image#custom-grid-3",
+      "image#custom-grid-4",
+      "image#custom-grid-5"
+    ]
+},
+"image#custom-grid-1":{
+  "props": {
+      "src": "https://stockimages.tiendasd1.com/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12000423.png",
+      "blockClass": "image__custom-grid1"
+  }
+},
+"image#custom-grid-2":{
+  "props": {
+      "src": "https://stockimages.tiendasd1.com/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12003355.png",
+      "blockClass": "image__custom-grid"
+  }
+},
+"image#custom-grid-3":{
+  "props": {
+      "src": "https://stockimages.tiendasd1.com/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12003317.png",
+      "blockClass": "image__custom-grid"
+  }
+},
+"image#custom-grid-4":{
+  "props": {
+      "src": "https://stockimages.tiendasd1.com/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12004943.png",
+      "blockClass": "image__custom-grid"
+  }
+},
+"image#custom-grid-5":{
+  "props": {
+    "src": "https://stockimages.tiendasd1.com/stockimages.tiendasd1.com/kobastockimages/IMAGENES/12000623.png",
+      "blockClass": "image__custom-grid"
+        }
+    }    
+}
