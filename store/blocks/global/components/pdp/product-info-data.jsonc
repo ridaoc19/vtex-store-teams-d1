@@ -12,7 +12,10 @@
   "flex-layout.col#product__info--image": {
     "title": "Image product",
     "children": [
-      "product-images#product__info--image"
+      "product-images#product__info--image",
+      "add-to-cart-info"
+
+
     ]
   },
   "product-images#product__info--image": {
@@ -33,8 +36,7 @@
       "product-quantity",
       "product-description",
       "shipping-simulator",
-      "availability-subscriber",
-      "add-to-cart-info"
+      "availability-subscriber"
 
     ],
     "props": {
